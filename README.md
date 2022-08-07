@@ -74,17 +74,28 @@
 
     * 多目标排序模型
     [[slides](https://github.com/wangshusen/RecommenderSystem/blob/main/Slides/03_Rank_01.pdf)]
+    [[YouTube](https://youtu.be/kY4W46MQqsg)]
+    [[B站](https://www.bilibili.com/video/BV19t4y1p7UM)].
     
     * Multi-gate Mixture-of-Experts (MMoE)
     [[slides](https://github.com/wangshusen/RecommenderSystem/blob/main/Slides/03_Rank_02.pdf)]
+    [[YouTube](https://youtu.be/JIEwaPARjfk)]
+    [[B站](https://www.bilibili.com/video/BV14Y411M74v)].
     
     * 预估分数融合
     [[slides](https://github.com/wangshusen/RecommenderSystem/blob/main/Slides/03_Rank_03.pdf)]
+    [[YouTube](https://youtu.be/D2iqM2puJ2I)]
+    [[B站](https://www.bilibili.com/video/BV1YT411578u)].
     
     * 播放时长建模
     [[slides](https://github.com/wangshusen/RecommenderSystem/blob/main/Slides/03_Rank_04.pdf)]
+    [[YouTube](https://youtu.be/SiyvcJzr2bg)]
+    [[B站](https://www.bilibili.com/video/BV1394y1277M)].
     
     * 推荐系统的特征
+    [[slides](https://github.com/wangshusen/RecommenderSystem/blob/main/Slides/03_Rank_05.pdf)]
+    [[YouTube](https://youtu.be/J7N4xjqg0rk)]
+    [[B站](https://www.bilibili.com/video/BV1gN4y157TM)].
     
     * 粗排三塔模型
 
