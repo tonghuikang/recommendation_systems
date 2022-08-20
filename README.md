@@ -98,18 +98,27 @@
     [[B站](https://www.bilibili.com/video/BV1gN4y157TM)].
     
     * 粗排三塔模型
+    [[slides](https://github.com/wangshusen/RecommenderSystem/blob/main/Slides/03_Rank_06.pdf)]
+    [[YouTube](https://youtu.be/0CvouPv47SA)]
+    [[B站](https://www.bilibili.com/video/BV1Dd4y1m7KT)].
 
 
     
 4. **交叉结构**
     
     * Factorized Machine (FM)
+    [[slides](https://github.com/wangshusen/RecommenderSystem/blob/main/Slides/04_Cross_01.pdf)]
+    [[YouTube](https://youtu.be/exVPXVFPMDk)]
+    [[B站](https://www.bilibili.com/video/BV15V4y1x7Ht)].
     
     * Deep & Cross Network (深度交叉网络)
+    [[slides](https://github.com/wangshusen/RecommenderSystem/blob/main/Slides/04_Cross_02.pdf)]
     
     * LHUC
+    [[slides](https://github.com/wangshusen/RecommenderSystem/blob/main/Slides/04_Cross_03.pdf)]
     
     * SENet & FiBiNET
+    [[slides](https://github.com/wangshusen/RecommenderSystem/blob/main/Slides/04_Cross_04.pdf)]
 
 
 
