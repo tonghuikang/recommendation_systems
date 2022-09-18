@@ -113,12 +113,18 @@
     
     * Deep & Cross Network (深度交叉网络)
     [[slides](https://github.com/wangshusen/RecommenderSystem/blob/main/Slides/04_Cross_02.pdf)]
+    [[YouTube](https://youtu.be/yNeRO5m63JQ)]
+    [[B站](https://www.bilibili.com/video/BV1LP411L7Z2)].
     
     * LHUC
     [[slides](https://github.com/wangshusen/RecommenderSystem/blob/main/Slides/04_Cross_03.pdf)]
+    [[YouTube](https://youtu.be/TxIedW94hu0)]
+    [[B站](https://www.bilibili.com/video/BV1jU4y1z7Tc)].
     
     * SENet & FiBiNET
     [[slides](https://github.com/wangshusen/RecommenderSystem/blob/main/Slides/04_Cross_04.pdf)]
+    [[YouTube](https://youtu.be/nF37qtNvw1E)]
+    [[B站](https://www.bilibili.com/video/BV1SY4y1M7bD)].
 
 
 
@@ -126,20 +132,33 @@
 5. **用户行为序列建模**
 
     * 用户行为序列特征
+    [[slides](https://github.com/wangshusen/RecommenderSystem/blob/main/Slides/05_LastN_01.pdf)]
+    [[YouTube](https://youtu.be/Stbc9goPKXQ)]
+    [[B站](https://www.bilibili.com/video/BV1GG4y1B7Yh)].
     
     * DIN 模型
+    [[slides](https://github.com/wangshusen/RecommenderSystem/blob/main/Slides/05_LastN_02.pdf)]
+    [[YouTube]()]
+    [[B站]()].
         
     * SIM 模型
+    [[slides](https://github.com/wangshusen/RecommenderSystem/blob/main/Slides/05_LastN_03.pdf)]
+    [[YouTube]()]
+    [[B站]()].
 
 
 
 6. **重排**
     
-    * 多样性 MMR
+    * 多样性的度量
     
-    * 多样性 DPP
+    * MMR 算法
     
-    * 多样性 MGS
+    * 规则约束
+    
+    * DPP：数学基础
+    
+    * DPP：多样性算法
 
 
 
