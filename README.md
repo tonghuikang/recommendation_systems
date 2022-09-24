@@ -129,7 +129,7 @@
 
 
 
-5. **用户行为序列建模**
+5. **用户行为序列建模** 
 
     * 用户行为序列特征
     [[slides](https://github.com/wangshusen/RecommenderSystem/blob/main/Slides/05_LastN_01.pdf)]
@@ -163,7 +163,7 @@
 
 
 
-7. **物品冷启动**
+7. **物品冷启动** [[讲义](https://github.com/wangshusen/RecommenderSystem/blob/main/Notes/07_ColdStart.pdf)]
 
 	 * 评价指标
     [[slides](https://github.com/wangshusen/RecommenderSystem/blob/main/Slides/07_ColdStart_01.pdf)]
