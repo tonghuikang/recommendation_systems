@@ -138,8 +138,8 @@
     
     * DIN 模型
     [[slides](https://github.com/wangshusen/RecommenderSystem/blob/main/Slides/05_LastN_02.pdf)]
-    [[YouTube]()]
-    [[B站]()].
+    [[YouTube](https://youtu.be/0hPep80Oy6k)]
+    [[B站](https://www.bilibili.com/video/BV1bT411T7u4)].
         
     * SIM 模型
     [[slides](https://github.com/wangshusen/RecommenderSystem/blob/main/Slides/05_LastN_03.pdf)]
@@ -148,7 +148,7 @@
 
 
 
-6. **重排**
+6. **重排** [[讲义](https://github.com/wangshusen/RecommenderSystem/blob/main/Notes/06_Rerank.pdf)]
     
     * 多样性的度量
     
