@@ -17,6 +17,8 @@
     [[slides](https://github.com/wangshusen/RecommenderSystem/blob/main/Slides/01_Basics_02.pdf)]
     [[YouTube](https://youtu.be/HMcCaG9RmnU)]
     [[B站](https://www.bilibili.com/video/BV1hF411M7b5)].
+
+    * AB测试
     
 
 
@@ -61,11 +63,15 @@
     [[slides](https://github.com/wangshusen/RecommenderSystem/blob/main/Slides/02_Retrieval_08.pdf)]
     [[YouTube](https://youtu.be/3qOvHfW1A-8)]
     [[B站](https://www.bilibili.com/video/BV1KY4y1h73Y)].
+
+    * 双塔模型+自监督学习
     
     * 其它召回通道
     [[slides](https://github.com/wangshusen/RecommenderSystem/blob/main/Slides/02_Retrieval_09.pdf)]
     [[YouTube](https://youtu.be/7CKBjx7bw7k)]
     [[B站](https://www.bilibili.com/video/BV1m5411R7nd)].
+
+    * 近线召回链路
     
 
 
@@ -143,22 +149,29 @@
         
     * SIM 模型
     [[slides](https://github.com/wangshusen/RecommenderSystem/blob/main/Slides/05_LastN_03.pdf)]
-    [[YouTube]()]
-    [[B站]()].
+    [[YouTube](https://youtu.be/_4J9aF5KR84)]
+    [[B站](https://www.bilibili.com/video/BV1Ze4y1B7JL)].
 
 
 
 6. **重排** [[讲义](https://github.com/wangshusen/RecommenderSystem/blob/main/Notes/06_Rerank.pdf)]
     
     * 多样性的度量
+    [[slides](https://github.com/wangshusen/RecommenderSystem/blob/main/Slides/06_Rerank_01.pdf)]
+    [[YouTube](https://youtu.be/uCIlk7N1dvk)]
+    [[B站](https://www.bilibili.com/video/BV1ne4y1v7mC)].
     
     * MMR 算法
+    [[slides](https://github.com/wangshusen/RecommenderSystem/blob/main/Slides/06_Rerank_02.pdf)]
     
     * 规则约束
+    [[slides](https://github.com/wangshusen/RecommenderSystem/blob/main/Slides/06_Rerank_03.pdf)]
     
     * DPP：数学基础
+    [[slides](https://github.com/wangshusen/RecommenderSystem/blob/main/Slides/06_Rerank_04.pdf)]
     
     * DPP：多样性算法
+    [[slides](https://github.com/wangshusen/RecommenderSystem/blob/main/Slides/06_Rerank_05.pdf)]
 
 
 
