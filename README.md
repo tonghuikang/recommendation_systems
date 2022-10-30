@@ -65,6 +65,8 @@
     [[B站](https://www.bilibili.com/video/BV1KY4y1h73Y)].
 
     * 双塔模型+自监督学习
+
+    * Deep Retrieval
     
     * 其它召回通道
     [[slides](https://github.com/wangshusen/RecommenderSystem/blob/main/Slides/02_Retrieval_09.pdf)]
@@ -72,6 +74,8 @@
     [[B站](https://www.bilibili.com/video/BV1m5411R7nd)].
 
     * 近线召回链路
+
+    * 曝光过滤
     
 
 
@@ -163,15 +167,23 @@
     
     * MMR 算法
     [[slides](https://github.com/wangshusen/RecommenderSystem/blob/main/Slides/06_Rerank_02.pdf)]
+    [[YouTube](https://youtu.be/tCa4yackga0)]
+    [[B站](https://www.bilibili.com/video/BV1dV4y1V7Kg)].
     
     * 规则约束
     [[slides](https://github.com/wangshusen/RecommenderSystem/blob/main/Slides/06_Rerank_03.pdf)]
+    [[YouTube](https://youtu.be/84kK1h0FS3Y)]
+    [[B站](https://www.bilibili.com/video/BV1om4y1F7y5)].
     
     * DPP：数学基础
     [[slides](https://github.com/wangshusen/RecommenderSystem/blob/main/Slides/06_Rerank_04.pdf)]
+    [[YouTube]()]
+    [[B站]()].
     
     * DPP：多样性算法
     [[slides](https://github.com/wangshusen/RecommenderSystem/blob/main/Slides/06_Rerank_05.pdf)]
+    [[YouTube]()]
+    [[B站]()].
 
 
 
