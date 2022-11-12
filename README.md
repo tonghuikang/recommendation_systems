@@ -177,13 +177,13 @@
     
     * DPP：数学基础
     [[slides](https://github.com/wangshusen/RecommenderSystem/blob/main/Slides/06_Rerank_04.pdf)]
-    [[YouTube]()]
-    [[B站]()].
+    [[YouTube](https://youtu.be/HjpJeUSekKs)]
+    [[B站](https://www.bilibili.com/video/BV1re411F7cp)].
     
     * DPP：多样性算法
     [[slides](https://github.com/wangshusen/RecommenderSystem/blob/main/Slides/06_Rerank_05.pdf)]
-    [[YouTube]()]
-    [[B站]()].
+    [[YouTube](https://youtu.be/wi8xVHiZZr4)]
+    [[B站](https://www.bilibili.com/video/BV1Md4y1c7uB)].
 
 
 
