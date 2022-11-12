@@ -19,6 +19,7 @@
     [[B站](https://www.bilibili.com/video/BV1hF411M7b5)].
 
     * AB测试
+    [[slides](https://github.com/wangshusen/RecommenderSystem/blob/main/Slides/01_Basics_03.pdf)]
     
 
 
