@@ -5,7 +5,7 @@
 
 
 
-1. **概要**
+1. **概要** [[讲义](https://github.com/wangshusen/RecommenderSystem/blob/main/Notes/01_Basics.pdf)]
 
 
     * 推荐系统的基本概念
