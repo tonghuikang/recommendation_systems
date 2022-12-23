@@ -20,6 +20,8 @@
 
     * AB测试
     [[slides](https://github.com/wangshusen/RecommenderSystem/blob/main/Slides/01_Basics_03.pdf)]
+    [[YouTube](https://youtu.be/7Jz3VY8SCR4)]
+    [[B站](https://www.bilibili.com/video/BV1J44y1o7gf)].
     
 
 
@@ -73,8 +75,6 @@
     [[slides](https://github.com/wangshusen/RecommenderSystem/blob/main/Slides/02_Retrieval_09.pdf)]
     [[YouTube](https://youtu.be/7CKBjx7bw7k)]
     [[B站](https://www.bilibili.com/video/BV1m5411R7nd)].
-
-    * 近线召回链路
 
     * 曝光过滤
     
