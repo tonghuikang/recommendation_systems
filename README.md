@@ -78,7 +78,9 @@
     [[B站](https://www.bilibili.com/video/BV1m5411R7nd)].
 
     * 曝光过滤
-    
+    [[slides]()]
+    [[YouTube](https://youtu.be/cM76ZbkqrFU)]
+    [[B站](https://www.bilibili.com/video/BV1sa4y137LF)]
 
 
 
@@ -224,6 +226,7 @@
     [[B站](https://www.bilibili.com/video/BV12341137Cq)].
 
 
+8. **涨指标的方法** [[参考文献](https://arxiv.org/abs/2308.01204)]
 
 
 
