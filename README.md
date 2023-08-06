@@ -1,9 +1,6 @@
 # 工业界的推荐系统
 
 
-这门课程结合小红书的业务场景和内部实践，讲解主流的工业界推荐系统技术。
-
-
 
 1. **概要** [[讲义](https://github.com/wangshusen/RecommenderSystem/blob/main/Notes/01_Basics.pdf)]
 
@@ -78,7 +75,7 @@
     [[B站](https://www.bilibili.com/video/BV1m5411R7nd)].
 
     * 曝光过滤
-    [[slides]()]
+    [[slides](https://github.com/wangshusen/RecommenderSystem/blob/main/Slides/02_Retrieval_11.pdf)]
     [[YouTube](https://youtu.be/cM76ZbkqrFU)]
     [[B站](https://www.bilibili.com/video/BV1sa4y137LF)]
 
