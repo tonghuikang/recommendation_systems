@@ -69,13 +69,18 @@
     [[YouTube](https://youtu.be/Ra3MVhneR9E)]
     [[B站](https://www.bilibili.com/video/BV1v24y1B7JH)].
     
-    * 其它召回通道
+    * Deep Retrieval 召回
     [[slides](https://github.com/wangshusen/RecommenderSystem/blob/main/Slides/02_Retrieval_10.pdf)]
+    [[YouTube](https://youtu.be/BYtzZ48hRFM)]
+    [[B站](https://www.bilibili.com/video/BV1Fu4y1b7PL)].
+    
+    * 其它召回通道
+    [[slides](https://github.com/wangshusen/RecommenderSystem/blob/main/Slides/02_Retrieval_11.pdf)]
     [[YouTube](https://youtu.be/7CKBjx7bw7k)]
     [[B站](https://www.bilibili.com/video/BV1m5411R7nd)].
 
     * 曝光过滤
-    [[slides](https://github.com/wangshusen/RecommenderSystem/blob/main/Slides/02_Retrieval_11.pdf)]
+    [[slides](https://github.com/wangshusen/RecommenderSystem/blob/main/Slides/02_Retrieval_12.pdf)]
     [[YouTube](https://youtu.be/cM76ZbkqrFU)]
     [[B站](https://www.bilibili.com/video/BV1sa4y137LF)]
 
