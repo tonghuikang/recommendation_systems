@@ -200,8 +200,7 @@
     [[slides](https://github.com/wangshusen/RecommenderSystem/blob/main/Slides/07_ColdStart_01.pdf)]
     [[YouTube](https://youtu.be/EEQ4qwjezRc)]
     [[B站](https://www.bilibili.com/video/BV1eZ4y1a7tG)].
-	 
-	 
+	 	 
     * 简单的召回通道
     [[slides](https://github.com/wangshusen/RecommenderSystem/blob/main/Slides/07_ColdStart_02.pdf)]
     [[YouTube](https://youtu.be/lboewzsA8DU)]
@@ -230,6 +229,23 @@
 
 8. **涨指标的方法** [[参考文献](https://arxiv.org/abs/2308.01204)]
 
+    * 概述
+    [[slides](https://github.com/wangshusen/RecommenderSystem/blob/main/Slides/08_Improvement_01.pdf)]
+
+    * 召回
+    [[slides](https://github.com/wangshusen/RecommenderSystem/blob/main/Slides/08_Improvement_02.pdf)]
+
+    * 排序
+    [[slides](https://github.com/wangshusen/RecommenderSystem/blob/main/Slides/08_Improvement_03.pdf)]
+
+    * 多样性
+    [[slides](https://github.com/wangshusen/RecommenderSystem/blob/main/Slides/08_Improvement_04.pdf)]
+
+    * 特殊人群
+    [[slides](https://github.com/wangshusen/RecommenderSystem/blob/main/Slides/08_Improvement_05.pdf)]
+
+    * 交互行为
+    [[slides](https://github.com/wangshusen/RecommenderSystem/blob/main/Slides/08_Improvement_06.pdf)]
 
 
 
