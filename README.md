@@ -231,10 +231,14 @@
 
     * 概述
     [[slides](https://github.com/wangshusen/RecommenderSystem/blob/main/Slides/08_Improvement_01.pdf)]
+    [[YouTube](https://youtu.be/YptRKEZZ0gY)]
+    [[B站](https://www.bilibili.com/video/BV1fc41167jK)].
 
     * 召回
     [[slides](https://github.com/wangshusen/RecommenderSystem/blob/main/Slides/08_Improvement_02.pdf)]
-
+    [[YouTube](https://youtu.be/imi73gPNCFA)]
+    [[B站](https://www.bilibili.com/video/BV13H4y127Tt)].
+    
     * 排序
     [[slides](https://github.com/wangshusen/RecommenderSystem/blob/main/Slides/08_Improvement_03.pdf)]
 
