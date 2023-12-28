@@ -164,7 +164,7 @@
 
 
 
-6. **重排** [[讲义](https://github.com/wangshusen/RecommenderSystem/blob/main/Notes/06_Rerank.pdf)]
+6. **多样性** [[讲义](https://github.com/wangshusen/RecommenderSystem/blob/main/Notes/06_Rerank.pdf)]
     
     * 多样性的度量
     [[slides](https://github.com/wangshusen/RecommenderSystem/blob/main/Slides/06_Rerank_01.pdf)]
@@ -241,9 +241,14 @@
     
     * 排序
     [[slides](https://github.com/wangshusen/RecommenderSystem/blob/main/Slides/08_Improvement_03.pdf)]
+    [[YouTube](https://youtu.be/2lXflLLEwfA)]
+    [[B站](https://www.bilibili.com/video/BV1fQ4y1G72F)].
+    
 
     * 多样性
     [[slides](https://github.com/wangshusen/RecommenderSystem/blob/main/Slides/08_Improvement_04.pdf)]
+    [[YouTube](https://youtu.be/wW_BZ11hXOY)]
+    [[B站](https://www.bilibili.com/video/BV1eN4y1z7vs)].
 
     * 特殊人群
     [[slides](https://github.com/wangshusen/RecommenderSystem/blob/main/Slides/08_Improvement_05.pdf)]
