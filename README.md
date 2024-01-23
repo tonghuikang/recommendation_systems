@@ -244,7 +244,6 @@
     [[YouTube](https://youtu.be/2lXflLLEwfA)]
     [[B站](https://www.bilibili.com/video/BV1fQ4y1G72F)].
     
-
     * 多样性
     [[slides](https://github.com/wangshusen/RecommenderSystem/blob/main/Slides/08_Improvement_04.pdf)]
     [[YouTube](https://youtu.be/wW_BZ11hXOY)]
@@ -252,9 +251,14 @@
 
     * 特殊人群
     [[slides](https://github.com/wangshusen/RecommenderSystem/blob/main/Slides/08_Improvement_05.pdf)]
+    [[YouTube](https://youtu.be/2hcM-jV84ho)]
+    [[B站](https://www.bilibili.com/video/BV15g4y1m7P4)].
 
     * 交互行为
     [[slides](https://github.com/wangshusen/RecommenderSystem/blob/main/Slides/08_Improvement_06.pdf)]
+    [[YouTube](https://youtu.be/CUpwivLDgEA)]
+    [[B站](https://www.bilibili.com/video/BV1tg4y127rS)].
+
 
 
 
