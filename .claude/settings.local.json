@@ -4,8 +4,11 @@
       "Bash(uv venv:*)",
       "Bash(source:*)",
       "Bash(uv pip install:*)",
-      "Bash(python:*)"
+      "Bash(python:*)",
+      "Bash(grep:*)"
     ],
-    "deny": ["Bash(find:*)"]
+    "deny": [
+      "Bash(find:*)"
+    ]
   }
 }
