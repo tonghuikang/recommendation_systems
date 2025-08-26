@@ -1,0 +1,14 @@
+DIN Attention Mechanism - Complete
+
+[Diagram showing:]
+
+相似度: (Similarity)
+- Four purple circles labeled α₁, α₂, α₃, ..., αₙ with arrows pointing to them
+
+LastN向量: (LastN Vectors)
+- Four red vectors labeled x₁, x₂, x₃, ..., xₙ
+
+候选物品向量: (Candidate Item Vector)
+- One blue vector labeled q
+
+Shows the computation of all similarities α₁ through αₙ between all LastN vectors and the candidate item vector q.

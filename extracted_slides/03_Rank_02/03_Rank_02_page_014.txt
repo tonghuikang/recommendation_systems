@@ -1,0 +1,26 @@
+Polarization Example - Right Task Focus
+
+**Definition:**
+极化(polarize): Softmax输出值一个接近1，其余接近0。
+(Polarization: Softmax output values where one approaches 1, others approach 0.)
+
+**Example Demonstration:**
+- **Left Task (Orange Branch):** Maintains polarized weights [0, 0, 1]
+  - Still focusing only on x₃ representation
+
+- **Right Task (Green Branch):** Shows polarized weights [0, 1, 0] 
+  - Only the second representation (x₂) receives full attention (weight = 1)
+  - The first and third representations (x₁, x₃) are completely ignored (weight = 0)
+  - Highlighted by blue box around the x₂ pathway and output
+
+**Key Observations:**
+1. **Different Polarization Patterns:** Each task polarizes to different representations
+2. **Complete Specialization:** Each task uses only one out of three available representations
+3. **Loss of Shared Learning:** The tasks don't benefit from each other's learned features
+4. **Wasted Capacity:** Two-thirds of the learned representations are unused by each task
+
+**Problems This Creates:**
+- **Brittleness:** Model performance depends entirely on single representations
+- **Limited Transfer Learning:** Tasks cannot share useful information
+- **Inefficient Architecture:** Multi-task setup provides no advantage over separate models
+- **Potential Overfitting:** Over-specialization on specific feature patterns

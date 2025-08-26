@@ -1,0 +1,10 @@
+DIN模型
+
+• 计算用户 LastN 向量的加权平均。
+
+• 权重是候选物品与 LastN 物品的相似度。
+
+
+参考文献：
+
+• Zhou et al. Deep interest network for click-through rate prediction. In KDD, 2018.

@@ -1,0 +1,14 @@
+纠偏
+
+• 物品 j 被抽样到的概率：
+  
+  pⱼ ∝ 点击次数
+
+• 预估用户 i 对物品 j 的兴趣：cos(aᵢ, bⱼ)
+
+• 做训练的时候，把 cos(aᵢ, bⱼ) 替换为：
+  
+  cos(aᵢ, bⱼ) - log pⱼ
+
+参考文献：
+• Xinyang Yi et al. Sampling-Bias-Corrected Neural Modeling for Large Corpus Item Recommendations. In RecSys, 2019.

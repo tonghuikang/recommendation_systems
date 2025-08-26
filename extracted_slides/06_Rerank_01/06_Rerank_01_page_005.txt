@@ -1,0 +1,7 @@
+双塔模型的物品向量表征
+
+[DIAGRAM DESCRIPTION: Shows a diagram illustrating the dual-tower model for item vector representation. The diagram contains:
+- Top section labeled "余弦相似度：cos(a, b)"
+- Two towers: left tower labeled "用户塔" (User Tower) with a red vector labeled "a", right tower labeled "物品塔" (Item Tower) with a blue vector labeled "b" (surrounded by a blue oval labeled "物品向量表征")
+- Arrows pointing upward from "用户特征" (User Features) at bottom left to User Tower, and from "物品特征" (Item Features) at bottom right to Item Tower
+- The vectors a and b point toward the cosine similarity calculation at the top]

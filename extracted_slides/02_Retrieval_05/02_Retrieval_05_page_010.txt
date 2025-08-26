@@ -1,0 +1,23 @@
+# 训练 (Training)
+
+## ID to Vector Mapping:
+• 把用户ID、物品ID映射成向量。
+
+### Mapping Process:
+• 第 u 号用户 → 向量 **a_u**。
+• 第 i 号物品 → 向量 **b_i**。
+
+## Optimization Problem:
+• 求解优化问题，得到参数 **A** 和 **B**。
+
+### Objective Function:
+```
+min     Σ        (y - ⟨a_u, b_i⟩)²
+A,B  (u,i,y)∈Ω
+```
+
+## Key Components:
+- Minimize squared error between predicted and actual ratings
+- Learn embedding matrices A and B
+- Sum over all observed (user, item, rating) triplets in dataset Ω
+- Inner product ⟨a_u, b_i⟩ predicts the rating

@@ -1,0 +1,20 @@
+Multi-Task Learning Architecture
+
+Architecture diagram showing:
+
+Input features (bottom):
+- 用户特征 (User Features) - blue section
+- 物品特征 (Item Features) - red section  
+- 统计特征 (Statistical Features) - green section
+- 场景特征 (Context Features) - beige section
+
+Features are concatenated and fed to:
+- 神经网络 (Neural Network) - shared bottom
+
+Output tasks (top):
+- 点击率 (Click-Through Rate) - 全连接层+Sigmoid
+- 点赞率 (Like Rate) - 全连接层+Sigmoid  
+- 收藏率 (Favorite Rate) - 全连接层+Sigmoid
+- 转发率 (Share Rate) - 全连接层+Sigmoid
+
+This shows a multi-task learning setup where a shared neural network bottom processes all features and feeds into multiple task-specific heads.

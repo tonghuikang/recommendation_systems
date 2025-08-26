@@ -1,0 +1,30 @@
+# Focused Search Region
+
+## Angular Sector Search with Query
+
+This demonstrates the focused search approach:
+
+### Key Elements:
+- **Light orange/pink sector**: Highlighted search region
+- **Orange arrow**: Primary search direction
+- **Black star (★a)**: User query vector
+- **Colored dots**: Item embeddings within the search sector
+
+### Items in Search Region:
+- **Orange dots**: Items closely aligned with search direction
+- **Red dots**: Items in the sector but with different characteristics
+- **Pink dots**: Items at sector boundaries
+
+### Search Strategy:
+1. **Sector identification**: Query vector **a** determines the relevant angular sector
+2. **Focused computation**: Only items within the highlighted sector are considered
+3. **Efficient processing**: Dramatically reduces computational load compared to exhaustive search
+
+### Performance Benefits:
+- **Reduced complexity**: From O(n) to O(n/k) where k is number of sectors
+- **Maintained accuracy**: Items in relevant sectors are most likely to be good recommendations
+- **Scalable approach**: Works well with large item catalogs
+
+### Practical Implementation:
+- This sector-based approach is commonly used in production recommendation systems
+- Balances recommendation quality with computational efficiency

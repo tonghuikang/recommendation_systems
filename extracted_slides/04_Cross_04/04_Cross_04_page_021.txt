@@ -1,0 +1,23 @@
+Complete FiBiNet Architecture
+
+Full processing pipeline:
+
+1. 离散特征 (Discrete Features) - red dots
+   ↓
+2. Embedding layer
+   ↓
+3. Multiple processing paths (highlighted in red box):
+   - Original embeddings → Bilinear → Cyan vectors
+   - SENet-weighted embeddings → Bilinear → Purple vectors
+   ↓
+4. Feature combination:
+   - Top: Original concatenated embeddings → Blue vector
+   - Middle: 连续特征 (Continuous Features) → Yellow vector
+   ↓
+5. Final concatenation → 上层网络 (Upper Network)
+
+This complete architecture combines:
+- Original embeddings and their bilinear interactions
+- SENet-weighted embeddings and their bilinear interactions  
+- Continuous features
+- All features are concatenated and fed to upper layers for final prediction

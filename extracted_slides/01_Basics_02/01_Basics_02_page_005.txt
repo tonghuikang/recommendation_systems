@@ -1,0 +1,19 @@
+推荐系统的链路 (Recommendation System Pipeline) - Highlighted Fine Ranking
+
+This slide shows the same recommendation pipeline with the 精排 (Fine Ranking) stage highlighted, emphasizing its role in the system:
+
+Pipeline Flow with Fine Ranking Emphasis:
+几亿物品 → 召回 → 几千物品 → 粗排 → 几百物品 → **精排** → 几百物品 → 重排 → 几十物品
+
+Highlighted Stage:
+- **精排 (Fine Ranking)**: The detailed ranking stage that operates on hundreds of items from coarse ranking
+
+Key Points about Fine Ranking Stage:
+- Operates on a smaller set (hundreds of items) allowing for more sophisticated algorithms
+- Uses complex machine learning models with more features and deeper analysis
+- Provides more accurate and personalized ranking compared to coarse ranking
+- Can afford higher computational cost per item due to smaller candidate set
+- Critical for final recommendation quality as it determines the precise order of items
+- Often incorporates deep learning models, multi-objective optimization, and real-time personalization
+
+The highlighting indicates this is a key focus stage, representing the most sophisticated ranking component in the pipeline.

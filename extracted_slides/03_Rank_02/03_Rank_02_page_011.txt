@@ -1,0 +1,21 @@
+Polarization Phenomenon
+
+**Title:** 极化现象 (Polarization)
+
+**Key Concept:**
+This slide introduces the concept of polarization in recommendation systems, which is a critical issue that can arise in ranking and recommendation algorithms.
+
+**Polarization in Recommendation Systems:**
+- **Definition:** The tendency of recommendation systems to amplify extreme preferences or create echo chambers
+- **Manifestation:** Users may receive increasingly similar or extreme recommendations based on their past behavior
+- **Impact:** Can lead to reduced content diversity and reinforced biases
+
+**Relevance to Multi-Task Learning:**
+- In the context of the previous multi-task architecture (CTR and Like Rate prediction)
+- Polarization can affect both tasks differently
+- Multi-task learning may help mitigate polarization by considering multiple objectives simultaneously
+
+**Why This Matters:**
+- Recommendation systems need to balance engagement metrics with content diversity
+- Understanding polarization is crucial for building fair and diverse recommendation systems
+- Proper handling of polarization ensures better user experience and platform health

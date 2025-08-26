@@ -1,0 +1,10 @@
+# 矩阵补充 (Matrix Completion)
+
+## 主讲人
+王树森
+
+## 网站链接
+http://wangshusen.github.io/
+
+## 品牌标识
+小红书 (标识在右下角)

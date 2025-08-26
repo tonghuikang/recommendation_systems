@@ -1,0 +1,15 @@
+FiBiNet Architecture Overview
+
+Input processing flow:
+
+1. 离散特征 (Discrete Features) - red dots
+   ↓
+2. Embedding layer
+   ↓  
+3. Blue embedding vectors (multiple vectors shown)
+   ↓
+4. Two parallel paths:
+   - Top path: Concatenate → Blue concatenated vector
+   - Bottom path: Bilinear processing → Cyan interaction vectors
+
+This shows the basic architecture where discrete features are embedded and then processed through both concatenation and bilinear interaction paths to capture different types of feature relationships.

@@ -1,0 +1,12 @@
+用户之间的相似度：
+sim(user, userj)
+
+用户对物品的兴趣：
+like(useri, item)
+
+Diagram Description:
+This slide builds on the previous one by adding the item preference component. The left side shows the same user-user similarity structure with similarity scores (0.9, 0.7, 0.7, 0.4). The right side introduces an "Item" (movie icon) and shows user preferences:
+- Similar users have different preference values for the item: 0, 1, 3, 0
+- This demonstrates how similar users may have different levels of interest in specific items
+
+The diagram illustrates the two key components of collaborative filtering: user similarity and item preferences.

@@ -1,0 +1,17 @@
+DIN有效的原因
+
+[2D scatter plot diagram - same layout]
+
+Vertical axis: Arrow pointing up  
+Horizontal axis: Arrow pointing right
+
+Categories plotted:
+- 美妆 (Beauty): Light pink triangles (faded) in upper left quadrant
+- 美食 (Food): Light pink circles (faded) in upper right quadrant
+- 汽车 (Cars): Light orange squares (faded) in lower left quadrant
+
+Special markers:
+- 加权平均 (Weighted Average): Purple star positioned in lower area
+- 候选物品（新闻）(Candidate Item - News): Blue star in lower right quadrant
+
+This slide continues to demonstrate how DIN's weighted averaging mechanism adapts to different candidate items, showing the contextual nature of user representation.

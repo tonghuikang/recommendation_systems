@@ -1,0 +1,19 @@
+# 粗精排一致性建模
+
+• 蒸馏精排训练粗排，让粗排与精排更一致。
+
+• 方法1：pointwise 蒸馏。
+
+• 方法2：pairwise 或 listwise 蒸馏。
+
+  • 给定 k 个候选物品，按照精排预估做排序。
+
+  • 做 learning to rank (LTR)，让粗排拟合物品的序（而非值）。
+
+  • 例：
+
+    • 对于物品 i 和 j，精排预估点击率为 pi > pj。
+
+    • LTR 鼓励粗排预估点击率满足 qi > qj，否则有惩罚。
+
+    • LTR 通常使用 pairwise logistic loss。

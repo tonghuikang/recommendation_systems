@@ -1,0 +1,13 @@
+两个用户相似
+
+Diagram Description:
+This slide contrasts with the previous one, showing two users who are similar. The title "两个用户相似" (Two users are similar) is displayed at the top, with "相似" (similar) highlighted in red.
+
+The diagram shows:
+- Left user: A man in business attire with a light blue shirt
+- Right user: A man in business suit with red tie  
+- Both users have arrows pointing to the same set of items (movie/book icons in various colors)
+- Multiple connecting lines show both users interact with overlapping items
+- This demonstrates the concept of similar users who share common interests and preferences
+
+The crossing lines between users and items illustrate shared preferences, which is the foundation for collaborative filtering algorithms.

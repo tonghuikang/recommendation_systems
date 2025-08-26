@@ -1,0 +1,32 @@
+# Complete User Tower Architecture
+
+## User Feature Processing:
+
+### Feature Concatenation:
+- All user feature embeddings are concatenated together
+- **Concatenate** operation combines multiple feature vectors
+
+### Neural Network Processing:
+- **神经网络 (Neural Network)** processes the concatenated features
+- Transforms raw features into meaningful representations
+
+### Final Output:
+- **用户的表征 (User Representation)** - Final user embedding vector
+
+## Input Features:
+1. **用户ID (User ID)**:
+   - Processed through Embedding Layer
+   - Generates user-specific representation
+
+2. **用户离散特征 (User Discrete Features)**:
+   - Categorical features (e.g., age group, gender, location)
+   - Processed through multiple Embedding Layers
+
+3. **用户连续特征 (User Continuous Features)**:
+   - Numerical features (e.g., activity scores, engagement metrics)
+   - Processed through 归一化、分箱等处理 (Normalization, Binning, etc.)
+
+## Architecture Benefits:
+- **Multi-modal fusion**: Combines different types of user information
+- **Deep learning**: Neural network learns complex feature interactions
+- **Scalable processing**: Handles various user feature types efficiently

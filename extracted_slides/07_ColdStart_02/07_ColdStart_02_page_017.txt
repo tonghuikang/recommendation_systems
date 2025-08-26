@@ -1,0 +1,6 @@
+Keyword-Based Callback
+
+• System maintains keyword index:
+  Keyword → Item List (sorted by time)
+
+• Callback based on keywords from user portrait.

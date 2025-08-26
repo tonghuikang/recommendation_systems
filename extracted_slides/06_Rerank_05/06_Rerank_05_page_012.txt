@@ -1,0 +1,10 @@
+Hulu的快速算法
+
+• 贪心算法求解：
+
+    argmax θ · reward_i + (1 - θ) · log det(A_{S∪{i}}).
+    i∈R
+
+• 初始时 S 中只有一个物品，Aₛ 是 1×1 的矩阵，
+
+• 每一轮循环，基于上一轮算出的 Aₛ = LLᵀ，快速求出 A_{S∪{i}} 的 Cholesky 分解（∀i ∈ R），从而求出 log det(A_{S∪{i}})。

@@ -1,0 +1,26 @@
+Complete Three-tower Architecture with Multi-task Learning and highlighted computation requirements:
+
+Top layer (highlighted in orange) - Four prediction heads:
+- 点击率 (Click-through Rate)
+- 点赞率 (Like Rate)
+- 收藏率 (Save Rate)  
+- 转发率 (Share Rate)
+
+Each head: 全连接层+Sigmoid
+
+Middle layer: Concatenation & Cross - combines outputs from all three towers
+
+Three towers:
+1. 用户塔 (User Tower, very large):
+   - Input: 用户特征 场景特征 (User + Context Features)
+   - Output: blue vector
+
+2. 物品塔 (Item Tower, relatively large):
+   - Input: 物品特征 (静态) (Static Item Features)
+   - Output: red vector
+
+3. 交叉塔 (Cross Tower, relatively small):
+   - Input: 统计特征、交叉特征 (Statistical + Cross Features)
+   - Output: green vector
+
+The top layer (multi-task heads) is highlighted to show where most computation occurs.

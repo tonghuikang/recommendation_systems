@@ -1,0 +1,26 @@
+# Angular Partitioning for Approximate Search
+
+## Partitioning Strategy
+
+This visualization demonstrates an angular partitioning approach for efficient nearest neighbor search:
+
+### Partitioning Method:
+- **Circular division**: The 2D space is divided into angular sectors/wedges
+- **Multi-colored regions**: Each sector represents a partition in the search index
+- **Radial lines**: Two diagonal arrows (orange and blue) show the partitioning boundaries
+
+### Color-coded Sectors:
+- **Yellow/Green sectors**: Upper quadrants
+- **Blue/Cyan sectors**: Left quadrants  
+- **Pink/Red sectors**: Lower-right quadrants
+- **Orange sectors**: Right quadrants
+
+### Search Optimization:
+- Items are pre-grouped by angular position
+- For a query vector, only relevant sectors need to be searched
+- This reduces computational complexity from O(n) to O(n/k) where k is number of partitions
+
+### Technical Implementation:
+- Each item embedding is assigned to a sector based on its angular position
+- Query processing focuses on the most relevant sectors first
+- This is a form of approximate nearest neighbor search used in systems like LSH (Locality Sensitive Hashing)

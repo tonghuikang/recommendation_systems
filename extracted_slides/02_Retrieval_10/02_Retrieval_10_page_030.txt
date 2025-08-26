@@ -1,0 +1,16 @@
+Beam Search (size = 4)
+
+L1                    L2                         L3
+
+1                     1  ----[red arrow]----->   1  [red highlighted]
+2  ----[red arrow]--> 2  
+3  ----[red arrow]--> 3  ----[red arrow]----->   4  [red highlighted] 
+4                     4                          5
+5  ----[red arrow]--> 5                          6
+6                     6                          7
+7                     7                          8  [red highlighted]
+8                     8  ----[red arrow]----->   ⋮  [red highlighted]
+⋮                     ⋮                          K
+K                     K
+
+[Simplified diagram showing final 4 selected paths: top 4 scoring complete paths through the tree structure]

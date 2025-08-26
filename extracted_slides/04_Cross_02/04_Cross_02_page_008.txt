@@ -1,0 +1,8 @@
+交叉层 (Cross Layer)
+
+[DIAGRAM: Cross layer architecture showing:
+- Input: x₀ (red vector) flows through ⋯ to xᵢ (purple vector)
+- xᵢ goes to "全连接层" (Fully Connected Layer)
+- Output y (green vector)
+- Hadamard Product operation (circle with ⊙)
+- Final output z (blue vector)]

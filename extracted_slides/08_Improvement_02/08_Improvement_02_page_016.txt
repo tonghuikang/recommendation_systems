@@ -1,0 +1,30 @@
+# Recall Models Summary
+
+## 小众的召回模型 (Niche Recall Models)
+
+This slide serves as a section header introducing specialized or less common recall models used in recommendation systems.
+
+### Context:
+After covering the main I2I (Item-to-Item) approaches, this section will likely explore:
+
+#### Potential Niche Models:
+- **Specialized Collaborative Filtering**: Advanced variants beyond basic CF
+- **Content-Based Methods**: Using item attributes and metadata
+- **Hybrid Approaches**: Combining multiple recommendation strategies
+- **Domain-Specific Models**: Tailored for specific verticals or use cases
+- **Experimental Techniques**: Newer or research-oriented methods
+
+#### Why Niche Models Matter:
+1. **Coverage Enhancement**: Fill gaps left by mainstream methods
+2. **Specialized Use Cases**: Address specific domain requirements
+3. **Diversity Improvement**: Provide varied recommendation sources
+4. **Performance Optimization**: Excel in particular scenarios
+5. **Innovation Pipeline**: Test new approaches before mainstream adoption
+
+#### Integration Strategy:
+- Often used alongside primary recall methods
+- Allocated smaller traffic percentages for testing
+- Focused on specific user segments or item categories
+- Part of ensemble recommendation systems
+
+This introduction sets up the discussion of alternative and specialized recall methods that complement the primary I2I and collaborative filtering approaches in a comprehensive recommendation system.

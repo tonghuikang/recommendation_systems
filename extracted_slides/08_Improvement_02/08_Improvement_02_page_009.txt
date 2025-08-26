@@ -1,0 +1,30 @@
+# Improving Dual Tower Models
+
+## 改进双塔模型 (Improving Dual Tower Models)
+
+### Model Architecture Overview
+The slide shows a dual tower model architecture with:
+
+#### Multi-Task Learning:
+- **Top layer metrics**: 点击率 (Click Rate), 点赞率 (Like Rate), 收藏率 (Save Rate), 完播率 (Completion Rate)
+- These multiple objectives are combined and fed back into the system
+
+#### Tower Structure:
+- **Left Tower (用户塔)**: User Tower
+  - Fed by 用户特征 (User Features)
+  - Represented by a sequence of colored embedding blocks
+
+- **Right Tower (物品塔)**: Item Tower  
+  - Fed by 物品特征 (Item Features)
+  - Represented by a sequence of colored embedding blocks
+
+#### Key Improvement Strategy:
+The slide highlights **点赞率 (Like Rate)** with a red box, indicating this is a focus metric for optimization.
+
+#### Technical Architecture:
+- The dual tower architecture allows for independent encoding of user and item representations
+- Multiple behavioral signals (click, like, save, completion) are used for multi-task optimization
+- The model learns to predict various engagement metrics simultaneously
+- User and item embeddings are learned separately and then combined for final predictions
+
+This approach enables better representation learning by leveraging multiple behavioral signals while maintaining computational efficiency through the dual tower design.

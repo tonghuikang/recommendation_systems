@@ -1,0 +1,13 @@
+数据服务
+
+Architecture diagram showing:
+
+用户请求 → 主服务器 → 排序服务器
+                ↑              ↓
+                ↓        物品ID、用户ID、场景特征
+            召回服务器
+
+Three database cylinders connected to the ranking server:
+- 用户画像 (User Profile) - labeled as 较为静态 (relatively static)
+- 物品画像 (Item Profile) - labeled as 静态 (static)  
+- 统计数据 (Statistical Data) - labeled as 动态 (dynamic)

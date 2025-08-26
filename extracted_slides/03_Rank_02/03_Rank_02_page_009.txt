@@ -1,0 +1,26 @@
+Multi-Task Learning - Dual Task Architecture
+
+This slide shows the complete dual-task architecture:
+
+**Left Task (Orange Path):**
+- Mathematical formula: p₁x₁ + p₂x₂ + p₃x₃
+- Weighted combination creates orange vector representation
+- Processed by 神经网络 (Neural Network) in orange
+- Output: 点击率 (Click-Through Rate, CTR)
+
+**Right Task (Green Path):**
+- Mathematical formula: q₁x₁ + q₂x₂ + q₃x₃  
+- Weighted combination creates green vector representation
+- Processed by 神经网络 (Neural Network) in green
+- Output: 点赞率 (Like Rate)
+
+**Shared Components:**
+- Common intermediate representations: x₁, x₂, x₃ (purple vectors)
+- 对向量做加权平均 (Weighted averaging of vectors) for both tasks
+- Input weights: [p₁, p₂, p₃] (权重) and [q₁, q₂, q₃] (权重)
+
+**Architecture Benefits:**
+- Two different tasks share the same underlying representations
+- Each task learns its own weighting scheme for the shared features
+- Enables transfer learning between related prediction tasks (CTR and Like Rate)
+- Efficient parameter sharing while maintaining task-specific specialization

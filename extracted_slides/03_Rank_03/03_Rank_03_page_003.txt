@@ -1,0 +1,29 @@
+Fusion with Click-Through Rate Weighting
+
+**Title:** 融合预估分数 (Fusion of Predictive Scores)
+
+**Method 1: Simple Weighted Sum**
+简单的加权和 (Simple Weighted Sum)
+p_click + w₁ · p_like + w₂ · p_collect + ...
+
+**Method 2: CTR-Weighted Combination**
+点击率乘以其他项的加权和 (Click-through rate multiplied by weighted sum of other items)
+
+**Formula (highlighted in blue box):**
+p_click · (1 + w₁ · p_like + w₂ · p_collect + ...)
+
+**Key Differences:**
+1. **Multiplicative Structure:** CTR acts as a gating mechanism
+2. **Base Score:** Click probability serves as the foundation score
+3. **Enhancement Factor:** Other actions provide multiplicative boosts
+4. **Interaction Effects:** Non-linear combination creates interaction between different prediction scores
+
+**Mathematical Interpretation:**
+- If p_click is low, the overall score remains low regardless of other factors
+- High p_click allows other positive signals (likes, collections) to amplify the final score
+- The "(1 + ...)" structure ensures the base CTR is never diminished
+
+**Practical Benefits:**
+- **Business Logic:** Aligns with the intuition that items must first be clicked to generate other engagements
+- **Filtering Effect:** Naturally downweights items with very low click probability
+- **Amplification:** Allows high-engagement items to rise in rankings

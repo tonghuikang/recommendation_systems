@@ -1,0 +1,8 @@
+损失函数
+
+向量 pᵢ : p_{i,1}, p_{i,2}, ⋯, p_{i,i}, ⋯, p_{i,n}
+
+Softmax激活函数
+
+cos(aᵢ, b₁), cos(aᵢ, b₂), ⋯, cos(aᵢ, bᵢ), ⋯, cos(aᵢ, bₙ)
+                                正样本

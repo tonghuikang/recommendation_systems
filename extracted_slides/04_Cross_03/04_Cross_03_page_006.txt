@@ -1,0 +1,20 @@
+LHUC in Speech Recognition (语音识别中的LHUC)
+
+Architecture with Hadamard Product:
+
+Upper path (Speech Signal):
+- 语音信号 (Speech Signal) - red vector
+- → 全连接层 (Fully Connected Layer)  
+- → red output vector
+
+Lower path (Speaker Features):
+- 说话者的特征 (Speaker Features) - blue vector
+- → 神经网络 (Neural Network)
+- → blue output vector
+
+Interaction:
+- Hadamard Product (element-wise multiplication) ∘
+- The blue vector modulates the red vector through element-wise multiplication
+- Final result: modulated red vector
+
+This demonstrates how speaker features can selectively amplify or suppress different aspects of the speech signal processing.

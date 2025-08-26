@@ -1,0 +1,9 @@
+Multiple Vector Callback Pools
+
+• Multiple callback pools give new items more exposure opportunities.
+  • 1-hour new items,
+  • 6-hour new items,
+  • 24-hour new items,
+  • 30-day items.
+
+• Sharing the same two-tower model, so multiple callback pools don't add training cost.

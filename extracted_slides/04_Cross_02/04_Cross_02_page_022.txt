@@ -1,0 +1,19 @@
+Deep & Cross Network (深度交叉网络)
+
+Complete DCN architecture showing:
+
+Left side input features:
+- 用户特征 (User Features) - blue section
+- 物品特征 (Item Features) - red section  
+- 其它特征 (Other Features) - green section
+
+Two parallel processing paths:
+1. 全连接网络 (Fully Connected Network) → yellow output vector
+2. 交叉网络 (Cross Network) → purple output vector
+
+Final combination:
+- The outputs from both networks are concatenated
+- Fed into a 全连接层 (Fully Connected Layer)
+- Produces final brown output vector
+
+This architecture combines the memorization ability of cross networks with the generalization ability of deep networks.

@@ -1,0 +1,7 @@
+# 双塔模型 (Two-Tower Model)
+
+## Section Title
+Introduction to the Two-Tower Model architecture
+
+## Content Summary
+This slide serves as a section divider introducing the Two-Tower model, which is an advanced architecture that builds upon the basic matrix completion approach but incorporates additional features and more sophisticated processing.

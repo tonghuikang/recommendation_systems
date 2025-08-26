@@ -1,0 +1,7 @@
+# Difficulties of Cold Start Recall (冷启召回的困难)
+
+• **Limited user interaction**: Haven't learned good note ID embeddings yet, resulting in poor effectiveness of dual-tower models.
+  (缺少用户交互，还没学好笔记ID embedding，导致双塔模型效果不好。)
+
+• **Limited user interaction**: Resulting in ItemCF being unsuitable.
+  (缺少用户交互，导致ItemCF不适用。)

@@ -1,0 +1,36 @@
+Score Fusion with Probability Interpretations
+
+**Title:** 融合预估分数 (Fusion of Predictive Scores)
+
+**Method 1: Simple Weighted Sum**
+简单的加权和 (Simple Weighted Sum)
+p_click + w₁ · p_like + w₂ · p_collect + ...
+
+**Method 2: CTR-Weighted Combination**
+点击率乘以其他项的加权和 (CTR multiplied by weighted sum of other items)
+p_click · (1 + w₁ · p_like + w₂ · p_collect + ...)
+
+**Probabilistic Interpretations:**
+
+**For p_click (highlighted in blue box):**
+= #点击 / #曝光
+(= #clicks / #exposures)
+
+**For p_like (highlighted in blue box):**
+= #点赞 / #点击
+(= #likes / #clicks)
+
+**Statistical Foundation:**
+- **p_click:** Traditional click-through rate - probability of click given exposure
+- **p_like:** Conditional probability - probability of like given that user clicked
+- Both metrics represent different stages in the user engagement funnel
+
+**Funnel Interpretation:**
+1. **Exposure → Click:** p_click captures the initial attraction
+2. **Click → Like:** p_like captures the satisfaction after interaction
+3. **Sequential Nature:** Like can only happen after click, establishing natural hierarchy
+
+**Benefits of This Interpretation:**
+- **Clear Business Meaning:** Each probability has distinct interpretation in user journey
+- **Data Collection:** Aligns with how metrics are typically collected and computed
+- **Optimization:** Different probabilities can be optimized using appropriate models and features

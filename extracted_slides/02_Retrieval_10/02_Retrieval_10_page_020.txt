@@ -1,0 +1,13 @@
+Beam Search (size = 1)
+
+L1                    L2                         L3
+
+1                     1                          1  p₃(1|5, 4; x)  [red highlighted]
+2                     2                          2  p₃(2|5, 4; x)
+3                     3                          3  p₃(3|5, 4; x)
+4                     4 ----[arrows]---->        4  p₃(4|5, 4; x)
+5 ----[red arrow]--->  5                          5  p₃(5|5, 4; x)
+⋮                     ⋮                          ⋮  ⋮
+K                     K                          K  p₃(K|5, 4; x)
+
+[Diagram shows progression: red node 5 in L1 → red node 4 in L2 → arrows to all nodes in L3, with node 1 highlighted red]

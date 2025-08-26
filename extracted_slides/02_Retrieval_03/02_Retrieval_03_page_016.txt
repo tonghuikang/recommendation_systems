@@ -1,0 +1,23 @@
+降低热门物品权重
+
+• 用户 u1 喜欢的物品记作集合 J1。
+• 用户 u2 喜欢的物品记作集合 J2。
+• 定义交集 I = J1 ∩ J2。
+• 两个用户的相似度：
+
+sim(u1, u2) = ∑l∈I (1/log(1 + nl)) / √(|J1| · |J2|)
+
+nl：喜欢物品 l 的用户数量，反映物品的热门程度
+
+Formula Description:
+This slide introduces the improved similarity formula that reduces the weight of popular items:
+
+sim(u1, u2) = ∑l∈I (1/log(1 + nl)) / √(|J1| · |J2|)
+
+Where nl represents the number of users who like item l, reflecting the item's popularity.
+
+Key improvements:
+- Uses 1/log(1 + nl) instead of just 1 for each common item
+- Popular items (high nl) get lower weights due to the logarithmic penalty
+- Niche items (low nl) maintain higher discriminative power
+- This helps identify more meaningful similarities between users based on less common preferences

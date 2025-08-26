@@ -1,0 +1,9 @@
+Complete Three-tower Architecture Summary:
+
+Same architecture as previous slide with key insights:
+
+• 有 n 个物品，模型上层需要做 n 次推理。
+
+• 粗排推理的大部分计算量在模型上层。
+
+The diagram shows the full three-tower architecture with multi-task learning heads, emphasizing that the computational bottleneck is in the upper layers (Concatenation & Cross + multi-task heads) rather than in the tower feature processing.

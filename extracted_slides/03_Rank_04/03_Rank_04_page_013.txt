@@ -1,0 +1,7 @@
+视频完播
+
+不能直接把预估的完播率用到融分公式 (why?)
+
+Graph showing completion rate (完播率) on y-axis (0 to 0.6) versus video duration in seconds (视频时长(秒)) on x-axis. 
+
+The graph shows a declining curve with blue data points and a red fitted line labeled "用函数 f(视频时长) 拟合完播率". The completion rate starts around 0.5 for short videos and decreases to around 0.05 for longer videos, showing an inverse relationship between video length and completion rate.

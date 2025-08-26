@@ -1,0 +1,13 @@
+Extract Image and Text Features
+
+[The image shows a two-part feature extraction process:]
+
+Top: Image feature extraction
+- Input: An image showing a Shiba Inu dog with Chinese text overlays including "日本买柴犬多少钱" (How much does it cost to buy a Shiba Inu in Japan?)
+- Process: CNN (Convolutional Neural Network)
+- Output: Feature vector (shown as blue stacked rectangles)
+
+Bottom: Text feature extraction  
+- Input: Chinese text content discussing buying Shiba Inu dogs in Japan, mentioning costs and experiences
+- Process: BERT (Bidirectional Encoder Representations from Transformers)
+- Output: Feature vector (shown as dark blue stacked rectangles)

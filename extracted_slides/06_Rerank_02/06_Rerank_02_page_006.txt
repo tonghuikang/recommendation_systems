@@ -1,0 +1,17 @@
+MMR多样性算法
+
+选中的物品（记作 S）                    未选中的物品（记作 R）
+
+[VISUAL: Shows two groups of video/content icons:
+- Left side: 4 red video icons representing selected items (S)
+- Right side: 6 blue video icons representing unselected items (R)]
+
+• 计算集合 R 中每个物品 i 的 Marginal Relevance 分数：
+
+  MRᵢ = θ · rewardᵢ - (1 - θ) · max sim(i,j).
+                              j∈S
+
+• Maximal Marginal Relevance (MMR)：
+
+  argmax MRᵢ.
+  i∈R

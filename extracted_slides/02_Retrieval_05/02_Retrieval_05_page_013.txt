@@ -1,0 +1,17 @@
+# 在实践中效果不好...... (Poor Performance in Practice)
+
+## 缺点1：仅用ID embedding，没利用物品、用户属性。
+
+### Item Attributes:
+• 物品属性：类目、关键词、地理位置、作者信息。
+
+### User Attributes:
+• 用户属性：性别、年龄、地理定位、感兴趣的类目。
+
+### Model Enhancement:
+• 双塔模型可以看做矩阵补充的升级版。
+
+## Key Issues:
+- Only uses ID embeddings without leveraging rich item and user features
+- Ignores valuable content and demographic information
+- Two-tower model can be seen as an upgraded version of matrix completion

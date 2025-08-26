@@ -1,0 +1,28 @@
+Thank You!
+
+**Conclusion Slide**
+
+This slide marks the end of the presentation on fusion of predictive scores in recommendation systems.
+
+**Contact Information:**
+http://wangshusen.github.io/
+
+**Summary of Topics Covered:**
+1. **Simple Weighted Sum:** Basic linear combination of multiple prediction scores
+2. **CTR-Weighted Fusion:** Using click-through rate as a gating mechanism
+3. **Probabilistic Interpretations:** Understanding scores as conditional probabilities in user funnel
+4. **International Short Video App:** Advanced multiplicative formula with exponential weighting
+5. **Chinese Short Video App:** Rank-based scoring approach with inverse ranking relationships
+6. **E-commerce Platform:** Revenue-optimized scoring incorporating price and conversion funnel
+
+**Key Takeaways:**
+- **Multiple Approaches:** Different industries and applications require different fusion strategies
+- **Business Alignment:** Scoring formulas should reflect the specific business objectives and user journey
+- **Non-linear Combinations:** Advanced techniques use multiplicative and exponential relationships
+- **Industry Experience:** Real-world examples demonstrate practical implementation considerations
+- **Flexibility:** Multiple parameters allow fine-tuning for specific performance goals
+
+**Practical Implications:**
+- Score fusion is critical for multi-objective optimization in recommendation systems
+- The choice of fusion method should align with business logic and user behavior patterns
+- Complex formulas require careful parameter tuning and validation

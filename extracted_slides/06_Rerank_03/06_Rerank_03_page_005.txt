@@ -1,0 +1,8 @@
+MMR + 重排规则
+
+• MMR 每一轮选出一个物品：
+
+  argmax {θ · rewardᵢ - (1 - θ) · max sim(i,j)}.
+  i∈R                            j∈W
+
+  R 是未选中的物品            MRᵢ 分数

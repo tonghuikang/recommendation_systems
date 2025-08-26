@@ -1,0 +1,7 @@
+MMR多样性算法
+
+选中的物品（记作 S）                    未选中的物品（记作 R）
+
+[VISUAL: Shows two groups of video/content icons:
+- Left side: 4 red video icons representing selected items (S)
+- Right side: 6 blue video icons representing unselected items (R)]

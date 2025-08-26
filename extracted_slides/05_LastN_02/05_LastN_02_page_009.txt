@@ -1,0 +1,19 @@
+DIN Weighted Sum
+
+[Diagram showing:]
+
+Final weighted sum output:
+- Purple vector at top labeled "加权和" (Weighted Sum)
+- Arrows pointing up from similarity scores
+
+相似度: (Similarity)
+- Four gray boxes containing purple circles labeled α₁, α₂, α₃, ..., αₙ
+- Each box shows multiplication operation (×)
+
+LastN向量: (LastN Vectors)
+- Four red vectors labeled x₁, x₂, x₃, ..., xₙ
+
+候选物品向量: (Candidate Item Vector)
+- One blue vector labeled q
+
+Shows how the similarity scores are used as weights to compute the final weighted sum of LastN vectors.

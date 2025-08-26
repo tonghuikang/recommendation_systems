@@ -1,0 +1,17 @@
+线上做召回
+
+Top-k 相似的用户（ID，相似度）
+
+用户感兴趣的n个物品
+
+Diagram Description:
+This slide builds on the previous one by showing step 2 of the online recall process.
+
+The diagram shows:
+- The same target user and their top-k similar users from the previous slide
+- An arrow pointing down from the first similar user (businessman with 0.7 similarity)
+- A small table showing the user's interested items:
+  - Red video item: score 1
+  - Brown video item: score 3
+
+This demonstrates step 2 where for each similar user, the system retrieves their recently interested items (last-n) to use for generating recommendations for the target user.

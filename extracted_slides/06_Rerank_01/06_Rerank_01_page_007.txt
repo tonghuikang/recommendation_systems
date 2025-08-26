@@ -1,0 +1,11 @@
+基于图文内容的物品向量表征
+
+• CLIP [1] 是当前公认最有效的预训练方法。
+
+• 思想：对于图片—文本二元组，预测图文是否匹配。
+
+• 优势：无需人工标注。小红书的笔记天然包含图片+文字，大部分笔记图文相关。
+
+参考文献：
+
+1. Radford et al. Learning transferable visual models from natural language supervision. In ICML, 2021.

@@ -1,0 +1,3 @@
+ItemCF的物品相似度
+
+[Image shows a bipartite graph with a red video item on the left and a green video item on the right, with 6 users in the center connected to both items with lines, representing users who liked both items]

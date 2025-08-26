@@ -1,0 +1,26 @@
+小红书的推荐系统
+
+推荐内容 (with arrow pointing to "发现" tab)
+
+Navigation tabs: 关注 发现 附近 (with search icon)
+Secondary tabs: 推荐 视频 直播 旅行 美食
+
+Left sidebar showing:
+随意必备物品
+- 不是你的... (191 likes)
+
+Content items shown:
+1. 登机、隔离必备物品
+   (Travel/quarantine essentials image showing various packaged items)
+   - 松江区-神仙酒店get 不折盲盒
+   - 妮姬姬Elsie (20 likes)
+
+2. 钓庐黄金枪鱼（后）
+   (Golden tuna fishing image showing nighttime scene)
+   - 谢宁 (218 likes)
+
+3. 国足又被打脸！韦世豪黑队3天后在野...
+   (Football/soccer related image)
+   - 国足等录 (53 likes)
+
+Bottom navigation: 首页 商城 + 消息 我

@@ -1,0 +1,26 @@
+Multi-Task Learning Architecture for Recommendation Systems
+
+This slide shows a multi-task learning architecture with the following components:
+
+**Input Features (Bottom):**
+- 用户特征 (User Features) - Blue sections
+- 物品特征 (Item Features) - Red sections  
+- 统计特征 (Statistical Features) - Green sections
+- 场景特征 (Context Features) - Orange sections
+
+**Neural Network Structure:**
+- Input features feed into multiple parallel neural networks
+- 第1号神经网络 (Neural Network #1) → outputs x₁ (purple vector)
+- 第2号神经网络 (Neural Network #2) → outputs x₂ (purple vector)  
+- 第3号神经网络 (Neural Network #3) → outputs x₃ (purple vector)
+
+**Output Layers:**
+- Left side: 神经网络 (Neural Network) → Softmax激活函数 (Softmax Activation) → outputs [p₁, p₂, p₃]
+- Right side: 神经网络 (Neural Network) → Softmax激活函数 (Softmax Activation) → outputs [q₁, q₂, q₃]
+
+**Architecture Pattern:**
+- Multiple task-specific neural networks process different feature combinations
+- Each network produces intermediate representations (x₁, x₂, x₃)
+- Two separate output heads with softmax activation functions
+- This enables joint learning of multiple related prediction tasks
+- Shared lower-level representations with task-specific upper layers

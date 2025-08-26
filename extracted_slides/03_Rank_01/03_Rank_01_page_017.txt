@@ -1,0 +1,16 @@
+# 预估值校准
+
+**公式对比：**
+
+• **真实点击率：** pₜᵣᵤₑ = n₊/(n₊ + n₋) （期望）
+
+• **预估点击率：** pₚᵣₑd = n₊/(n₊ + α·n₋) （期望）
+
+• **由上面两个等式可得校准公式[1]：**
+
+**pₜᵣᵤₑ = (α·pₚᵣₑd)/((1-pₚᵣₑd)+α·pₚᵣₑd)** 
+[蓝色下划线标注]
+
+**参考文献：**
+
+1. Xinran He et al. Practical lessons from predicting clicks on ads at Facebook. In *the 8th International Workshop on Data Mining for Online Advertising*.

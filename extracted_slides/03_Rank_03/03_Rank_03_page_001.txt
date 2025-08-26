@@ -1,0 +1,18 @@
+Fusion of Predictive Scores
+
+**Title:** 预估分数的融合 (Fusion of Predictive Scores)
+
+**Presenter:** 王树森 (Wang Shusen)
+
+**Contact Information:** http://wangshusen.github.io/
+
+**Course Context:**
+This appears to be the title slide for a lecture or presentation section on how to combine multiple predictive scores in recommendation systems. The topic follows the previous discussion on multi-task learning and polarization issues.
+
+**Key Topic:**
+Score fusion is a critical component in recommendation systems where multiple prediction models or scoring functions need to be combined to produce final rankings or recommendations.
+
+**Relevance:**
+- Builds upon multi-task learning concepts from previous slides
+- Addresses practical implementation challenges in recommendation systems
+- Focuses on techniques for combining different types of predictive scores effectively

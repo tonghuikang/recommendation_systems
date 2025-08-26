@@ -1,0 +1,7 @@
+# Objectives for Optimizing Cold Start (优化冷启动的目标)
+
+1. **Accurate Recommendation**: Overcome cold start difficulties and recommend new notes to suitable users without causing user aversion. (精准推荐：克服冷启的困难，把新笔记推荐给合适的用户，不引起用户反感。)
+
+2. **Encourage Publishing**: Drive traffic toward low-exposure new notes to motivate authors to publish. (激励发布：流量向低曝光新笔记倾斜，激励作者发布。)
+
+3. **Explore High Quality**: Through early small-volume testing, find high-quality notes and provide traffic incentives. (挖掘高潜：通过初期小流量的试探，找到高质量的笔记，给与流量倾斜。)

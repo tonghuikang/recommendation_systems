@@ -1,0 +1,8 @@
+假如重合的用户是一个小圈子......
+
+[Image shows the same bipartite graph with labels:]
+- Left: 《某网站护肤品打折》 (red video item)
+- Right: 《学节裁贞了》 (green video item)
+- Center: 某个微信群 (highlighted users in blue rectangle)
+
+[Shows users who liked both items forming a small social circle or WeChat group]

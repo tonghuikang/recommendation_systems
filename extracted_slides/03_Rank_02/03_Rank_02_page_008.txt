@@ -1,0 +1,25 @@
+Multi-Task Learning - Weighted Average Process
+
+This slide shows the detailed weighted averaging mechanism:
+
+**Mathematical Operation:**
+p₁x₁ + p₂x₂ + p₃x₃
+
+**Process Flow:**
+1. **Input Stage:**
+   - Weights: [p₁, p₂, p₃] (labeled 权重)
+   - Intermediate representations: x₁, x₂, x₃ (purple vectors)
+
+2. **Weighted Averaging:**
+   - 对向量做加权平均 (Perform weighted average on vectors)
+   - Each vector xᵢ is multiplied by its corresponding weight pᵢ
+   - Results are summed to create the final representation (orange vector)
+
+3. **Output Stage:**
+   - Final output: [q₁, q₂, q₃] (labeled 权重)
+
+**Technical Details:**
+- This is a key mechanism in multi-task learning for combining multiple learned representations
+- The weighted average allows the model to adaptively focus on different aspects of the input
+- Different tasks can learn different weight distributions for the same set of representations
+- The orange vector represents the task-specific combined representation

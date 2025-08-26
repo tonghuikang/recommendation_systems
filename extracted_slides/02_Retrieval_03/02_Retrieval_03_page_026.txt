@@ -1,0 +1,13 @@
+线上做召回
+
+1. 给定用户ID，通过"用户→用户"索引，找到 top-k 相似用户。
+
+2. 对于每个 top-k 相似用户，通过"用户→物品"索引，找到用户近期感兴趣的物品列表（last-n）。
+
+Content Description:
+This slide outlines the online recall process for UserCF with two key steps:
+
+1. Given a user ID, use the "User → User" index to find the top-k similar users
+2. For each of the top-k similar users, use the "User → Item" index to find their recently interested item list (last-n)
+
+This describes the first two steps of the real-time recommendation process.

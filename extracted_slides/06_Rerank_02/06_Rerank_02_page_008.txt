@@ -1,0 +1,4 @@
+滑动窗口
+
+• MMR : argmax {θ · rewardᵢ - (1 - θ) · max sim(i,j)}.
+        i∈R                            j∈S

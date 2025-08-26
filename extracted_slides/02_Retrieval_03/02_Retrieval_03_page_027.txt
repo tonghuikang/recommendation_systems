@@ -1,0 +1,19 @@
+线上做召回
+
+1. 给定用户ID，通过"用户→用户"索引，找到 top-k 相似用户。
+
+2. 对于每个 top-k 相似用户，通过"用户→物品"索引，找到用户近期感兴趣的物品列表（last-n）。
+
+3. 对于取回的 nk 个相似物品，用公式预估用户对每个物品的兴趣分数。
+
+4. 返回分数最高的100个物品，作为召回结果。
+
+Content Description:
+This slide presents the complete 4-step online recall process for UserCF:
+
+1. Find top-k similar users using "User → User" index
+2. Get recently interested items (last-n) for each similar user using "User → Item" index  
+3. For the retrieved nk similar items, use the formula to predict user's interest score for each item
+4. Return the top 100 highest-scoring items as the recall result
+
+This provides the complete end-to-end process for generating recommendations in real-time.

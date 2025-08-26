@@ -1,0 +1,20 @@
+事先做离线计算
+
+建立“用户→物品”的索引
+
+• 记录每个用户最近点击、交互过的物品ID。
+• 给定任意用户ID，可以找到他近期感兴趣的物品列表。
+
+建立“用户→用户”的索引
+
+• 对于每个用户，索引他最相似的 k 个用户。
+• 给定任意用户ID，可以快速找到他最相似的 k 个用户。
+
+Content Description:
+This slide builds on the previous one by adding the second index: "User → User" index.
+
+New addition:
+- For each user, index their k most similar users
+- For any given user ID, can quickly find their k most similar users
+
+This creates both user-item and user-user mappings needed for collaborative filtering.

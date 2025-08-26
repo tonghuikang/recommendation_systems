@@ -1,0 +1,8 @@
+# 近似最近邻查找
+(Approximate Nearest Neighbor Search)
+
+## Section Title
+Introduction to Approximate Nearest Neighbor Search techniques
+
+## Purpose
+This section introduces methods to efficiently find approximate nearest neighbors in high-dimensional embedding spaces, addressing the computational complexity issues of exhaustive search.

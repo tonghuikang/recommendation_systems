@@ -1,0 +1,15 @@
+Cross Network (交叉网络)
+
+Architecture diagram showing:
+- Input: x₀ (red vector)
+- Cross layer (交叉层) with parameters: W₀, b₀
+- Output: x₁ (purple vector)
+
+Mathematical formula:
+x₁ = x₀ ∘ (W₀x₀ + b₀) + x₀
+
+Where:
+- ∘ represents element-wise product (Hadamard product)
+- W₀, b₀ are the parameters of the cross layer
+- x₀ is the input vector
+- x₁ is the output of the first cross layer

@@ -1,0 +1,11 @@
+用户之间的相似度：
+sim(user, userj)
+
+Diagram Description:
+The slide shows a user-user similarity calculation illustration. On the left is a "User" icon (person with laptop), and on the right is a column of similar users (兴趣相似的用户). The similarity scores are shown as:
+- 0.9 (to first similar user - businessman)
+- 0.7 (to second similar user - man with glasses)
+- 0.7 (to third similar user - business person)
+- 0.4 (to fourth similar user - woman)
+
+All connections are shown with dotted arrows from the main user to the similar users, displaying their respective similarity values.

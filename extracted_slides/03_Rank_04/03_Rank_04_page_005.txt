@@ -1,0 +1,15 @@
+Neural Network Architecture with Mathematical Formulations:
+
+Same neural network diagram as previous page, but with added mathematical components:
+
+y = t/(1+t) (shown with blue dot)
+
+CE(y, p) = y · log p + (1 - y) · log(1 - p) (Cross-entropy loss function)
+
+p = exp(z)/(1+exp(z)) (Sigmoid function, shown with green dot)
+
+The diagram shows:
+- Multiple fully connected layers (全连接层) feeding into neural network (神经网络)
+- Output z (red dot) 
+- Feature types at bottom: 用户特征 (User Features), 视频特征 (Video Features), 统计特征 (Statistical Features), 场景特征 (Context Features)
+- Mathematical relationships between t (watch time), y (normalized watch time), z (network output), and p (predicted probability)

@@ -1,0 +1,20 @@
+推荐系统的链路 (Recommendation System Pipeline) - Highlighted Re-ranking
+
+This slide shows the same recommendation pipeline with the 重排 (Re-ranking) stage highlighted, emphasizing its role in the system:
+
+Pipeline Flow with Re-ranking Emphasis:
+几亿物品 → 召回 → 几千物品 → 粗排 → 几百物品 → 精排 → 几百物品 → **重排** → 几十物品
+
+Highlighted Stage:
+- **重排 (Re-ranking)**: The final optimization stage that produces the ultimate recommendations shown to users
+
+Key Points about Re-ranking Stage:
+- Final stage in the recommendation pipeline
+- Operates on the smallest set (transitioning from hundreds to tens of items)
+- Applies business logic, diversity constraints, and final optimizations
+- Considers factors beyond individual item relevance (e.g., overall feed diversity, freshness, business objectives)
+- May apply deduplication, content policy filters, and user experience optimizations
+- Responsible for the final user-facing recommendation quality
+- Often incorporates real-time contextual factors and A/B testing logic
+
+The highlighting emphasizes this as the final critical step that determines what users actually see in their feeds.

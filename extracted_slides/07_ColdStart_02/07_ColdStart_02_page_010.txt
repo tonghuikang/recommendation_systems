@@ -1,0 +1,9 @@
+ID Embedding
+
+Improvement Plan 1: New items use default embedding.
+
+• When training item ID embeddings, let all new items share one ID instead of using their real IDs.
+
+• Default embedding: The embedding vector corresponding to the shared ID.
+
+• When the model is trained next time, new items will have their own ID embedding vectors.

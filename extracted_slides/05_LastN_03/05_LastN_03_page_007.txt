@@ -1,0 +1,14 @@
+SIM模型
+
+• 保留用户长期行为记录，n 的大小可以是几千。
+
+• 对于每个候选物品，在用户 LastN 记录中做快速查找，找到 k 个相似物品。
+
+• 把 LastN 变成 TopK，然后输入到注意力层。
+
+• SIM 模型减小计算量（从 n 降到 k）。
+
+
+参考文献：
+
+• Qi et al. Search-based User Interest Modeling with Lifelong Sequential Behavior Data for Click-Through Rate Prediction. In CIKM, 2020.

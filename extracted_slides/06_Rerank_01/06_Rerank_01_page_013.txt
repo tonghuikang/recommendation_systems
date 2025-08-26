@@ -1,0 +1,11 @@
+推荐系统的链路
+
+[FLOW DIAGRAM: Shows the recommendation system pipeline with following elements connected by arrows:]
+
+几亿物品 → 召回 → 几千物品 → 粗排 → 后处理 → 几百物品 → 精排 → 后处理 → 物品1, 物品2, ⋮, 物品k
+
+[The "后处理" boxes are highlighted with red borders]
+
+• 给定 n 个候选物品，排序模型打分 reward₁, ⋯, rewardₙ。
+
+• 从 n 个候选物品中选出 k 个，既要它们的总分高，也需要它们有多样性。

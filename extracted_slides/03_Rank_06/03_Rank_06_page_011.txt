@@ -1,0 +1,10 @@
+粗排的三塔模型
+
+• 只有一个用户，用户塔只做一次推理。
+
+• 即使用户塔很大，总计算量也不大。
+
+Three towers architecture (same as previous diagrams):
+- 用户塔 (User Tower, very large) - processes 用户特征 场景特征
+- 物品塔 (Item Tower, relatively large) - processes 物品特征 (静态)
+- 交叉塔 (Cross Tower, relatively small) - processes 统计特征、交叉特征

@@ -1,0 +1,22 @@
+Polarization in Multi-Task Learning Architecture
+
+**Definition:**
+极化(polarize): Softmax输出值一个接近1，其余接近0。
+(Polarization: Softmax output values where one approaches 1, others approach 0.)
+
+**Architecture Visualization:**
+- **Input Features:** 用户特征 (User Features), 物品特征 (Item Features), 统计特征 (Statistical Features), 场景特征 (Context Features)
+- **Neural Networks:** 第1号神经网络, 第2号神经网络, 第3号神经网络
+- **Intermediate Representations:** x₁, x₂, x₃ (purple vectors)
+- **Output Layers:** Two softmax layers producing [p₁, p₂, p₃] and [q₁, q₂, q₃]
+
+**Polarization Problem:**
+- The blue boxes highlight the softmax outputs that are prone to polarization
+- When polarization occurs, one probability approaches 1 while others approach 0
+- This creates extreme attention weights in the multi-task learning framework
+
+**Impact on Multi-Task Learning:**
+- Polarized weights can cause the model to focus exclusively on one representation
+- Reduces the benefit of multi-task learning by ignoring shared information
+- Can lead to unstable training and poor generalization
+- Both tasks (left and right branches) are susceptible to this issue

@@ -1,0 +1,13 @@
+基于图文内容的物品表征
+
+[VISUAL CONTENT DESCRIPTION: The slide shows two examples of content-based item representation:
+
+1. Top example:
+   - Image: A photo of a Shiba Inu dog with Chinese text overlay about Japanese Shiba Inu
+   - Arrow pointing to: CNN (Convolutional Neural Network box)
+   - Arrow pointing to: A vertical cyan/blue vector representation
+
+2. Bottom example: 
+   - Text content in Chinese: "在日本买柴犬真详细解说，我是店长八公，我是日本人。今年是我在东京开宠物店的第16年。很多中国客人特意来我家买柴犬。有客人说大概要预定60万日元（约4万人民币）一条柴犬。日本柴犬真那么贵吗？怎么可能那么贵。这里八公为住在客人办理柴犬的费用，中国的朋友只看这一贴就可以了解大致的行情!!!"
+   - Arrow pointing to: BERT (Language model box)  
+   - Arrow pointing to: A vertical dark blue vector representation]

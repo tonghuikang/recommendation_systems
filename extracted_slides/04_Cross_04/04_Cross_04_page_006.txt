@@ -1,0 +1,11 @@
+SENet
+
+SENet Architecture Pipeline:
+
+1. Input: m×k embedding matrix (blue vectors)
+2. AvgPool: Average pooling → m×1 vector (cyan)
+3. FC+ReLU: Fully connected layer with ReLU activation → m/r×1 vector (dark blue)
+   - r is the reduction ratio
+4. FC+Sigmoid: Fully connected layer with Sigmoid activation → m×1 vector (orange)
+
+This shows the squeeze-and-excitation mechanism that learns field-wise attention weights.

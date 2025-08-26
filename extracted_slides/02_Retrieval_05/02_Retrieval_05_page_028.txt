@@ -1,0 +1,29 @@
+# Query Vector with Directional Search Paths
+
+## User Query in Multi-directional System
+
+This visualization combines the user query vector with the directional partitioning system:
+
+### Key Elements:
+- **Black star (★a)**: User query vector positioned in the lower-right area
+- **Colored directional arrows**: Multiple search directions from the origin
+- **Spatial relationship**: Query vector **a** is positioned relative to the directional grid
+
+### Search Process:
+1. **Query vector identification**: User embedding **a** is located in the space
+2. **Direction matching**: System identifies which directional arrows are most relevant to **a**
+3. **Focused search**: Items along relevant directions are prioritized for similarity computation
+
+### Relevant Directions for Query **a**:
+- **Orange arrows** (right direction): High relevance due to proximity
+- **Red arrow** (lower-right): Direct alignment with query position
+- **Purple arrow** (lower): Secondary relevance
+
+### Efficiency Gains:
+- Instead of computing similarity with all items, focus on items in relevant directions
+- Significant reduction in computational load
+- Maintains high-quality recommendations by targeting the most promising search directions
+
+### Practical Implementation:
+- This represents how modern ANN systems optimize user queries
+- Combines spatial indexing with directional search strategies

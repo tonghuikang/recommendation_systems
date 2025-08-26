@@ -1,0 +1,14 @@
+Beam Search (size = 1)
+
+L1                    L2                         L3
+
+1                     1                          1  [red highlighted]
+2                     2                          2
+3                     3                          3
+4                     4                          4
+5 ----[red arrows]--> 4 ----[red arrow]---->    5
+⋮                     5                          ⋮
+K                     ⋮                          K
+                      K
+
+选中路径 path = [5, 4, 1]

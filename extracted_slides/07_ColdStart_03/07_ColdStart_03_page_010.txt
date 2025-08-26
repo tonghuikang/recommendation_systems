@@ -1,0 +1,5 @@
+Content Similarity Between Two Items
+
+Cosine Similarity: cos(a, b) = ⟨a, b⟩ / (||a||₂ · ||b||₂)
+
+[The diagram shows the same architecture as the previous slide, but now includes the cosine similarity calculation at the top, which computes the similarity score between the two feature vectors a and b.]

@@ -1,0 +1,8 @@
+ItemCF的物品相似度
+
+[Image shows the same bipartite graph with labels:]
+- Left: 蜀川菜 (red video item)
+- Right: 支持绿色能源 (green video item)  
+- Center: 交集 V = W₁ ∩ W₂ (highlighted users in blue rectangle)
+
+[6 users are connected to both video items, showing they liked both items]

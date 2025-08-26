@@ -1,0 +1,18 @@
+线上做召回
+
+Top-k 相似的用户（ID，相似度）
+
+Diagram Description:
+This slide illustrates step 1 of the online recall process with a concrete example.
+
+The diagram shows:
+- A target user (person with laptop on left)
+- An arrow pointing to their top-k most similar users
+- The top-5 similar users are displayed in a table format with their IDs and similarity scores:
+  - Businessman: 0.7
+  - Man with glasses and teal sweater: 0.6  
+  - Business person with tie: 0.6
+  - Person in light blue: 0.3
+  - Person in dark blue: 0.3
+
+This demonstrates the first step where the system retrieves the most similar users to the target user for recommendation generation.

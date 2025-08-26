@@ -1,0 +1,10 @@
+# Cold Start: Simple Recall Pathways
+
+**物品冷启动：简单的召回通道**
+
+Author: 王树森
+Email: ShusenWang@xiaohongshu.com
+
+Website: http://wangshusen.github.io/
+
+[Note: This appears to be a title slide for a presentation on Cold Start problems in recommendation systems, specifically focusing on simple recall pathways. The slide is in Chinese and includes the author's name and contact information. There is also a red logo for "小红书" (Xiaohongshu/Little Red Book) in the bottom right corner.]

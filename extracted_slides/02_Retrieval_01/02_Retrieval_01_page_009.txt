@@ -1,0 +1,16 @@
+用户对物品的兴趣：
+like(user, item_i)
+
+物品之间的相似度：
+sim(item_j, item)
+
+[Diagram showing user-item interactions with similarity scores and red highlighting]
+- User (represented by user icon with laptop)
+- Red arrows pointing to different items (video icons) labeled with numbers: 2, 1, 4, 3
+- Items are labeled as "用户交互过的物品" (Items the user has interacted with)
+- Red dashed arrows pointing from the interacted items to a yellow candidate item showing similarity scores: 0.1, 0.4, 0.2, 0.6
+- Yellow item labeled "Item" (candidate item for recommendation)
+
+预估用户对候选物品的兴趣：2×0.1 + 1×0.4 + 4×0.2 + 3×0.6 = 3.2
+
+[Visual elements: Same diagram as previous slide but with red highlighting of all arrows and the calculation result shown in red box at bottom]

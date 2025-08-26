@@ -1,0 +1,9 @@
+交叉层 (Cross Layer)
+
+[DIAGRAM: Cross layer with input/output labels showing:
+- Input side: x₀ labeled as "交叉层的输入" (Cross Layer Input)
+- Processing: x₀ → ⋯ → xᵢ → 全连接层 → y
+- Hadamard Product operation
+- z (blue vector)
+- Residual connection with + operation
+- Output side: xᵢ₊₁ labeled as "交叉层的输出" (Cross Layer Output)]

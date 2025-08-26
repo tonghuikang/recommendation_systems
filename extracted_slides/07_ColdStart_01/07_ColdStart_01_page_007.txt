@@ -1,0 +1,14 @@
+# Author-side Metrics (作者侧指标)
+
+## Publishing Penetration Rate (发布渗透率 - penetration rate)
+
+• **Formula**: Publishing penetration rate = Number of publishers per day / Daily active users
+  (发布渗透率 = 当日发布人数 / 日活人数)
+
+• Publishing one article or more counts as one publisher.
+  (发布一篇或以上，就算一个发布人数。)
+
+• **Example**:
+  • Number of publishers per day = 1 million (当日发布人数 = 100万)
+  • Daily active users = 20 million (日活人数 = 2000万)
+  • Publishing penetration rate = 100 / 2000 = 5% (发布渗透率 = 100 / 2000 = 5%)

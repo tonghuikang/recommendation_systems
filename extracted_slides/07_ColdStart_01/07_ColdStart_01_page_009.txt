@@ -1,0 +1,12 @@
+# Author-side Metrics (作者侧指标)
+
+## Key Insights
+
+• Publishing penetration rate and average publishing volume reflect authors' publishing activity.
+  (发布渗透率、人均发布量反映出作者的发布积极性。)
+
+• The important optimization goal for cold start is to promote publishing and expand the content pool.
+  (冷启的重要优化目标是促进发布，增大内容池。)
+
+• The more exposure new notes receive, the earlier first exposure and interaction appear, the higher the authors' publishing activity becomes.
+  (新笔记获得的曝光越多，首次曝光和交互出现得越早，作者发布积极性越高。)

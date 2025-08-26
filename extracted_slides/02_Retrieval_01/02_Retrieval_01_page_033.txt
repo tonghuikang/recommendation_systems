@@ -1,0 +1,7 @@
+线上做召回
+
+用户感兴趣的物品（ID，兴趣分数）
+
+[Image shows user icon with arrow pointing to items: (red video, 2), (black video, 1), (blue video, 4), (orange video, 3), ...
+
+The "Top-k 相似" section is highlighted with a red rectangle showing all the similar items retrieved for each user-interested item.]

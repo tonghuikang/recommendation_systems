@@ -1,0 +1,24 @@
+离散特征处理
+
+1. 建立字典：把类别映射成序号。
+   • 中国 → 1
+   • 美国 → 2
+   • 印度 → 3
+
+2. 向量化：把序号映射成向量。
+   • One-hot编码：把序号映射成高维稀疏向量。
+   • Embedding：把序号映射成低维稠密向量。
+
+Content Description:
+This slide outlines the two-step process for handling discrete features:
+
+1. **Build Dictionary**: Map categories to sequence numbers
+   - China → 1
+   - USA → 2
+   - India → 3
+
+2. **Vectorization**: Map sequence numbers to vectors
+   - **One-hot encoding**: Map sequence numbers to high-dimensional sparse vectors
+   - **Embedding**: Map sequence numbers to low-dimensional dense vectors
+
+This establishes the foundation for converting categorical data into numerical representations that can be used by machine learning models.

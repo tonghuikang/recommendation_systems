@@ -1,0 +1,19 @@
+推荐系统的链路 (Recommendation System Pipeline) - Highlighted Coarse Ranking
+
+This slide shows the same recommendation pipeline with the 粗排 (Coarse Ranking) stage highlighted, emphasizing its role in the system:
+
+Pipeline Flow with Coarse Ranking Emphasis:
+几亿物品 → 召回 → 几千物品 → **粗排** → 几百物品 → 精排 → 几百物品 → 重排 → 几十物品
+
+Highlighted Stage:
+- **粗排 (Coarse Ranking)**: The second major filtering and ranking stage that reduces thousands of items to hundreds
+
+Key Points about Coarse Ranking Stage:
+- Operates on the output of the recall stage (thousands of items)
+- Provides the first level of ranking/scoring for candidate items
+- Still needs to be computationally efficient to handle thousands of items
+- Uses simpler ranking models compared to fine ranking
+- Further narrows down the candidate set for more expensive fine ranking algorithms
+- Balances between computational cost and ranking quality
+
+The highlighting indicates this stage is the current focus, showing its position as an intermediate step between initial recall and detailed fine ranking in the recommendation pipeline.

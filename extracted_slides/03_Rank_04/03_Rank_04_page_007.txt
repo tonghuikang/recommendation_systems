@@ -1,0 +1,18 @@
+Neural Network Usage Framework:
+
+Same neural network architecture diagram with two usage scenarios highlighted:
+
+用作推理，          用作训练
+预估时长 t          (For inference,     For training
+                    predict duration t)
+
+exp(z) ← (blue dot)     p = exp(z)/(1+exp(z)) ← (green dot)
+
+The diagram shows:
+- Multiple fully connected layers (全连接层) feeding into neural network (神经网络)
+- Output z (red dot) 
+- Feature types at bottom: 用户特征 (User Features), 视频特征 (Video Features), 统计特征 (Statistical Features), 场景特征 (Context Features)
+
+Two modes of operation:
+1. For inference: Use exp(z) to predict watch time t
+2. For training: Use sigmoid function p = exp(z)/(1+exp(z))

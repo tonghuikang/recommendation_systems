@@ -1,0 +1,6 @@
+交叉层 (Cross Layer)
+
+[MATHEMATICAL FORMULA with Hadamard Product highlighted:
+xᵢ₊₁ = x₀ ∘ [W • xᵢ + b] + xᵢ
+
+The x₀ input and operation are highlighted, with "Hadamard Product" label below]

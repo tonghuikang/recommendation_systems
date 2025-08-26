@@ -1,0 +1,11 @@
+# Author-side Metrics (作者侧指标)
+
+## Average Publishing Volume (人均发布量)
+
+• **Formula**: Average publishing volume = Number of notes published per day / Daily active users
+  (人均发布量 = 当日发布笔记数 / 日活人数)
+
+• **Example**:
+  • Daily published notes = 2 million (每日发布笔记数 = 200万)
+  • Daily active users = 20 million (日活人数 = 2000万)
+  • Average publishing volume = 200 / 2000 = 0.1 (人均发布量 = 200 / 2000 = 0.1)

@@ -1,0 +1,18 @@
+# 基本想法 (Basic Idea)
+
+## User Embedding Parameters:
+• 用户 embedding 参数矩阵记作 **A**。第 u 号用户对应矩阵第 u 列，记作向量 **a_u**。
+
+## Item Embedding Parameters:
+• 物品 embedding 参数矩阵记作 **B**。第 i 号物品对应矩阵第 i 列，记作向量 **b_i**。
+
+## Inner Product Prediction:
+• 内积 ⟨**a_u**, **b_i**⟩ 是第 u 号用户对第 i 号物品兴趣的预估值。
+
+## Training Objective:
+• 训练模型的目的是学习矩阵 **A** 和 **B**，使得预估值尽可能接近实观测的兴趣分数。
+
+## Key Concepts:
+- Inner product ⟨a_u, b_i⟩ predicts user u's interest in item i
+- Training aims to learn matrices A and B
+- Goal is to make predictions close to observed interest scores

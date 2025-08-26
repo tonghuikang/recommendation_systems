@@ -1,0 +1,34 @@
+Chinese Short Video App Scoring Formula
+
+**Title:** 融合预估分数 (Fusion of Predictive Scores)
+
+**Case Study:** 国内某短视频APP的融分公式
+(Scoring formula from a domestic Chinese short video app)
+
+**Key Points:**
+
+1. **Ranking Strategy:**
+   - 根据预估时长 p_time，对 n 篇候选视频做排序。
+   (Based on predicted watch time p_time, rank n candidate videos.)
+
+2. **Ranking-Based Scoring:**
+   - 如果某视频排名第 r_time，则它得分 1/(r_time^α + β)。
+   (If a video ranks at position r_time, it gets score 1/(r_time^α + β).)
+
+3. **Multi-Signal Processing:**
+   - 对点击、点赞、转发、评论等预估分数做类似处理。
+   (Apply similar processing to predicted scores for clicks, likes, shares, comments, etc.)
+
+4. **Final Fusion Score:**
+   - 最终融合分数：
+   (Final fusion score:)
+   
+   **Formula (with blue highlighting):**
+   w₁/(r_time^α₁ + β₁) + w₂/(r_click^α₂ + β₂) + w₃/(r_like^α₃ + β₃) + ...
+
+**Unique Approach:**
+- **Rank-Based Scoring:** Uses ranking positions instead of raw probability values
+- **Inverse Relationship:** Higher rank (lower number) gives higher score
+- **Diminishing Returns:** Power function creates non-linear relationship with rank
+- **Regularization:** β parameters prevent division by zero and control score range
+- **Multi-Objective:** Combines rankings from different prediction tasks

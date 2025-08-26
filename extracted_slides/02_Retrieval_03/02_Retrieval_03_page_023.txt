@@ -1,0 +1,23 @@
+“用户→物品”的索引
+
+用户：        （物品ID，兴趣分数）的列表：
+
+Diagram Description:
+This slide illustrates the "User → Item" index structure with concrete examples:
+
+Two users are shown:
+1. First user (person with laptop): Has a list of items with interest scores:
+   - Red video item: score 2
+   - Black video item: score 1  
+   - Blue video item: score 4
+   - Orange video item: score 3
+   - ... (indicating more items)
+
+2. Second user (woman): Has a different list of items with interest scores:
+   - Brown video item: score 3
+   - Green video item: score 1
+   - Black video item: score 1
+   - Light blue video item: score 1
+   - ... (indicating more items)
+
+The dots at the bottom indicate there are more users in the system. This demonstrates how each user maps to their personalized list of items with corresponding interest scores.

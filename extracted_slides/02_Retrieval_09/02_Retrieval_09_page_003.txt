@@ -1,0 +1,12 @@
+双塔模型的问题
+
+• 推荐系统的头部效应严重：
+  • 少部分物品占据大部分点击。
+  • 大部分物品的点击次数不高。
+
+• 高点击物品的表征学得好，长尾物品的表征学得不好。
+
+• 自监督学习：做 data augmentation，更好地学习长尾物品的向量表征。
+
+参考文献：
+• Tiansheng Yoo et al. Self-supervised Learning for Large-scale Item Recommendations. In CIKM, 2021.

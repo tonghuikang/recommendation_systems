@@ -1,0 +1,17 @@
+Summary (小结)
+
+1. SENet 对离散特征做 field-wise 加权。
+(SENet performs field-wise weighting on discrete features.)
+
+2. Field 间特征交叉：
+(Inter-field feature interactions:)
+
+• 向量内积
+(Vector inner product)
+
+• 哈达玛乘积  
+(Hadamard product)
+
+• Bilinear cross
+
+This summarizes the key concepts covered in the presentation about SENet and bilinear cross methods for cross-domain recommendation systems.

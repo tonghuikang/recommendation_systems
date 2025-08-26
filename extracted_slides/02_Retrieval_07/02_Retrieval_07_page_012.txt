@@ -1,0 +1,22 @@
+简单负样本：Batch内负样本
+
+用户：           物品：
+[用户图标] ——点击——> [视频图标]
+
+• 物品i被抽样到的概率：
+  pi ∝ 点击次数
+
+[用户图标] ——点击——> [视频图标]
+
+• 预估用户对物品i的兴趣：
+  cos(a, bi)
+
+⋮                ⋮
+
+• 做训练的时候，调整为：
+  cos(a, bi) - log pi
+
+[用户图标] ——点击——> [视频图标]
+
+参考文献：
+• Xinyang Yi et al. Sampling-Bias-Corrected Neural Modeling for Large Corpus Item Recommendations. In RecSys, 2019.

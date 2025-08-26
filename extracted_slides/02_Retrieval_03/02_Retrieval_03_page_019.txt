@@ -1,0 +1,23 @@
+小结
+
+• UserCF 的基本思想：
+  • 如果用户 user1 跟用户 user2 相似，而且 user2 喜欢某物品，
+  • 那么用户 user1 也很可能喜欢该物品。
+
+• 预估用户 user 对候选物品 item 的兴趣：
+  ∑j sim(user, userj) × like(userj, item)
+
+• 计算两个用户的相似度：
+  • 把每个用户表示为一个稀疏向量，向量每个元素对应一个物品。
+  • 相似度 sim 就是两个向量夹角的余弦。
+
+Summary Content:
+This slide completes the UserCF summary by adding the explanation of user similarity calculation:
+
+1. Basic UserCF concept (same as previous)
+2. Prediction formula (same as previous, with sim(user, userj) highlighted in red box)
+3. User similarity calculation method:
+   - Represent each user as a sparse vector, where each element corresponds to an item
+   - Similarity sim is the cosine of the angle between two vectors
+
+This provides a complete mathematical framework understanding of user-based collaborative filtering.

@@ -1,0 +1,15 @@
+离散特征处理
+
+王树森
+ShusenWang@xiaohongshu.com
+
+http://wangshusen.github.io/
+
+Title Slide Description:
+This is the title slide for a presentation about "离散特征处理" (Discrete Feature Processing) by:
+- Instructor: 王树森 (Wang Shusen)
+- Email: ShusenWang@xiaohongshu.com  
+- Website: http://wangshusen.github.io/
+- Small red logo appears in bottom right corner
+
+This presentation focuses on handling discrete/categorical features in machine learning and recommendation systems.

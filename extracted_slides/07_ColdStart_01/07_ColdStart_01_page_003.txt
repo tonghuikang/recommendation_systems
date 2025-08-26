@@ -1,0 +1,7 @@
+# New Note Cold Start (新笔记冷启动)
+
+## Why do we need special treatment for new notes? (为什么要特殊对待新笔记？)
+
+• New notes have limited interaction with users, leading to high difficulty and poor effectiveness in recommendation. (新笔记缺少与用户的交互，导致推荐的难度大、效果差。)
+
+• Supporting newly published, low-exposure notes can enhance authors' publishing intention. (扶持新发布、低曝光的笔记，可以增强作者发布意愿。)

@@ -1,0 +1,11 @@
+Bloom Filter
+
+• Bloom filter把物品集合表征为一个m维二进制向量。
+
+• 每个用户有一个曝光物品的集合，表征为一个向量，需要m bit的存储。
+
+• Bloom filter有k个哈希函数，每个哈希函数把物品ID映射成介于0和m-1之间的整数。
+
+参考文献：
+
+• Burton H. Bloom. Space/time trade-offs in hash coding with allowable errors. Communications of the ACM, 1970.

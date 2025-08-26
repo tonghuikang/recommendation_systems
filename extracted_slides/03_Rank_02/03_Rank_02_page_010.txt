@@ -1,0 +1,27 @@
+Multi-Task Learning - Complete Architecture with Outputs
+
+This slide presents the full multi-task learning pipeline with final outputs:
+
+**Left Task - CTR Prediction:**
+- Formula: p₁x₁ + p₂x₂ + p₃x₃
+- Orange weighted combination vector
+- Orange 神经网络 (Neural Network)
+- Output: 点击率 (Click-Through Rate)
+
+**Right Task - Like Rate Prediction:**
+- Formula: q₁x₁ + q₂x₂ + q₃x₃
+- Green weighted combination vector
+- Green 神经网络 (Neural Network)
+- Output: 点赞率 (Like Rate)
+
+**Shared Foundation:**
+- Base representations: x₁, x₂, x₃ (purple vectors)
+- 对向量做加权平均 (Weighted vector averaging) for both branches
+- Weight vectors: [p₁, p₂, p₃] and [q₁, q₂, q₃] (both labeled 权重)
+
+**Multi-Task Learning Advantages:**
+1. **Shared Representations:** Both tasks benefit from common learned features
+2. **Task-Specific Weights:** Each task optimizes its own attention mechanism
+3. **Joint Training:** Models learn complementary signals from both objectives
+4. **Efficiency:** Shared parameters reduce model size while improving performance
+5. **Transfer Learning:** Knowledge from one task helps improve the other

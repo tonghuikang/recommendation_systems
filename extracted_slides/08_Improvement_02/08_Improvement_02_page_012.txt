@@ -1,0 +1,23 @@
+# Item-to-Item (I2I) Recommendation
+
+## Introduction to I2I Systems
+
+### Core Concept:
+**Item-to-Item (I2I)** is a fundamental recommendation model class based on similar item recall.
+
+This slide introduces the basic concept of Item-to-Item collaborative filtering, which forms the foundation for many recommendation systems. I2I systems focus on finding and recommending items that are similar to items a user has already interacted with.
+
+### Key Characteristics:
+- **Similarity-Based**: Relies on computing similarities between items
+- **Collaborative Filtering**: Uses collective user behavior patterns
+- **Scalable**: Can handle large item catalogs efficiently
+- **Interpretable**: Easy to explain recommendations to users
+
+### Application Context:
+I2I models are widely used in various recommendation scenarios including:
+- E-commerce product recommendations
+- Content recommendations (articles, videos, music)
+- Similar item suggestions
+- Cross-selling and upselling strategies
+
+The slide sets up the foundation for more detailed discussion of I2I implementation methods and variations that will follow in subsequent slides.

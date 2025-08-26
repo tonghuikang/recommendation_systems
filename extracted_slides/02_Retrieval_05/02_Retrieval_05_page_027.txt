@@ -1,0 +1,30 @@
+# Multi-directional Angular Partitioning
+
+## Enhanced Partitioning Scheme
+
+This shows a more complex angular partitioning system:
+
+### Directional Vectors:
+- **Multiple colored arrows** radiating from the center origin
+- **Green arrows**: Upper-left directions (3 arrows)
+- **Orange arrows**: Right direction (2 arrows)
+- **Blue arrow**: Lower-left direction
+- **Purple arrow**: Lower direction
+- **Red arrow**: Lower-right direction
+- **Cyan arrow**: Left direction
+
+### Advanced Search Strategy:
+- **Multi-directional search**: Query can be matched against multiple relevant directions
+- **Hierarchical partitioning**: Different angular granularities for different regions
+- **Adaptive search**: System can choose optimal directions based on query characteristics
+
+### Implementation Benefits:
+- More precise partitioning than simple radial division
+- Better handling of query vectors that fall between major partitions
+- Improved approximation quality while maintaining efficiency
+- Can be adapted for different embedding space densities
+
+### Use in Practice:
+- This type of partitioning is used in advanced ANN systems
+- Helps balance search accuracy with computational efficiency
+- Particularly useful for high-dimensional embedding spaces

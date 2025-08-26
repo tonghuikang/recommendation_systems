@@ -1,0 +1,6 @@
+交叉层 (Cross Layer)
+
+[MATHEMATICAL FORMULA with highlighted fully connected layer:
+xᵢ₊₁ = x₀ ∘ [W • xᵢ + b] + xᵢ
+
+The fully connected layer portion [W • xᵢ + b] is highlighted in gray box labeled "全连接层" (Fully Connected Layer)]

@@ -1,0 +1,16 @@
+Feature Interaction (特征交叉)
+
+Bilinear Cross (内积) with Highlighted Weight Matrix:
+
+Formula: f_{ij} = x_i^T · W_{ij} · x_j
+
+Components:
+• x_i^T: blue vector (transposed)
+• W_{ij}: gray weight matrix (highlighted with blue border)
+• x_j: red vector  
+• f_{ij}: purple scalar result
+
+Output: m fields → m²/2 个参数矩阵
+(m fields → m²/2 parameter matrices)
+
+The weight matrix W_{ij} is emphasized, showing it's a learnable parameter that captures the interaction between fields i and j.

@@ -1,0 +1,12 @@
+损失函数
+
+向量 yᵢ : 0, 0, ⋯, 1, ⋯, 0
+
+CrossEntropyLoss(yᵢ, pᵢ) = -log p_{i,i} = -log(exp(cos(aᵢ,bᵢ))/∑ⁿⱼ₌₁ exp(cos(aᵢ,bⱼ)))
+
+向量 pᵢ : p_{i,1}, p_{i,2}, ⋯, p_{i,i}, ⋯, p_{i,n}
+
+Softmax激活函数
+
+cos(aᵢ, b₁), cos(aᵢ, b₂), ⋯, cos(aᵢ, bᵢ), ⋯, cos(aᵢ, bₙ)
+                                正样本

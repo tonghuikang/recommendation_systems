@@ -1,0 +1,28 @@
+# Ranking Label Methods: Ranking Models
+
+## 涨指标的方法：排序模型
+
+### Course Title and Instructor
+**王树森 (Wang Shusen)**
+
+### Course Website
+**http://wangshusen.github.io/**
+
+### Overview
+This presentation focuses on methods to improve performance metrics through ranking model enhancements. The title suggests this is about systematic approaches to boost key performance indicators (KPIs) in recommendation systems through advanced ranking techniques.
+
+### Key Focus Areas:
+- **Ranking Model Improvements**: Advanced techniques to enhance ranking performance
+- **Metric Optimization**: Systematic approaches to improve recommendation system KPIs
+- **Practical Implementation**: Real-world strategies for ranking model deployment
+
+### Context
+This appears to be part of a comprehensive series on recommendation system improvements, specifically focusing on the ranking stage of the recommendation pipeline. The ranking stage is crucial as it determines the final order of items presented to users, directly impacting user engagement and satisfaction metrics.
+
+### Expected Content:
+- Advanced ranking algorithms and architectures
+- Multi-objective optimization strategies
+- Feature engineering for ranking models
+- Training methodologies for ranking systems
+- Online learning and adaptation techniques
+- Performance evaluation and metric optimization

@@ -1,0 +1,23 @@
+推荐系统的链路 (Recommendation System Pipeline)
+
+This slide introduces the multi-stage recommendation system pipeline, showing the flow from initial content pool to final user recommendations:
+
+Pipeline Flow:
+几亿物品 → 召回 → 几千物品 → 粗排 → 几百物品 → 精排 → 几百物品 → 重排 → 几十物品
+
+Stage-by-Stage Breakdown:
+1. 几亿物品 (Hundreds of millions of items) - Initial content pool
+2. 召回 (Recall/Retrieval) - First filtering stage
+3. 几千物品 (Thousands of items) - After recall filtering  
+4. 粗排 (Coarse Ranking) - Initial ranking stage
+5. 几百物品 (Hundreds of items) - After coarse ranking
+6. 精排 (Fine Ranking) - Detailed ranking stage  
+7. 几百物品 (Hundreds of items) - After fine ranking
+8. 重排 (Re-ranking) - Final optimization stage
+9. 几十物品 (Tens of items) - Final recommendations shown to user
+
+Key Insights:
+- Massive scale reduction: From hundreds of millions to tens of items
+- Multi-stage filtering and ranking approach for computational efficiency
+- Each stage progressively refines the selection with more sophisticated but computationally expensive algorithms
+- The funnel structure balances recommendation quality with system performance

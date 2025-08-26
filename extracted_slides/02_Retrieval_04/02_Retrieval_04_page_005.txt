@@ -1,0 +1,21 @@
+例1：性别特征
+
+• 性别：男、女两种类别。
+• 字典：男 → 1，女 → 2。
+• One-hot编码：用 2 维向量表示性别。
+  • 未知 → 0 → [0, 0]
+  • 男  → 1 → [1, 0]
+  • 女  → 2 → [0, 1]
+
+Content Description:
+This slide provides Example 1: Gender Feature using one-hot encoding.
+
+The process shown:
+1. **Categories**: Male, Female (2 categories)
+2. **Dictionary mapping**: Male → 1, Female → 2
+3. **One-hot encoding**: Use 2-dimensional vector to represent gender
+   - Unknown → 0 → [0, 0] (all zeros for missing values)
+   - Male → 1 → [1, 0] (first position is 1)
+   - Female → 2 → [0, 1] (second position is 1)
+
+The red highlighting emphasizes the one-hot vectors, showing how categorical data is converted to sparse binary vectors.

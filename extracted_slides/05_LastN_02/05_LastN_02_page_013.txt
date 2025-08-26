@@ -1,0 +1,17 @@
+DIN有效的原因
+
+[2D scatter plot diagram showing different item categories:]
+
+Vertical axis: Arrow pointing up
+Horizontal axis: Arrow pointing right
+
+Categories plotted:
+- 美妆 (Beauty): Red triangles clustered in upper left quadrant
+- 美食 (Food): Red circles clustered in upper right quadrant  
+- 汽车 (Cars): Orange squares clustered in lower left quadrant
+
+Special markers:
+- 简单平均 (Simple Average): Purple star in center-left
+- 候选物品（美食）(Candidate Item - Food): Blue star in upper right quadrant
+
+The diagram illustrates why DIN is effective by showing how different item categories cluster in the embedding space, and how attention mechanism can focus on relevant items rather than using simple averaging.

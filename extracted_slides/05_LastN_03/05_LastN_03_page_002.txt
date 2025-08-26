@@ -1,0 +1,13 @@
+DIN模型
+
+[Architecture diagram showing:]
+
+Left side (红色虚线框):
+- Four red vectors labeled x₁, x₂, x₃, xₙ
+- Text: "用户LastN交互记录" (User LastN Interaction Records)
+
+Right side (红色虚线框):
+- One blue vector labeled q
+- Text: "候选物品" (Candidate Item)
+
+This illustrates the basic DIN model setup with user's LastN interaction records and candidate item.

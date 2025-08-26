@@ -1,0 +1,12 @@
+Cross Network (交叉网络)
+
+Full cross network architecture with three layers:
+- Input: x₀ (red vector)
+- First cross layer (交叉层) with parameters: W₀, b₀ → x₁
+- Second cross layer (交叉层) with parameters: W₁, b₁ → x₂  
+- Third cross layer (交叉层) with parameters: W₂, b₂ → x₃
+
+The diagram illustrates the complete cross network structure where:
+- Each cross layer takes the original input x₀ and the previous layer's output
+- The network builds increasingly complex feature interactions layer by layer
+- All layers maintain residual connections with both the original input and previous outputs

@@ -1,0 +1,23 @@
+简单负样本：Batch内负样本
+
+用户：           物品：
+[用户图标] ——点击——> [视频图标]
+
+• 一个物品出现在batch内的概
+  率 ∝ 点击次数。
+
+[用户图标] ——点击——> [视频图标]
+
+• 物品成为负样本的概率本该是
+  ∝ (点击次数)^0.75，但在这里是
+  ∝ 点击次数。
+
+⋮                ⋮
+
+• 热门物品成为负样本的概率过
+  大。
+
+[用户图标] ——点击——> [视频图标]
+
+参考文献：
+• Xinyang Yi et al. Sampling-Bias-Corrected Neural Modeling for Large Corpus Item Recommendations. In RecSys, 2019.

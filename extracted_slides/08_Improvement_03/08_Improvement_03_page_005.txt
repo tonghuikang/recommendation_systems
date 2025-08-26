@@ -1,0 +1,42 @@
+# Multi-Task Fine Ranking Architecture
+
+## Neural Network Architecture for Fine Ranking
+
+### Architecture Components:
+
+#### Multi-Task Prediction Heads:
+- **预估点击率 (Click Rate Prediction)**: CTR estimation
+- **预估点赞率 (Like Rate Prediction)**: Engagement prediction  
+- **预估转发率 (Share Rate Prediction)**: Viral potential estimation
+- **预估评论率 (Comment Rate Prediction)**: Discussion engagement
+
+#### Network Structure:
+- **全连接网络 (Fully Connected Network)**: Dense layers for feature interaction
+- **Concatenation Layer**: Feature fusion across different modalities
+- **Embedding Layers**: Dense representations for categorical features
+
+#### Feature Types:
+- **离散特征 (Discrete Features)**: Categorical variables (shown as green circles)
+- **连续特征 (Continuous Features)**: Numerical variables (shown as blue rectangles)
+
+### Technical Architecture:
+1. **Feature Processing**: 
+   - Discrete features → Embedding layers
+   - Continuous features → Direct input
+   
+2. **Feature Combination**:
+   - Embedding + Fully Connected Network processing for discrete features
+   - Direct fully connected processing for continuous features
+   
+3. **Multi-Task Learning**:
+   - Shared representation learning
+   - Task-specific prediction heads
+   - Joint optimization across multiple objectives
+
+### Key Benefits:
+- **Shared Learning**: Common patterns across different engagement types
+- **Task Regularization**: Prevents overfitting to single metrics
+- **Efficient Architecture**: Shared computation for multiple predictions
+- **Production Ready**: Scalable for real-time inference
+
+This architecture enables simultaneous optimization for multiple engagement metrics while sharing computational resources and learned representations.

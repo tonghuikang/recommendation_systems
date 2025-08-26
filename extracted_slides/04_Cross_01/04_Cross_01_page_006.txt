@@ -1,0 +1,12 @@
+二阶交叉特征
+
+• 线性模型 + 二阶交叉特征：
+  p = b + Σᵢ₌₁ᵈ wᵢxᵢ + Σᵢ₌₁ᵈ Σⱼ₌ᵢ₊₁ᵈ uᵢⱼxᵢxⱼ.
+  [Interaction term highlighted in blue]
+
+[DIAGRAM SHOWING MATRIX DECOMPOSITION:
+- Left side: "矩阵 U" (Matrix U) - d行×d列 (d rows × d columns) green matrix
+- Approximately equals (≈) symbol
+- Middle: "矩阵 V" (Matrix V) - d行×k列 (d rows × k columns) blue matrix
+- Multiplication dot (•)
+- Right side: "矩阵 Vᵀ" (Matrix V transpose) - k行×d列 (k rows × d columns) blue matrix]

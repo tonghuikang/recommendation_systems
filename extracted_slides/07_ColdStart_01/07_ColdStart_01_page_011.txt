@@ -1,0 +1,21 @@
+# User-side Metrics (用户侧指标)
+
+## New Notes Consumption Metrics (新笔记的消费指标)
+
+• **Primary metrics**: Click-through rate and interaction rate for new notes.
+  (新笔记的点击率、交互率。)
+
+• **Problem**: The exposure baseline is very large.
+  (问题：曝光的基尼系数很大。)
+
+• A small number of head new notes occupy most of the exposure.
+  (少数头部新笔记占据了大部分的曝光。)
+
+• **Analysis approach**: Separately examine high-exposure and low-exposure new notes.
+  (分别考察高曝光、低曝光新笔记。)
+
+  • **High exposure**: For example, >1000 exposures.
+    (高曝光：比如>1000次曝光。)
+  
+  • **Low exposure**: For example, <1000 exposures.
+    (低曝光：比如<1000次曝光。)

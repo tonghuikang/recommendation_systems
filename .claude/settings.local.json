@@ -6,6 +6,6 @@
       "Bash(uv pip install:*)",
       "Bash(python:*)"
     ],
-    "deny": []
+    "deny": ["Bash(find:*)"]
   }
 }

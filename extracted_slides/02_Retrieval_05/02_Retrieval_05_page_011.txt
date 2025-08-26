@@ -1,0 +1,20 @@
+# 矩阵补充 (Matrix Completion)
+
+## Matrix Representation:
+A sparse user-item rating matrix with the following characteristics:
+
+### Matrix Structure:
+- **每行对应一个用户** (Each row corresponds to one user)
+- **每列对应一个物品** (Each column corresponds to one item)
+
+### Rating Values:
+The matrix contains various integer ratings from 0 to 4:
+- Values include: 0, 1, 2, 3, 4
+- Most cells are empty (sparse matrix)
+- Green cells contain observed ratings
+- Gray cells represent unobserved interactions
+
+### Sample Data Points:
+- Multiple entries of 0, 1, 2, 3, 4 distributed across the matrix
+- Sparse structure with many missing values
+- Each non-empty cell represents a user-item interaction with its corresponding rating

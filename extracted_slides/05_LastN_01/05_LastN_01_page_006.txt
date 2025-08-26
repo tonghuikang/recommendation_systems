@@ -1,0 +1,16 @@
+小红书的实践
+
+[Architecture diagram showing multiple LastN features:]
+
+Three parallel branches:
+1. 点击的LastN (Clicked LastN) - Red vectors and video icons
+2. 点赞的LastN (Liked LastN) - Green vectors and video icons  
+3. 收藏的LastN (Favorited LastN) - Blue vectors and video icons
+
+Each branch shows:
+- Top: Average pooling (平均)
+- Middle: Multiple embeddings with "..." indicating continuation
+- Bottom: Video/media icons representing user interactions
+- "Embedding" labeled on the side
+
+All three branches are enclosed in red boxes, indicating they are used together as features.

@@ -1,0 +1,3 @@
+# Author-side Metrics (作者侧指标)
+
+[Note: This is a section header slide with minimal content, introducing the topic of author-side metrics for cold start evaluation.]

@@ -1,0 +1,14 @@
+LastN特征
+
+• LastN：用户最近的 n 次交互（点击、点赞等）的物品 ID。
+
+• 对 LastN 物品 ID 做 embedding，得到 n 个向量。
+
+• 把 n 个向量取平均，作为用户的一种特征。
+
+• 适用于召回双塔模型、粗排三塔模型、精排模型。
+
+
+参考文献：
+
+• Covington, Adams, and Sargin. Deep neural networks for YouTube recommendations. In ACM Conference on Recommender Systems, 2016.

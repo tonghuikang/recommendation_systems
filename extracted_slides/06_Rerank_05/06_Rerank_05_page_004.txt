@@ -1,0 +1,14 @@
+行列式点过程 (DPP)
+
+• DPP 是一种传统的统计机器学习方法：
+
+    argmax log det(V_S^T V_S).
+    S:|S|=k
+
+• Hulu 的论文[1] 将 DPP 应用在推荐系统：
+
+    argmax θ · (Σ_{j∈S} reward_j) + (1 - θ) · log det(V_S^T V_S).
+    S:|S|=k
+
+参考文献：
+1. Chen et al. Fast greedy map inference for determinantal point process to improve recommendation diversity. In NIPS, 2018.

@@ -1,0 +1,14 @@
+计算用户相似度
+
+• 用户 u1 喜欢的物品记作集合 J1。
+• 用户 u2 喜欢的物品记作集合 J2。  
+• 定义交集 I = J1 ∩ J2。
+
+Content Description:
+This slide introduces the mathematical framework for calculating user similarity. It defines:
+
+1. J1: The set of items that user u1 likes
+2. J2: The set of items that user u2 likes
+3. I: The intersection set I = J1 ∩ J2 (items liked by both users)
+
+This sets up the foundation for similarity calculation by identifying shared preferences between users through set intersection.

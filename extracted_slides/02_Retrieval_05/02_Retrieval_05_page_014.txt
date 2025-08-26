@@ -1,0 +1,17 @@
+# 在实践中效果不好...... (Poor Performance in Practice)
+
+## 缺点1：仅用ID embedding，没利用物品、用户属性。
+
+## 缺点2：负样本的选取方式不对。
+
+### Sample Types:
+• 样本：用户——物品的二元组，记作 (u, i)。
+
+• 正样本：曝光之后，有点击、交互。（正确的做法）
+
+• 负样本：曝光之后，没有点击、交互。（错误的做法）
+
+## Key Problem:
+- Incorrect negative sampling approach
+- Should only consider items that were exposed but not interacted with
+- Treating all non-exposed items as negative samples is problematic

@@ -1,0 +1,16 @@
+Feature Interaction (特征交叉)
+
+Bilinear Cross (哈达玛乘积) with Highlighted Components:
+
+Formula: f_{ij} = x_i ∘ [W_{ij} · x_j]
+
+Components (with blue border highlighting):
+• f_{ij}: purple vector result (highlighted)
+• x_i: blue vector (highlighted)  
+• W_{ij}: gray weight matrix
+• x_j: red vector
+
+Output: m fields → m² 个向量
+(m fields → m² vectors)
+
+The highlighting emphasizes the vector nature of both the input field x_i and the resulting interaction f_{ij}, showing how this method preserves the vector structure in the output.

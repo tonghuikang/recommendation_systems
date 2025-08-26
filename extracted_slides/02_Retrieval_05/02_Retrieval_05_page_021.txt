@@ -1,0 +1,20 @@
+# 线上服务 (Online Service) - Complete Process
+
+## Step 1: User Embedding Lookup
+1. 把用户 ID 作为 key，查询 key-value 表，得到该用户的向量，记作 **a**。
+
+## Step 2: Nearest Neighbor Search
+2. 最近邻查找：查找用户最有可能感兴趣的 k 个物品，作为召回结果。
+
+### Detailed Similarity Calculation:
+• 第 i 号物品的 embedding 向量记作 **b_i**。
+• 内积 ⟨**a**, **b_i**⟩ 是用户对第 i 号物品兴趣的预估。
+• 返回内积最大的 k 个物品。
+
+## Computational Complexity Issue:
+**如果放算所有物品，时间复杂度正比于物品数量。**
+
+### Performance Challenge:
+- Brute force search through all items is computationally expensive
+- Time complexity scales linearly with number of items
+- Need efficient indexing and search strategies for large catalogs

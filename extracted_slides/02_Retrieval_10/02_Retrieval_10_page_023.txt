@@ -1,0 +1,10 @@
+Beam Search
+
+• 用户对 path = [a, b, c] 兴趣：
+    p(a, b, c|x) = p₁(a|x) × p₂(b|a; x) × p₃(c|a, b; x).
+
+• 最优的路径：
+    [a*, b*, c*] = argmax p(a, b, c | x)
+                    a,b,c
+
+• 贪心算法（beam size = 1）选中的路径 [a, b, c] 未必是最优的路径。

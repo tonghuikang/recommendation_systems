@@ -1,0 +1,12 @@
+LHUC in Speech Recognition (语音识别中的LHUC)
+
+Generalized LHUC architecture overview:
+
+Shows pink vectors representing multiple layers/stages with:
+- 神经网络 (Neural Network) components at bottom left and right
+
+The diagram illustrates the general concept with:
+[多个全连接层] → [Sigmoid 乘以2]
+(Multiple fully connected layers → Sigmoid times 2)
+
+This represents the abstract architecture of LHUC where multiple neural network stages can be modulated through the learned gating mechanism.

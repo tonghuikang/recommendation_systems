@@ -1,0 +1,3 @@
+# Content-side Metrics (内容侧指标)
+
+[Note: This is a section header slide with minimal content, introducing the topic of content-side metrics for cold start evaluation.]

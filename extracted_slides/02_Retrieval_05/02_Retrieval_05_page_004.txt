@@ -1,0 +1,24 @@
+# Matrix Completion with Shared Parameters
+
+## Architecture:
+1. **内积 (Inner Product)**: (a, b)
+   - Position: Top center with purple node
+
+2. **User Side (Left)**:
+   - Blue embedding vector **a**
+   - Embedding Layer (灰色方框)
+   - Blue circle: 用户ID (User ID)
+
+3. **Item Side (Right)**:
+   - Red embedding vector **b**
+   - Embedding Layer (灰色方框)  
+   - Red circle: 物品ID (Item ID)
+
+4. **Key Feature**:
+   - **不共享参数** (Do Not Share Parameters) - text between the two embedding layers
+   - Blue curved line connecting both embedding layers indicating the relationship
+
+## Technical Details:
+- Separate embedding layers with independent parameters
+- Blue boundary encompasses both sides showing the overall architecture
+- Different parameter sets for user and item embeddings

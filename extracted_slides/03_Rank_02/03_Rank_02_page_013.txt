@@ -1,0 +1,26 @@
+Polarization Example - Left Task Focus
+
+**Definition:**
+极化(polarize): Softmax输出值一个接近1，其余接近0。
+(Polarization: Softmax output values where one approaches 1, others approach 0.)
+
+**Example Demonstration:**
+- **Left Task (Orange Branch):** Shows polarized weights [0, 0, 1]
+  - Only the third representation (x₃) receives attention (weight = 1)
+  - The first two representations (x₁, x₂) are ignored (weight = 0)
+  - Highlighted by blue box around x₃ pathway
+
+- **Right Task (Green Branch):** Shows balanced weights [0, 1, 0]
+  - Only the second representation (x₂) receives attention (weight = 1)
+  - The other representations are ignored
+
+**Polarization Effects:**
+1. **Loss of Information:** The model ignores potentially useful representations
+2. **Reduced Robustness:** Over-reliance on a single feature pathway
+3. **Poor Generalization:** Model becomes too specialized on specific patterns
+4. **Training Instability:** Extreme weights can cause gradient issues
+
+**Multi-Task Context:**
+- Both tasks are experiencing polarization but focusing on different representations
+- This defeats the purpose of shared learning in multi-task architecture
+- The model fails to leverage the full potential of all learned representations

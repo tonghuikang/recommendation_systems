@@ -1,0 +1,29 @@
+北极星指标 (North Star Metrics)
+
+This slide outlines the key North Star metrics that recommendation systems focus on to measure overall platform success:
+
+• 用户规模 (User Scale):
+  • 日活用户数 (DAU) - Daily Active Users
+  • 月活用户数 (MAU) - Monthly Active Users
+
+• 消费 (Consumption):
+  • 人均使用推荐的时长 - Average time spent using recommendations per user
+  • 人均阅读笔记的数量 - Average number of notes read per user
+
+• 发布 (Publishing):
+  • 发布渗透率 - Publishing penetration rate
+  • 人均发布量 - Average publishing volume per user
+
+Key Insights:
+1. User Scale Metrics: Focus on both daily and monthly active users to measure platform growth and stickiness
+
+2. Consumption Metrics: Track how much time users spend with recommended content and how many pieces of content they consume, indicating recommendation system effectiveness
+
+3. Publishing Metrics: Monitor what percentage of users create content (penetration rate) and how much content each user creates on average, which feeds back into the recommendation ecosystem
+
+These North Star metrics help guide the overall strategy of recommendation systems by:
+- Measuring platform health and growth (user scale)
+- Evaluating recommendation quality and engagement (consumption)
+- Ensuring content supply for the recommendation engine (publishing)
+
+The balance between these three categories is crucial for a sustainable recommendation platform ecosystem.

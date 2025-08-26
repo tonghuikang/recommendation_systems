@@ -1,0 +1,13 @@
+Beam Search (size = 1)
+
+L1                    L2
+
+1                     1
+2                     2
+3                     3
+4                     4  [red highlighted]
+5 ----[red arrow]--->  5
+⋮                     ⋮
+K                     K
+
+[Diagram shows red arrow connecting red node 5 from L1 to red node 4 in L2, with gray arrows to other nodes]

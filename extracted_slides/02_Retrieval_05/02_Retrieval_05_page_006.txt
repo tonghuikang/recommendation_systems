@@ -1,0 +1,17 @@
+# 基本想法 (Basic Idea)
+
+## User Embedding Parameters:
+• 用户 embedding 参数矩阵记作 **A**。第 u 号用户对应矩阵第 u 列，记作向量 **a_u**。
+
+## Item Embedding Parameters:
+• 物品 embedding 参数矩阵记作 **B**。第 i 号物品对应矩阵第 i 列，记作向量 **b_i**。
+
+## Visual Representation:
+- **Matrix A** (Left): Blue-tinted matrix with highlighted blue column representing a_u
+- **Matrix B** (Right): Red-tinted matrix with highlighted red column representing b_i
+
+## Key Points:
+- User embeddings stored as columns in matrix A
+- Item embeddings stored as columns in matrix B
+- Each user u has corresponding embedding vector a_u
+- Each item i has corresponding embedding vector b_i

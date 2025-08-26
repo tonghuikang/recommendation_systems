@@ -1,0 +1,16 @@
+Feature Interaction (特征交叉)
+
+Bilinear Cross (内积):
+
+Formula: f_{ij} = x_i^T · W_{ij} · x_j
+
+Components:
+• x_i^T: blue vector (transposed)
+• W_{ij}: gray weight matrix  
+• x_j: red vector
+• f_{ij}: purple scalar result
+
+Output: m fields → m² 个交叉特征 (实数)
+(m fields → m² cross features as real numbers)
+
+This shows bilinear interaction where a learned weight matrix W_{ij} modulates the interaction between field i and field j.

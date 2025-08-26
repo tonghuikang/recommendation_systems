@@ -1,0 +1,10 @@
+# Summary (总结)
+
+• **Author-side metrics**: Publishing penetration rate, average publishing volume.
+  (作者侧指标：发布渗透率、人均发布量。)
+
+• **User-side metrics**: New notes consumption metrics, overall consumption metrics.
+  (用户侧指标：新笔记消费指标、大盘消费指标。)
+
+• **Content-side metrics**: Proportion of popular notes.
+  (内容侧指标：高热笔记占比。)

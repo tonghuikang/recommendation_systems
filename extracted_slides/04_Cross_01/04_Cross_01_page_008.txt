@@ -1,0 +1,11 @@
+二阶交叉特征
+
+• 线性模型 + 二阶交叉特征：
+  p = b + Σᵢ₌₁ᵈ wᵢxᵢ + Σᵢ₌₁ᵈ Σⱼ₌ᵢ₊₁ᵈ uᵢⱼxᵢxⱼ.
+  ≈ vᵢᵀ vⱼ [shown in highlighted box]
+
+• Factorized Machine (FM)：
+  p = b + Σᵢ₌₁ᵈ wᵢxᵢ + Σᵢ₌₁ᵈ Σⱼ₌ᵢ₊₁ᵈ (vᵢᵀ vⱼ)xᵢxⱼ.
+  [Interaction term highlighted in blue]
+
+• FM 模型有 O(kd) 个参数。 (k ≪ d)

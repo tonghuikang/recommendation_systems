@@ -1,0 +1,26 @@
+Polarization and Dead Neurons
+
+**Definition:**
+极化(polarize): Softmax输出值一个接近1，其余接近0。
+(Polarization: Softmax output values where one approaches 1, others approach 0.)
+
+**Dead Neuron Problem:**
+- **Left Task:** Shows weights [0, 0, 1] - first neural network marked as "dead"
+- **Right Task:** Shows weights [0, 1, 0] - continues to use only x₂
+
+**Visual Indicators:**
+- **Red Box:** Highlights the "dead" neural network (第1号神经网络)
+- **Blue Box:** Shows the active pathways (x₂ and x₃)
+- The word "dead" explicitly marks the unused neural network pathway
+
+**Consequences of Dead Neurons:**
+1. **Wasted Computational Resources:** Neural networks that receive zero attention become unused
+2. **Reduced Model Capacity:** Effective model size decreases as neurons become inactive
+3. **Training Inefficiency:** Gradients stop flowing through dead pathways
+4. **Loss of Diversity:** Model loses the ability to learn different feature representations
+
+**Multi-Task Impact:**
+- Different tasks may kill different neural pathways
+- This creates an unbalanced architecture where some parts are overused while others are ignored
+- The shared learning benefit of multi-task architecture is severely compromised
+- Model becomes equivalent to multiple smaller, specialized single-task models

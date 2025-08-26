@@ -1,0 +1,20 @@
+计算用户相似度
+
+• 用户 u1 喜欢的物品记作集合 J1。
+• 用户 u2 喜欢的物品记作集合 J2。
+• 定义交集 I = J1 ∩ J2。
+• 两个用户的相似度：
+
+sim(u1, u2) = |I| / √(|J1| · |J2|)
+
+Formula Description:
+This slide presents the complete user similarity calculation formula. Building on the previous slide's set definitions, it introduces the similarity metric:
+
+sim(u1, u2) = |I| / √(|J1| · |J2|)
+
+Where:
+- |I| is the size of the intersection set (number of common items)  
+- |J1| is the size of user u1's preferred items set
+- |J2| is the size of user u2's preferred items set
+
+The formula is highlighted in a red box to emphasize its importance. This represents a cosine similarity-based approach to measuring user similarity in collaborative filtering.

@@ -1,0 +1,15 @@
+Deep & Cross Network (深度交叉网络)
+
+DCN architecture with highlighted components:
+
+The diagram shows the complete Deep & Cross Network with a pink highlight box emphasizing the parallel processing structure.
+
+Key components:
+- Input features: 用户特征 (User Features), 物品特征 (Item Features), 其它特征 (Other Features)
+- Parallel processing: 全连接网络 (Fully Connected Network) and 交叉网络 (Cross Network)
+- Feature combination and final 全连接层 (Fully Connected Layer)
+- Final output
+
+Bottom text: 深度交叉网络 (Deep Cross Network)
+
+This highlights the key innovation of DCN: combining explicit cross-feature learning with deep neural network learning in a parallel architecture.

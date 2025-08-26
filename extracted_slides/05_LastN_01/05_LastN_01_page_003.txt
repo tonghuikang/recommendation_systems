@@ -1,0 +1,14 @@
+Item Embedding Architecture
+
+[Diagram showing:]
+
+向量: (Vector:)
+- Six red rectangular vectors arranged horizontally
+- Arrow pointing up labeled "平均" (Average)
+- Final averaged vector at top
+
+物品 ID: (Item ID:)
+- Six video/media icons arranged horizontally
+- Arrows pointing up to corresponding vectors
+- Label "Embedding" on right side
+- "..." indicating continuation

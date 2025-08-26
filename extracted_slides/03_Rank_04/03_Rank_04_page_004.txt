@@ -1,0 +1,13 @@
+Neural Network Architecture Diagram:
+
+Multiple fully connected layers (全连接层) shown as grey rectangles with upward arrows and "..." indicating continuation. These layers feed into a central "神经网络" (Neural Network) component.
+
+The output "z" (shown in red) connects upward to the neural network.
+
+At the bottom, there's a feature input bar showing different feature types:
+- 用户特征 (User Features) - shown in blue
+- 视频特征 (Video Features) - shown in red  
+- 统计特征 (Statistical Features) - shown in brown/orange
+- 场景特征 (Context Features) - shown in yellow-green
+
+Arrows indicate the flow from features upward through the fully connected layers to the neural network.

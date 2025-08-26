@@ -1,0 +1,39 @@
+E-commerce Scoring Formula
+
+**Title:** 融合预估分数 (Fusion of Predictive Scores)
+
+**Case Study:** 某电商的融分公式
+(Scoring formula from an e-commerce platform)
+
+**E-commerce Conversion Funnel:**
+电商的转化流程：(E-commerce conversion process:)
+
+**曝光 → 点击 → 加购物车 → 付款**
+(Exposure → Click → Add to Cart → Payment)
+
+**Model Predictions:**
+模型预估：(Model predictions:) p_click、p_cart、p_pay。
+
+**Final Fusion Score:**
+最终融合分数：(Final fusion score:)
+
+**Formula:**
+p_click^α₁ × p_cart^α₂ × p_pay^α₃ × price^α₄
+
+**Components:**
+1. **p_click^α₁:** Click-through probability with exponential weighting
+2. **p_cart^α₂:** Add-to-cart probability with exponential weighting
+3. **p_pay^α₃:** Payment probability with exponential weighting
+4. **price^α₄:** Product price with exponential weighting
+
+**Key Characteristics:**
+- **Sequential Process:** Follows natural e-commerce user journey
+- **Revenue Optimization:** Incorporates price as a direct business metric
+- **Multiplicative Structure:** All components must be positive for high overall score
+- **Exponential Control:** α parameters allow fine-tuning importance of each stage
+
+**Business Logic:**
+- **Funnel-Based:** Respects the sequential nature of e-commerce conversions
+- **Revenue-Focused:** Price component directly optimizes for business value
+- **Risk Management:** Low probability at any stage significantly reduces final score
+- **Balanced Optimization:** Can balance between engagement and revenue objectives

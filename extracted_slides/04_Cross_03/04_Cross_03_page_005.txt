@@ -1,0 +1,19 @@
+LHUC in Speech Recognition (语音识别中的LHUC)
+
+Architecture showing:
+
+Upper path (Speech Signal):
+- 语音信号 (Speech Signal) - red vector
+- → 全连接层 (Fully Connected Layer)
+- → red output vector
+
+Lower path (Speaker Features):  
+- 说话者的特征 (Speaker Features) - blue vector
+- → 神经网络 (Neural Network)
+- → blue output vector
+
+Note at bottom:
+[多个全连接层] → [Sigmoid 乘以2]
+(Multiple fully connected layers → Sigmoid times 2)
+
+This shows how LHUC processes both speech content and speaker-specific information through separate pathways.

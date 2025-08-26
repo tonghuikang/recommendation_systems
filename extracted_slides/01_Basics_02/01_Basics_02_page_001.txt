@@ -1,0 +1,14 @@
+推荐系统链路 (Recommendation System Pipeline)
+
+Title slide for the second part of the recommendation systems basics presentation.
+
+Presenter Information:
+- Name: 王树森 (Wang Shusen)
+- Email: ShusenWang@xiaohongshu.com
+- Website: http://wangshusen.github.io/
+
+Visual Elements:
+- Small red Xiaohongshu (Little Red Book) logo in bottom right corner
+- Clean, minimalist design with title prominently displayed
+
+This appears to be the introduction slide for a presentation focusing on the technical pipeline and architecture of recommendation systems.

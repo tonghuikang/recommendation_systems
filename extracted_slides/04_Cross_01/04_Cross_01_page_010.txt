@@ -1,0 +1,11 @@
+Factorized Machine
+
+• FM 是线性模型的替代品，能用线性回归、逻辑回归的场景，都可以用 FM。
+
+• FM 使用二阶交叉特征，表达能力比线性模型更强。
+
+• 通过做近似 uᵢⱼ ≈ vᵢᵀ vⱼ，FM 把二阶交叉权重的数量从 O(d²) 降低到 O(kd)。
+  [O(d²) and O(kd) highlighted in blue and red respectively]
+
+参考文献：
+• Steffen Rendle. Factorization machines. In ICDM, 2010.

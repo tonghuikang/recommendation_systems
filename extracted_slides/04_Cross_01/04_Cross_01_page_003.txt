@@ -1,0 +1,9 @@
+二阶交叉特征
+
+• 有 d 个特征，记作 x = [x₁, ⋯, xd]。
+
+• 线性模型 + 二阶交叉特征：
+  p = b + Σᵢ₌₁ᵈ wᵢxᵢ + Σᵢ₌₁ᵈ Σⱼ₌ᵢ₊₁ᵈ uᵢⱼxᵢxⱼ.
+  [Linear and interaction components highlighted in blue]
+
+• 模型有 O(d²) 个参数。

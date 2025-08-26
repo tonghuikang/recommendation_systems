@@ -1,0 +1,9 @@
+自监督学习
+
+特征变换：Random Mask
+
+特征变换：Dropout（仅对多值离散特征生效）
+
+特征变换：互补特征（complementary）
+
+特征变换：Mask一组关联的特征

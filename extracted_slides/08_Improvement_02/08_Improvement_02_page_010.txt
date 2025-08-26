@@ -1,0 +1,35 @@
+# Improving Dual Tower Models - Multi-Task Focus
+
+## 改进双塔模型 (Improving Dual Tower Models)
+
+### Enhanced Multi-Task Learning Architecture
+This slide emphasizes the multi-task learning approach with all metrics highlighted:
+
+#### Multi-Task Objectives (All Highlighted):
+- **点击率 (Click Rate)** - Primary engagement metric
+- **点赞率 (Like Rate)** - User appreciation signal  
+- **收藏率 (Save Rate)** - Content value indicator
+- **完播率 (Completion Rate)** - Content quality measure
+
+#### Architecture Components:
+- **用户塔 (User Tower)**: Enhanced with multi-task learning
+  - Processes user features through embedding layers
+  - Learns user representations optimized for multiple objectives
+  
+- **物品塔 (Item Tower)**: Optimized for multi-task prediction
+  - Processes item features through embedding layers
+  - Learns item representations across different behavioral signals
+
+#### Multi-Task Learning Benefits:
+1. **Shared Representations**: Common patterns across tasks improve overall performance
+2. **Task Regularization**: Multiple objectives prevent overfitting to single metrics
+3. **Data Efficiency**: Leverages correlations between different user behaviors
+4. **Balanced Optimization**: Prevents bias toward any single engagement metric
+
+#### Technical Implementation:
+- Joint optimization across all behavioral signals
+- Shared bottom layers with task-specific heads
+- Gradient sharing across multiple objectives
+- Balanced loss weighting for optimal performance
+
+This comprehensive approach ensures the recommendation system optimizes for multiple aspects of user engagement simultaneously.

@@ -1,0 +1,13 @@
+# 用户—笔记的交互
+
+**对于每篇笔记，系统记录：**
+
+• **曝光次数** (number of impressions)
+
+• **点击次数** (number of clicks)  
+
+• **点赞次数** (number of likes)
+
+• **收藏次数** (number of collects)
+
+• **转发次数** (number of shares)

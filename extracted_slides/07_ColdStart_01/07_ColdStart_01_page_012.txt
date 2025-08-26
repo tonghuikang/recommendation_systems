@@ -1,0 +1,15 @@
+# User-side Metrics (用户侧指标)
+
+## Overall Consumption Metrics (大盘消费指标)
+
+• **Platform-wide metrics**: Consumption duration, daily active users, monthly active users.
+  (大盘的消费时长、日活、月活。)
+
+• **What happens when we strongly support low-exposure new notes?**
+  (大力扶持低曝光新笔记会发生什么？)
+
+  • **Author-side publishing metrics improve**.
+    (作者侧发布指标变好。)
+  
+  • **User-side overall consumption metrics may deteriorate**.
+    (用户侧大盘消费指标变差。)

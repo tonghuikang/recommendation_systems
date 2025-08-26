@@ -1,0 +1,14 @@
+Beam Search (size = 4)
+
+L1
+
+1  p₁(1|x)
+2  p₁(2|x)  [red highlighted]
+3  p₁(3|x)  [red highlighted]
+4  p₁(4|x)
+5  p₁(5|x)  [red highlighted]
+6  p₁(6|x)
+7  p₁(7|x)  [red highlighted]
+8  p₁(8|x)
+⋮  ⋮
+K  p₁(K|x)

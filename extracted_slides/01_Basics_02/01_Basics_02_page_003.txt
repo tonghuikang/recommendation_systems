@@ -1,0 +1,19 @@
+推荐系统的链路 (Recommendation System Pipeline) - Highlighted Recall
+
+This slide shows the same recommendation pipeline with the 召回 (Recall/Retrieval) stage highlighted, emphasizing its role in the system:
+
+Pipeline Flow with Recall Emphasis:
+几亿物品 → **召回** → 几千物品 → 粗排 → 几百物品 → 精排 → 几百物品 → 重排 → 几十物品
+
+Highlighted Stage:
+- **召回 (Recall/Retrieval)**: The first critical filtering stage that reduces hundreds of millions of items to thousands
+
+Key Points about Recall Stage:
+- First major bottleneck in the recommendation pipeline
+- Must be highly efficient to handle massive scale (hundreds of millions of items)
+- Responsible for the largest reduction in candidate items
+- Sets the foundation for all subsequent ranking stages
+- Typically uses simpler, faster algorithms (collaborative filtering, content-based matching, etc.)
+- Cannot recover items that are filtered out at this stage, making recall completeness crucial
+
+The highlighting suggests this stage is being focused on in the current presentation, likely due to its fundamental importance in the recommendation system architecture.

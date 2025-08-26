@@ -1,0 +1,13 @@
+用户特征 x → 神经网络 → softmax → p₁ (选择) → a
+
+[Top path with red arrow showing embedding connection]
+
+x ⊕ emb(a) → 神经网络 → softmax → p₂ (选择) → b
+
+[Diagram showing:
+- User features x combined with embedding of selected node a
+- Neural network processing 
+- Softmax layer
+- Output probability distribution p₂
+- Selection of node b
+- Red arrow labeled "embedding" connecting selected node a to the embedding input]

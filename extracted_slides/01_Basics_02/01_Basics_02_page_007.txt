@@ -1,0 +1,26 @@
+召回通道: 协同过滤、双塔模型、关注的作者、等等。
+(Recall Channels: Collaborative Filtering, Two-Tower Model, Followed Authors, etc.)
+
+This slide introduces the concept of recall channels and shows a visual representation of the massive item pool:
+
+Header Information:
+召回通道 (Recall Channels) includes:
+- 协同过滤 (Collaborative Filtering)
+- 双塔模型 (Two-Tower Model)  
+- 关注的作者 (Followed Authors)
+- 等等 (And others)
+
+Visual Element:
+- Large green cylindrical database/storage representation labeled “几亿” (hundreds of millions)
+- This represents the massive scale of the initial content pool that recall systems must process
+
+Key Insights:
+- Multiple recall channels work in parallel to retrieve relevant content
+- Each channel uses different algorithms and signals:
+  - Collaborative Filtering: Based on user behavior patterns
+  - Two-Tower Model: Deep learning approach for user-item matching
+  - Followed Authors: Content from users the person follows
+- The scale challenge: Processing hundreds of millions of items efficiently
+- Different channels capture different aspects of user preferences
+
+This slide sets up the technical foundation for understanding how recall systems handle massive scale through diverse algorithmic approaches.

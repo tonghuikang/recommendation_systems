@@ -1,0 +1,31 @@
+# Refined Search with Elliptical Region
+
+## Advanced Proximity-Based Search
+
+This shows a more sophisticated search region:
+
+### Key Features:
+- **Blue elliptical boundary**: Defines the search region around query vector **a**
+- **Orange arrow**: Primary search direction
+- **Black star (★a)**: User query vector at the center
+- **Light orange sector**: Background angular sector
+
+### Items in Elliptical Region:
+- **Orange dots**: High-priority items within the ellipse
+- **Red dots**: Medium-priority items at ellipse boundaries
+- **Pink dots**: Lower-priority items in the outer region
+
+### Enhanced Search Strategy:
+1. **Dual filtering**: Combines angular sector with distance-based elliptical region
+2. **Proximity weighting**: Items closer to query vector get higher priority
+3. **Shape optimization**: Elliptical region can be tuned for different recommendation scenarios
+
+### Technical Advantages:
+- **Better precision**: Elliptical boundaries provide more accurate similarity regions
+- **Flexible shape**: Can adapt ellipse orientation and size based on data distribution
+- **Multi-criteria filtering**: Combines directional and distance-based filtering
+
+### Real-world Applications:
+- Advanced ANN systems use similar elliptical or hyperspherical regions
+- Particularly effective for high-dimensional embedding spaces
+- Commonly implemented in systems like FAISS with custom index structures

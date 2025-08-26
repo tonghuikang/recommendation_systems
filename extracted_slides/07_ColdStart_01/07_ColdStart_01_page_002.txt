@@ -1,0 +1,9 @@
+# Item Cold Start (物品冷启动)
+
+## Research UGC's Item Cold Start (研究 UGC 的物品冷后)
+
+• New notes published by users on Xiaohongshu (小红书上用户新发布的笔记。)
+
+• New videos uploaded by users on Bilibili (B站上用户新上传的视频。)  
+
+• New articles published by authors on Jinri Toutiao (今日头条上作者新发布的文章。)

@@ -1,0 +1,22 @@
+# Thank You!
+
+## Presentation Conclusion
+
+### Course Website:
+http://wangshusen.github.io/
+
+## Summary:
+This concludes the presentation on Matrix Completion for recommendation systems. The presentation covered:
+
+- **Basic concepts** of matrix completion approach
+- **Training methodology** using embedding layers
+- **Practical limitations** and why it performs poorly in practice
+- **Online serving** challenges and solutions
+- **Approximate nearest neighbor search** techniques
+- **Vector database systems** for efficient retrieval
+
+### Key Takeaway:
+While Matrix Completion provides a foundational understanding of embedding-based recommendation systems, its practical limitations have led to the development of more sophisticated approaches like two-tower models and other advanced architectures.
+
+### Next Steps:
+This material serves as preparation for understanding more advanced recommendation system architectures that address the limitations identified in this basic matrix completion approach.

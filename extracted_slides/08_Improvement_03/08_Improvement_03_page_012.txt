@@ -1,0 +1,17 @@
+# 精排模型：多目标预估
+
+• 基于基座输出的向量，同时预估点击率等多个目标。
+
+• 改进1：增加新的预估目标，并把预估结果加入融合公式。
+
+• 改进2：MMoE [1]、PLE [2] 等结构可能有效，但往往无效。
+
+• 改进3：纠正 position bias [3] 可能有效，也可能无效。
+
+## 参考文献
+
+1. Ma et al. Modeling task relationships in multi-task learning with multi-gate mixture-of-experts. In KDD, 2018.
+
+2. Tang et al. Progressive layered extraction (PLE): A novel multi-task learning (MTL) model for personalized recommendations. In RecSys, 2020.
+
+3. Zhou et al. Recommending what video to watch next: a multitask ranking system. In RecSys, 2019.

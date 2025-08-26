@@ -1,0 +1,9 @@
+Thank You!
+
+http://wangshusen.github.io/
+
+Content Description:
+This is the final slide of the presentation with:
+- Large "Thank You!" text in the center
+- A website URL "http://wangshusen.github.io/" at the bottom
+- Simple, clean layout marking the end of the UserCF (User-based Collaborative Filtering) presentation

@@ -1,0 +1,21 @@
+# 数据集 (Dataset)
+
+## Dataset Definition:
+• 数据集：（用户ID，物品ID，兴趣分数）的集合，记作  
+  Ω = {(u, i, y)}
+
+## Interest Score Description:
+• 数据集中的兴趣分数是系统记录的，比如：
+
+### Score Examples:
+• 曝光但是没有点击 → 0 分
+• 点击、点赞、收藏、转发 → 各算 1 分  
+• 分数最低是 0，最高是 4。
+
+## Key Points:
+- Dataset contains triplets of (user ID, item ID, interest score)
+- Interest scores are system-recorded behavioral signals
+- Score range: 0 to 4
+- Different user actions correspond to different scores
+- No interaction (exposure only) = 0 points
+- Positive interactions (click, like, save, share) = 1 point each

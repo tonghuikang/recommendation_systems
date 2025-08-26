@@ -1,0 +1,9 @@
+# Content-side Metrics (内容侧指标)
+
+## Proportion of Popular Notes (高热笔记占比)
+
+• **Popular notes definition**: Notes that received 1000+ clicks in the past 30 days.
+  (高热笔记：前30天获得1000+次点击。)
+
+• **The higher the proportion of popular notes, the stronger the cold start phase's ability to identify high-quality notes.**
+  (高热笔记占比越高，说明冷启阶段挖掘优质笔记的能力越强。)

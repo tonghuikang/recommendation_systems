@@ -1,0 +1,17 @@
+# Long-term Recruitment of Excellent Algorithm Engineers (长期招聘优秀的算法工程师)
+
+• **Department**: Xiaohongshu Community Technology Department.
+  (部门：小红书社区技术部。)
+
+• **Direction**: Search, Recommendation.
+  (方向：搜索、推荐。)
+
+• **Positions**: Campus recruitment, social recruitment, internships.
+  (职位：校招、社招、实习。)
+
+• **Locations**: Shanghai, Beijing.
+  (地点：上海、北京。)
+
+• **Contact**: ShusenWang@xiaohongshu.com
+
+[Note: This is a recruitment slide for Xiaohongshu (Little Red Book), seeking algorithm engineers for search and recommendation roles. The company logo appears in the bottom right corner.]

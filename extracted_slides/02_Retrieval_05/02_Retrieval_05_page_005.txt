@@ -1,0 +1,7 @@
+# 训练 (Training)
+
+## Section Title
+Training phase of the matrix completion model
+
+## Content Summary
+This appears to be a section divider slide introducing the training phase of the matrix completion approach.

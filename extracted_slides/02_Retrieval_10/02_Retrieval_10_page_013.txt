@@ -1,0 +1,15 @@
+用户特征 x → 神经网络 → softmax → p₁ (选择) → a
+
+[Top path with pink arrow showing embedding connection]
+
+x ⊕ emb(a) → 神经网络 → softmax → p₂ (选择) → b
+
+[Middle path with red arrow showing embedding connection]
+
+x ⊕ emb(a) ⊕ emb(b) → 神经网络 → softmax → p₃ (选择) → c
+
+[Diagram showing three-level hierarchical selection:
+- Level 1: User features x → select node a
+- Level 2: x + emb(a) → select node b  
+- Level 3: x + emb(a) + emb(b) → select node c
+- Pink and red arrows labeled "embedding" showing how selected nodes feed back as embeddings]

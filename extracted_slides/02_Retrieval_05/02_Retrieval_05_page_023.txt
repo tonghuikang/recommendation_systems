@@ -1,0 +1,23 @@
+# 支持最近邻查找的系统
+
+## Available Systems:
+• 系统：Milvus、Faiss、HnswLib、等等。
+
+## Distance Metrics for Nearest Neighbor:
+• 衡量最近邻的标准：
+
+### Available Metrics:
+• 欧式距离最小（L2 距离）
+• 向量内积最大（内积相似度）
+• 向量夹角余弦最大（cosine相似度）
+
+## Key Systems:
+- **Milvus**: Distributed vector database
+- **Faiss**: Facebook AI Similarity Search library
+- **HnswLib**: Hierarchical Navigable Small World graphs
+- And many others
+
+## Similarity Measures:
+- **L2 Distance**: Euclidean distance minimization
+- **Inner Product**: Dot product maximization
+- **Cosine Similarity**: Cosine of angle between vectors

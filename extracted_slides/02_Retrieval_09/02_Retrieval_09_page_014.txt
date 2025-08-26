@@ -1,0 +1,4 @@
+自监督学习
+
+参考文献：
+• Tiansheng Yoo et al. Self-supervised Learning for Large-scale Item Recommendations. In CIKM, 2021.

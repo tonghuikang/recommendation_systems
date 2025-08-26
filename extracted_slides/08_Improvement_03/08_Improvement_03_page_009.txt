@@ -1,0 +1,15 @@
+# 精排模型：基座
+
+• 基座的输入包括离散特征和连续特征，输出一个向量，作为多目标预估的输入。
+
+• 改进1：基座加宽加深，计算量更大，预测更准确。
+
+• 改进2：做自动的特征交叉，比如 bilinear [1] 和 LHUC [2]。
+
+• 改进3：特征工程，比如添加统计特征、多模态内容特征。
+
+## 参考文献
+
+1. Huang et al. FiBiNET: combining feature importance and bilinear feature interaction for click-through rate prediction. In RecSys, 2019.
+
+2. Swietojanski et al. Learning hidden unit contributions for unsupervised acoustic model adaptation. In WSDM, 2016.

@@ -1,0 +1,7 @@
+FiBiNet
+
+参考文献: (References:)
+
+• Tongwen Huang, Zhiqi Zhang, and Junlin Zhang. FiBiNET: Combining Feature Importance and Bilinear feature Interaction for Click-Through Rate Prediction. In RecSys, 2019.
+
+This slide introduces FiBiNet (Feature Importance and Bilinear feature Interaction Network), which combines the concepts of SENet for feature importance weighting and bilinear interactions for cross-feature learning.

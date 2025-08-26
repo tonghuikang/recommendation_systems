@@ -1,0 +1,9 @@
+ItemCF的原理
+
+我喜欢看《笑傲江湖》
+
+《笑傲江湖》与《鹿鼎记》相似 → 给我推荐《鹿鼎记》
+
+我没看过《鹿鼎记》
+
+[Visual elements: Text boxes showing the logic flow with an arrow indicating the recommendation process]

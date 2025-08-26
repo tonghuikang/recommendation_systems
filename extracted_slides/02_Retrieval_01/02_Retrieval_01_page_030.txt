@@ -1,0 +1,5 @@
+线上做召回
+
+用户感兴趣的物品（ID，兴趣分数）
+
+[Image shows a user icon with an arrow pointing to a sequence of items represented by video icons with scores: (red video icon, 2), (black video icon, 1), (blue video icon, 4), (orange video icon, 3), ...]

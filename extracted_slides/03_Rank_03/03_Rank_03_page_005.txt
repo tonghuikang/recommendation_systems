@@ -1,0 +1,31 @@
+International Short Video App Scoring Formula
+
+**Title:** 融合预估分数 (Fusion of Predictive Scores)
+
+**Case Study:** 海外某短视频APP的融分公式
+(Scoring formula from an international short video app)
+
+**Advanced Fusion Formula:**
+(1 + w₁ · p_time)^α₁ · (1 + w₂ · p_like)^α₂ ...
+
+**Components (highlighted in blue):**
+- **(1 + w₁ · p_time)^α₁:** Watch time component with exponential weighting
+- **(1 + w₂ · p_like)^α₂:** Like probability component with exponential weighting
+- **"...":** Additional engagement factors
+
+**Key Features:**
+1. **Multiplicative Structure:** All components multiply together
+2. **Exponential Weighting:** Each component raised to power αᵢ
+3. **Non-linear Interactions:** Creates complex interactions between different signals
+4. **Flexible Tuning:** Both wᵢ (linear weights) and αᵢ (exponential weights) are tunable
+
+**Mathematical Properties:**
+- **Base Value:** Each term starts with 1, ensuring no component can make the score negative
+- **Amplification:** High values in any component can significantly boost the overall score
+- **Compound Effects:** Multiple high-performing components create multiplicative benefits
+- **Sensitivity Control:** α parameters control how much each component influences the final score
+
+**Practical Benefits:**
+- **Rich Interaction Modeling:** Captures complex relationships between engagement signals
+- **Industry-Proven:** Based on real-world implementation from successful short video platform
+- **Flexible Optimization:** Multiple parameters allow fine-tuning for different business objectives

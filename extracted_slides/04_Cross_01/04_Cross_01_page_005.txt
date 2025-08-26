@@ -1,0 +1,11 @@
+二阶交叉特征
+
+• 线性模型 + 二阶交叉特征：
+  p = b + Σᵢ₌₁ᵈ wᵢxᵢ + Σᵢ₌₁ᵈ Σⱼ₌ᵢ₊₁ᵈ uᵢⱼxᵢxⱼ.
+  [Interaction term highlighted in blue]
+
+[DIAGRAM: A square matrix visualization labeled as:
+- "d 行" (d rows) on the left side
+- "d 列" (d columns) on top
+- "矩阵 U" (Matrix U) at the bottom
+- The matrix appears as a green grid showing the interaction matrix structure]

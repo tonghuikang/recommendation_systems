@@ -1,0 +1,15 @@
+Learning Hidden Unit Contributions (LHUC)
+
+Main Content:
+• LHUC 起源于语音识别 [1]。
+(LHUC originated from speech recognition [1].)
+
+• 快手将 LHUC 应用在推荐精排 [2]，称作 PPNet。
+(Kuaishou applied LHUC to recommendation ranking [2], called PPNet.)
+
+参考文献: (References:)
+
+1. Pawel Swietojanski, Jinyu Li, & Steve Renals. Learning hidden unit contributions for unsupervised acoustic model adaptation. IEEE/ACM Transactions on Audio, Speech, and Language Processing, 2016.
+
+2. 快手落地万亿参数推荐精排模型，2021。链接：
+https://ai.51cto.com/art/202102/644214.html

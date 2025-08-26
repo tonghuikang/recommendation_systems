@@ -1,0 +1,25 @@
+References
+
+**Title:** 参考文献 (References)
+
+**Key Research Papers:**
+
+1. **Google's MMoE Model:**
+   - Google 的论文 [1] 提出 MMoE 模型。
+   (Google's paper [1] proposes the MMoE model.)
+
+2. **YouTube's Polarization Solution:**
+   - YouTube 的论文 [2] 提出极化问题的解决方案。
+   (YouTube's paper [2] proposes solutions to the polarization problem.)
+
+**Full References:**
+
+1. Jiaqi Ma et al. **Modeling Task Relationships in Multi-task Learning with Multi-gate Mixture-of-Experts.** In *KDD*, 2018.
+
+2. Zhe Zhao et al. **Recommending What Video to Watch Next: A Multitask Ranking System.** In *RecSys*, 2019.
+
+**Significance:**
+- The first paper introduces the foundational MMoE (Multi-gate Mixture-of-Experts) architecture
+- The second paper addresses practical implementation challenges, particularly the polarization problem
+- These works represent key contributions to multi-task learning in recommendation systems
+- Both papers provide solutions that are widely used in industry applications

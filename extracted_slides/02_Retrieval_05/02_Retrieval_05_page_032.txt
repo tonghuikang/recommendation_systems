@@ -1,0 +1,23 @@
+# 矩阵补充 (Matrix Completion) - Summary
+
+## Core Approach:
+• 把物品ID、用户ID做 embedding，映射成向量。
+
+## Similarity Calculation:
+• 两个向量的内积⟨**a_u**, **b_i**⟩作为用户 u 对物品 i 兴趣的预估。
+
+## Training Objective:
+• 让⟨**a_u**, **b_i**⟩拟合真实观测的兴趣分数，学习模型的 embedding 层参数。
+
+## Fundamental Limitations:
+• 矩阵补充模型有很多缺点，效果不好。
+
+## Key Issues Identified:
+1. **Limited feature usage**: Only uses ID embeddings, ignores rich user and item attributes
+2. **Poor negative sampling**: Incorrect handling of negative examples
+3. **Suboptimal training methods**: Inner product and squared loss are not ideal choices
+
+## Practical Impact:
+- Foundation for modern recommendation systems
+- Led to development of more sophisticated approaches like two-tower models
+- Important stepping stone but not suitable for production use

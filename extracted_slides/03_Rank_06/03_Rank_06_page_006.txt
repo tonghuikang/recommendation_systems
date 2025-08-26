@@ -1,0 +1,15 @@
+双塔模型
+
+Two-tower architecture diagram:
+
+Left tower (用户塔 - User Tower):
+- Input: 用户特征 (User Features) - blue features
+- Output: vector a (blue)
+
+Right tower (物品塔 - Item Tower):  
+- Input: 物品特征 (Item Features) - red features
+- Output: vector b (red) - 存储在数据库 (stored in database)
+
+Online inference (线上推理):
+- Cosine similarity calculation: 余弦相似度: cos(a, b)
+- The purple dot represents the similarity score computation between vectors a and b

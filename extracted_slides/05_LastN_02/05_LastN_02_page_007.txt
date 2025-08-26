@@ -1,0 +1,14 @@
+DIN Attention Mechanism - Step 3
+
+[Diagram showing:]
+
+相似度: (Similarity)
+- Three purple circles labeled α₁, α₂, α₃ with arrows pointing to them
+
+LastN向量: (LastN Vectors)
+- Four red vectors labeled x₁, x₂, x₃, ..., xₙ
+
+候选物品向量: (Candidate Item Vector)
+- One blue vector labeled q
+
+Shows the computation of similarities α₁, α₂, and α₃ between the first three LastN vectors and candidate item vector q.

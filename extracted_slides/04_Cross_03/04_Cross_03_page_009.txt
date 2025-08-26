@@ -1,0 +1,19 @@
+LHUC in Speech Recognition (语音识别中的LHUC)
+
+Complete LHUC architecture with output highlighted:
+
+Upper path (Speech Signal):
+- 语音信号 (Speech Signal) - red vector
+- → 全连接层 (Fully Connected Layer) → red vector
+- → Hadamard Product ∘ (first modulation)
+- → 全连接层 (Fully Connected Layer) → red vector  
+- → Hadamard Product ∘ (second modulation)
+- → 输出 (Output) - final red output highlighted in pink box
+
+Lower path (Speaker Features):
+- 说话者的特征 (Speaker Features) - blue vector
+- → 神经网络 (Neural Network) → blue vector (feeds first Hadamard Product)
+- → Additional pathway
+- → 神经网络 (Neural Network) → blue vector (feeds second Hadamard Product)
+
+This shows the complete LHUC system producing the final output after multiple stages of speaker-adaptive modulation.

@@ -1,0 +1,17 @@
+DIN有效的原因
+
+[2D scatter plot diagram - same layout]
+
+Vertical axis: Arrow pointing up
+Horizontal axis: Arrow pointing right
+
+Categories plotted:
+- 美妆 (Beauty): Red triangles in upper left quadrant
+- 美食 (Food): Light pink circles (faded) in upper right quadrant  
+- 汽车 (Cars): Orange squares in lower left quadrant
+
+Special markers:
+- 加权平均 (Weighted Average): Purple star positioned in center-left area
+- 候选物品（新闻）(Candidate Item - News): Blue star in lower right quadrant
+
+This slide demonstrates how the attention mechanism adapts the weighted average position based on different candidate items, showing the dynamic nature of DIN's attention weights.

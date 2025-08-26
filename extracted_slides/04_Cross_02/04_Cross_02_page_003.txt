@@ -1,0 +1,7 @@
+双塔模型
+
+[DIAGRAM: Two-tower model architecture showing:
+- User features (用户特征) flowing into User Tower (用户塔) producing embedding 'a' (blue vector)
+- Item features (物品特征) flowing into Item Tower (物品塔) producing embedding 'b' (red vector)  
+- Both towers connected to cosine similarity computation: cos(a, b)
+- Text note: "可以用任意网络结构" (Can use arbitrary network structure)]

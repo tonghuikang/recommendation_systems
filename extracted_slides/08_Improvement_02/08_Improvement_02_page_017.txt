@@ -1,0 +1,37 @@
+# I2I-Like Models (I2I类似的模型)
+
+## Alternative Recommendation Pathways
+
+### U2U2I Model:
+**• U2U2I (user → user → item)：已知用户 u₁ 与 u₂ 相似，且 u₂ 喜欢物品 i，那么给用户 u₁ 推荐物品 i。**
+
+#### Process Flow:
+1. **User Similarity**: Identify that users u₁ and u₂ are similar
+2. **Preference Transfer**: u₂ likes item i
+3. **Recommendation**: Recommend item i to user u₁
+
+### U2A2I Model:
+**• U2A2I (user → author → item)：已知用户 u 喜欢作者 a，且 a 发布物品 i，那么给用户 u 推荐物品 i。**
+
+#### Process Flow:
+1. **Author Preference**: User u likes author a
+2. **Content Creation**: Author a publishes item i
+3. **Recommendation**: Recommend item i to user u
+
+### U2A2A2I Model:
+**• U2A2A2I (user → author → author → item)：已知用户 u 喜欢作者 a₁，且 a₁ 与 a₂ 相似，a₂ 发布物品 i，那么给用户 u 推荐物品 i。**
+
+#### Process Flow:
+1. **Initial Author Preference**: User u likes author a₁
+2. **Author Similarity**: a₁ and a₂ are similar authors
+3. **Content Creation**: Author a₂ publishes item i
+4. **Recommendation**: Recommend item i to user u
+
+### Model Characteristics:
+- **Extended Pathways**: Longer chains of relationships for recommendations
+- **Multi-Hop Logic**: Traverse multiple nodes in the recommendation graph
+- **Relationship Diversity**: Leverage user-user, user-author, and author-author similarities
+- **Content Creator Focus**: Emphasize the role of content creators in recommendations
+- **Graph-Based Thinking**: Model recommendations as paths through a knowledge graph
+
+These models expand beyond simple I2I by incorporating user similarities and author relationships, creating more diverse and potentially serendipitous recommendations.

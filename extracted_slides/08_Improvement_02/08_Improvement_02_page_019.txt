@@ -1,0 +1,39 @@
+# Summary: Improving Recall Models
+
+## 总结：改进召回模型 (Summary: Improving Recall Models)
+
+### Dual Tower Model Improvements:
+**• 双塔模型：优化正负样本、改进神经网络结构、改进训练的方法。**
+
+#### Key Enhancement Areas:
+1. **Positive/Negative Sample Optimization**: Improve training data quality and sampling strategies
+2. **Neural Network Architecture Improvements**: Enhance model structure and capacity
+3. **Training Method Improvements**: Advanced training techniques and optimization strategies
+
+### I2I Model Enhancements:
+**• I2I 模型：同时使用 ItemCF 及其变体、使用物品向量表征计算物品相似度。**
+
+#### Dual Approach Strategy:
+1. **ItemCF and Variants**: Traditional collaborative filtering methods (ItemCF, Online ItemCF, Swing, Online Swing)
+2. **Vector-Based Similarity**: Use item embeddings from neural networks for similarity computation
+
+### Advanced Model Integration:
+**• 添加小众的召回模型，比如 PDN、Deep Retrieval、SINE、M2GRL 等模型。**
+
+#### Specialized Models:
+- **PDN**: Path-based Deep Network for graph-based recommendations
+- **Deep Retrieval**: End-to-end retrieval architectures  
+- **SINE**: Sparse-Interest Network for sequential patterns
+- **M2GRL**: Multi-task Multi-view Graph Representation Learning
+
+### Production Strategy:
+**• 在召回总量不变的前提下，调整各召回通道的配额。（可以让各用户群体用不同的配额。）**
+
+#### Traffic Allocation Optimization:
+- **Fixed Total Recall**: Maintain overall recall volume while optimizing distribution
+- **Channel Rebalancing**: Adjust quotas across different recall methods
+- **User Segment Customization**: Different user groups can have different channel allocations
+- **A/B Testing Framework**: Systematic evaluation of allocation strategies
+
+### Comprehensive Improvement Framework:
+This approach combines traditional methods with cutting-edge techniques, creating a robust, multi-layered recall system that can adapt to different user segments and use cases while maintaining production stability.

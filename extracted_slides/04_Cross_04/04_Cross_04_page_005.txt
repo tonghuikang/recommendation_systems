@@ -1,0 +1,11 @@
+SENet
+
+Embedding vectors representation:
+
+Shows the embedded feature vectors arranged as a matrix:
+- m×k matrix where:
+  - m = number of features/fields
+  - k = embedding dimension
+- Multiple blue vectors stacked vertically
+- Each vector represents an embedding of a categorical feature
+- All embeddings have the same dimension k

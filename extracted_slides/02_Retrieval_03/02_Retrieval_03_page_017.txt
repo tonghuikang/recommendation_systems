@@ -1,0 +1,14 @@
+小结
+
+• UserCF 的基本思想：
+  • 如果用户 user1 跟用户 user2 相似，而且 user2 喜欢某物品，
+  • 那么用户 user1 也很可能喜欢该物品。
+
+Summary Content:
+This slide presents a summary (小结) of the basic concept of User-based Collaborative Filtering (UserCF):
+
+The fundamental idea of UserCF:
+- If user1 is similar to user2, and user2 likes a certain item,
+- Then user1 is very likely to also like that item.
+
+This captures the core assumption behind user-based collaborative filtering - that similar users will have similar preferences.

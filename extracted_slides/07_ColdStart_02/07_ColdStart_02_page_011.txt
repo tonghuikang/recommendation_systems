@@ -1,0 +1,9 @@
+ID Embedding
+
+Improvement Plan 1: New items use default embedding.
+
+Improvement Plan 2: Use similar item embedding vectors.
+
+• Find the top k most similar high-quality items in terms of content.
+
+• Average the embedding vectors of k high-quality items as the embedding for new items.

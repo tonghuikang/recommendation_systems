@@ -1,0 +1,12 @@
+SENet
+
+Complete SENet with Excitation:
+
+1. Input: m×k embedding matrix (blue vectors)
+2. Squeeze path: AvgPool → FC+ReLU → FC+Sigmoid → m×1 attention weights (orange)
+3. Excitation: Row-wise multiply the attention weights with original embeddings
+4. Output: m×k re-weighted embedding matrix (pink vectors)
+
+The curved arrow shows the excitation step where attention weights are applied to modulate the importance of each embedding vector.
+
+Result: Field-aware feature representations where important fields are emphasized and less important ones are suppressed.

@@ -1,0 +1,41 @@
+# Advanced Recall Models (更复杂的模型)
+
+## State-of-the-Art Recall Architectures
+
+### Advanced Deep Learning Models:
+
+**• Path-based Deep Network (PDN) [1]**
+- Graph-based approach using path information
+- Leverages multi-hop relationships in user-item graphs
+- Published in SIGIR 2021
+
+**• Deep Retrieval [2]**
+- End-to-end retrieval structure for large-scale recommendations
+- Scalable deep learning approach
+- Published in CIKM 2021
+
+**• Sparse-Interest Network (SINE) [3]**
+- Handles sequential recommendation with sparse user interests
+- Addresses temporal patterns in user behavior
+- Published in WSDM 2021
+
+**• Multi-task Multi-view Graph Representation Learning (M2GRL) [4]**
+- Combines multiple tasks and views for better representations
+- Graph-based multi-task learning framework
+- Published in KDD 2020
+
+### References (参考文献):
+
+1. **Li et al.** Path-based Deep Network for Candidate Item Matching in Recommenders. In *SIGIR*, 2021.
+2. **Gao et al.** Learning an end-to-end structure for retrieval in large-scale recommendations. In *CIKM*, 2021.
+3. **Tan et al.** Sparse-interest network for sequential recommendation. In *WSDM*, 2021.
+4. **Wang et al.** M2GRL: A multitask multi-view graph representation learning framework for web-scale recommender systems. In *KDD*, 2020.
+
+### Model Characteristics:
+- **Research-Oriented**: Cutting-edge techniques from top conferences
+- **Complex Architectures**: Advanced neural network designs
+- **Scalability Focus**: Designed for large-scale production systems
+- **Multi-Modal**: Incorporate various data sources and relationship types
+- **Performance-Driven**: State-of-the-art results on benchmark datasets
+
+These advanced models represent the current frontier in recommendation system research, offering sophisticated approaches beyond traditional collaborative filtering methods.

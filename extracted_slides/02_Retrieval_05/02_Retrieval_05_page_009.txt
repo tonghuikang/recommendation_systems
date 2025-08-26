@@ -1,0 +1,14 @@
+# 训练 (Training)
+
+## ID to Vector Mapping:
+• 把用户ID、物品ID映射成向量。
+
+### Mapping Process:
+• 第 u 号用户 → 向量 **a_u**。
+• 第 i 号物品 → 向量 **b_i**。
+
+## Key Concepts:
+- Convert user IDs and item IDs into embedding vectors
+- Each user u maps to vector a_u
+- Each item i maps to vector b_i
+- This is the foundation for the embedding-based approach

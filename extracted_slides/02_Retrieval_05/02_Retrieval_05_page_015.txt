@@ -1,0 +1,17 @@
+# 在实践中效果不好...... (Poor Performance in Practice)
+
+## 缺点1：仅用ID embedding，没利用物品、用户属性。
+
+## 缺点2：负样本的选取方式不对。
+
+## 缺点3：做训练的方法不好。
+
+### Training Issues:
+• 内积 ⟨**a_u**, **b_i**⟩ 不如余弦相似度。
+
+• 用平方损失（回归），不如用交叉熵损失（分类）。
+
+## Alternative Approaches:
+- Cosine similarity is better than inner product for similarity measurement
+- Classification with cross-entropy loss is better than regression with squared loss
+- These represent fundamental improvements to the training methodology

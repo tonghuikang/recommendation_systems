@@ -1,0 +1,24 @@
+Multi-Task Learning Architecture
+
+[Architecture Diagram showing:]
+
+Top layer (red boxes):
+- 点击率 (Click Rate)
+- 点赞率 (Like Rate) 
+- 收藏率 (Favorite Rate)
+- 转发率 (Share Rate)
+
+Each connected to:
+- 全连接层+Sigmoid (Fully Connected Layer + Sigmoid)
+
+Middle layer (purple bar):
+神经网络 (Neural Network)
+
+Bottom layer (concatenation):
+Four feature types:
+- 用户特征 (User Features) - blue
+- 物品特征 (Item Features) - red  
+- 统计特征 (Statistical Features) - green
+- 场景特征 (Context Features) - orange
+
+Note: The 用户特征 (User Features) section is highlighted with a red box, indicating it's the focus.

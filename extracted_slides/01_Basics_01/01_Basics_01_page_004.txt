@@ -1,0 +1,32 @@
+小红书的推荐系统
+
+This slide shows the Xiaohongshu (Little Red Book) recommendation system interface with several key components highlighted:
+
+Main Interface Elements:
+- Left sidebar shows recommendation categories including:
+  - 推荐 (Recommend)
+  - 视频 (Video)
+  - 直播 (Live)
+  - 购物 (Shopping)
+  - Various other navigation options
+
+Content Feed Structure:
+- Shows a post about "松江区-神仙酒店get不折置盒" (Songjiang District - Fairy Hotel Get Unfolded Box)
+- Author: 呃呃呃Elsie
+- Post content includes images of snacks/food items
+- Post text describes: "从打算回去的时候就顺狂看攻略 感谢朋友的笔记 这次逛了好多玩 顺利入住神仙酒店-享充宾馆"
+
+Key Recommendation System Features Highlighted:
+1. 点击 (Click) - shown with red arrow pointing to a highlighted post
+2. 阅读 (Read) - indicating content consumption
+3. 评论 (Comment) - showing user engagement with "共38条评论" (38 comments total)
+4. 点赞 (Like) - showing likes count of 20, 16
+5. 收藏 (Save/Favorite) - showing save functionality
+
+Engagement Metrics Displayed:
+- Likes: 20, 16 shown on different posts
+- Comments: 38 comments on featured post
+- Views and other engagement indicators
+- User interaction options at bottom of posts
+
+The interface demonstrates how Xiaohongshu's recommendation algorithm considers multiple signals including clicks, reads, comments, likes, and saves to personalize content recommendations.

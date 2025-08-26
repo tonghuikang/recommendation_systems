@@ -1,0 +1,10 @@
+Hot Callback
+
+Clustering Index
+
+• After a new item is published, use the neural network to map it to a feature vector.
+
+• Find the most similar vector from 1000 vectors (corresponding to 1000 clusters) as the cluster for the new item.
+
+• Index:
+  cluster → Item ID List (sorted by time)

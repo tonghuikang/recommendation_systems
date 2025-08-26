@@ -1,0 +1,11 @@
+Cross Network (交叉网络)
+
+Extended architecture with two cross layers:
+- Input: x₀ (red vector)
+- First cross layer (交叉层) with parameters: W₀, b₀ → x₁
+- Second cross layer (交叉层) with parameters: W₁, b₁ → x₂
+
+Mathematical formula for second layer:
+x₂ = x₀ ∘ (W₁x₁ + b₁) + x₁
+
+The architecture shows the sequential application of cross layers, where each layer maintains a connection to the original input x₀ while also using the previous layer's output.

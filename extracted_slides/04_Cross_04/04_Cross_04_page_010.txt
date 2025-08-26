@@ -1,0 +1,17 @@
+SENet
+
+Field-wise Weighting Explanation:
+
+• SENet 对离散特征做 field-wise 加权。
+(SENet performs field-wise weighting on discrete features.)
+
+• Field:
+  • 用户 ID Embedding 是 64 维向量。
+  (User ID Embedding is a 64-dimensional vector.)
+  • 64 个元素算一个 field，获得相同的权重。
+  (64 elements count as one field and get the same weight.)
+
+• 如果有 m 个 fields，那么权重向量是 m 维。
+(If there are m fields, then the weight vector is m-dimensional.)
+
+This explains how SENet treats each embedding vector as a single field and assigns one weight to all dimensions within that field.

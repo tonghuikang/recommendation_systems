@@ -1,0 +1,19 @@
+LHUC in Recommendation Ranking Models (推荐系统排序模型中的LHUC)
+
+LHUC applied to recommendation systems:
+
+Upper path (Item Features):
+- 物品特征 (Item Features) - red vector
+- → 全连接层 (Fully Connected Layer) → red vector
+- → Hadamard Product ∘ (first modulation)
+- → 全连接层 (Fully Connected Layer) → red vector  
+- → Hadamard Product ∘ (second modulation)
+- → final red output
+
+Lower path (User Features):
+- 用户特征 (User Features) - blue vector
+- → 神经网络 (Neural Network) → blue vector (feeds first Hadamard Product)
+- → Additional pathway
+- → 神经网络 (Neural Network) → blue vector (feeds second Hadamard Product)
+
+This shows how LHUC is adapted for recommendation systems, where user features modulate the processing of item features, enabling personalized item representation learning.

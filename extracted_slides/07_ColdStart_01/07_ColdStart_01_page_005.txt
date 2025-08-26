@@ -1,0 +1,13 @@
+# Evaluation Metrics (评价指标)
+
+## Author-side Metrics (作者侧指标):
+• Publishing penetration rate, average publishing volume. (发布渗透率、人均发布量。)
+
+## User-side Metrics (用户侧指标):
+• New note metrics: Click-through rate, interaction rate for new notes. (新笔记指标：新笔记的点击率、交互率。)
+• Overall metrics: Consumption duration, daily active users, monthly active users. (大盘指标：消费时长、日活、月活。)
+
+## Content-side Metrics (内容侧指标):
+• Proportion of popular notes. (高热笔记占比。)
+
+[Note: This slide shows the key evaluation metrics for cold start optimization, organized by three stakeholder perspectives: authors, users, and content. Red arrows point to each major category.]

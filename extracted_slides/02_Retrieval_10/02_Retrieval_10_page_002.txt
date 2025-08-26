@@ -1,0 +1,11 @@
+Deep Retrieval
+
+• 经典的双塔模型把用户、物品表示为向量，线上做最近邻查找。
+
+• Deep Retrieval [1] 把物品表征为路径（path），线上查找用户最匹配的路径。
+
+• Deep Retrieval 类似于阿里的 TDM [2]。
+
+参考文献：
+1. Weihao Gao et al. Learning A Retrievable Structure for Large-Scale Recommendations. In CIKM, 2021.
+2. Han Zhu et al. Learning Tree-based Deep Model for Recommender Systems. In KDD, 2018.

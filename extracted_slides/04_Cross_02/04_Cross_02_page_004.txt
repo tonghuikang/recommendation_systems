@@ -1,0 +1,21 @@
+[DIAGRAM: Multi-task neural network architecture showing:
+
+Top level: Four output tasks
+- 点击率 (Click Rate)
+- 点赞率 (Like Rate) 
+- 收藏率 (Favorite Rate)
+- 转发率 (Share Rate)
+
+Each connected to "全连接层+Sigmoid" (Fully Connected Layer + Sigmoid)
+
+Middle: Shared embedding layer (purple vector)
+
+Bottom: Shared neural network (shared bottom) with text "可以用任意网络结构" (Can use arbitrary network structure)
+
+Input: Four feature types concatenated
+- 用户特征 (User Features) - blue
+- 物品特征 (Item Features) - red  
+- 统计特征 (Statistical Features) - green
+- 场景特征 (Context Features) - orange
+
+Connected by "concatenation" arrows]

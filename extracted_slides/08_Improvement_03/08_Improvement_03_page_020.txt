@@ -1,0 +1,15 @@
+# 用户行为序列建模
+
+• 最简单的方法是对物品向量取平均，作为一种用户特征 [1]。
+
+• DIN [2] 使用注意力机制，对物品向量做加权平均。
+
+• 工业界目前沿着 SIM [3] 的方向发展。先用类目等属性筛选物品，然后用 DIN 对物品向量做加权平均。
+
+## 参考文献
+
+1. Covington, Adams, and Sargin. Deep neural networks for YouTube recommendations. In RecSys, 2016.
+
+2. Zhou et al. Deep interest network for click-through rate prediction. In KDD, 2018.
+
+3. Qi et al. Search-based User Interest Modeling with Lifelong Sequential Behavior Data for Click-Through Rate Prediction. In CIKM, 2020.

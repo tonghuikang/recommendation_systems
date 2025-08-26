@@ -1,0 +1,24 @@
+"用户→用户"的索引
+
+用户：        最相似的 k 个用户的（ID，相似度）：
+
+Diagram Description:
+This slide shows the complete "User → User" index structure with concrete examples:
+
+Two users are displayed with their top-k most similar users:
+
+1. First user (man with glasses and brown clothing): Maps to 5 most similar users with similarity scores:
+   - Businessman: 0.7
+   - Man with glasses and teal sweater: 0.6
+   - Business person with tie: 0.6
+   - Person in light blue: 0.3
+   - Person in dark blue: 0.3
+
+2. Second user (woman with red/pink hair): Maps to 5 most similar users with similarity scores:
+   - Woman with brown hair: 0.9
+   - Woman with dark hair/headband: 0.6
+   - Woman with brown hair: 0.6
+   - Person in blue: 0.5
+   - Person in teal: 0.4
+
+The dots indicate more users exist in the system. This demonstrates how each user is mapped to their most similar users with quantified similarity scores.

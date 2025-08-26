@@ -1,0 +1,11 @@
+线性模型
+
+• 有 d 个特征，记作 x = [x₁, ⋯, xd]。
+
+• 线性模型：
+  p = b + Σᵢ₌₁ᵈ wᵢxᵢ.
+  [Linear model components highlighted in blue]
+
+• 模型有 d + 1 个参数：w = [w₁, ⋯, wd] 和 b。
+
+• 预测是特征的加权和。（只有加，没有乘。）

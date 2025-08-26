@@ -1,0 +1,33 @@
+# Item-to-Item (I2I) - Similarity Calculation Methods
+
+## 如何计算物品相似度？(How to Calculate Item Similarity?)
+
+### Method 1: ItemCF and Its Variants
+**• 方法1：ItemCF 及其变体**
+
+#### Core ItemCF Principle:
+**• 一些用户同时喜欢物品 i₁ 和 i₂，则认为 i₁ 和 i₂ 相似**
+- If some users like both items i₁ and i₂ simultaneously, then i₁ and i₂ are considered similar
+- Based on co-occurrence in user preference patterns
+
+#### ItemCF Algorithm Family:
+**• ItemCF、Online ItemCF、Swing、Online Swing 都是基于相同的思想**
+- **ItemCF**: Classic collaborative filtering approach
+- **Online ItemCF**: Real-time version of ItemCF
+- **Swing**: Enhanced similarity calculation method  
+- **Online Swing**: Real-time version of Swing
+- All share the same fundamental concept of user co-occurrence
+
+#### Production Implementation:
+**• 线上同时使用上述 4 种 I2I 模型，各分配一定配额**
+- Use all 4 I2I models simultaneously in production
+- Each model is allocated a specific quota/weight
+- Ensemble approach for better coverage and performance
+
+### Technical Benefits:
+1. **Diversified Similarity**: Multiple algorithms capture different similarity patterns
+2. **Risk Distribution**: No single point of failure in similarity computation
+3. **Performance Optimization**: Different algorithms excel in different scenarios
+4. **Real-time Capability**: Mix of offline and online algorithms for various use cases
+
+This multi-model approach ensures robust and comprehensive item similarity calculation in production recommendation systems.

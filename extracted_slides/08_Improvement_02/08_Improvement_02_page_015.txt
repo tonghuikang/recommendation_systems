@@ -1,0 +1,33 @@
+# Item-to-Item (I2I) - Extended Similarity Methods
+
+## Method 2: Vector-Based Similarity Calculation
+
+### 方法2：基于物品向量表征，计算向量相似度
+**Method 2: Based on item vector representations, calculate vector similarity**
+
+#### Applicable Models:
+**• (双塔模型、图神经网络均可计算物品向量表征。)**
+- **Dual Tower Models**: Can compute item vector representations
+- **Graph Neural Networks**: Can compute item vector representations  
+- Both architectures enable vector-based similarity computation
+
+### Comprehensive I2I Approach:
+The slide introduces the second major method for calculating item similarity, expanding beyond collaborative filtering to include:
+
+#### Vector-Based Similarity:
+1. **Representation Learning**: Items are encoded into dense vector representations
+2. **Similarity Computation**: Use vector similarity metrics (cosine, dot product, etc.)
+3. **Deep Learning Integration**: Leverages neural network architectures
+
+#### Architecture Compatibility:
+- **Dual Tower Models**: Generate item embeddings through dedicated item tower
+- **Graph Neural Networks**: Learn item representations through graph structure
+- **Multi-Modal Learning**: Can incorporate various item features (text, images, metadata)
+
+#### Advantages:
+- **Semantic Similarity**: Captures deeper item relationships beyond co-occurrence
+- **Cold Start Friendly**: Can handle new items with limited interaction data
+- **Feature Rich**: Incorporates multiple types of item information
+- **Scalable**: Efficient computation using vector operations
+
+This method complements traditional collaborative filtering approaches by providing richer, more nuanced similarity calculations based on learned representations rather than just behavioral co-occurrence patterns.

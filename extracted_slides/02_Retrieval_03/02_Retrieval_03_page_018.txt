@@ -1,0 +1,18 @@
+小结
+
+• UserCF 的基本思想：
+  • 如果用户 user1 跟用户 user2 相似，而且 user2 喜欢某物品，
+  • 那么用户 user1 也很可能喜欢该物品。
+
+• 预估用户 user 对候选物品 item 的兴趣：
+  ∑j sim(user, userj) × like(userj, item)
+
+Summary Content:
+This slide builds on the previous summary by adding the mathematical formulation. It includes:
+
+1. The basic UserCF concept (same as previous slide)
+
+2. The prediction formula for estimating a user's interest in a candidate item:
+   ∑j sim(user, userj) × like(userj, item)
+
+The key parts of the formula (user, userj, item) are highlighted with red underlines to emphasize the core components of collaborative filtering prediction.

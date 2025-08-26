@@ -1,0 +1,9 @@
+LHUC in Speech Recognition (语音识别中的LHUC)
+
+Visual representation showing two input types:
+
+1. 语音信号 (Speech Signal) - red vector/matrix representing audio input
+
+2. 说话者的特征 (Speaker Features) - blue vector representing speaker characteristics
+
+This illustrates the original application of LHUC in speech recognition where the model needs to adapt to both the speech signal content and speaker-specific characteristics.

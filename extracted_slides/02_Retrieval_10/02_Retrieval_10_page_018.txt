@@ -1,0 +1,13 @@
+Beam Search (size = 1)
+
+L1                    L2
+
+1                     1  p₂(1|5; x)
+2                     2  p₂(2|5; x)
+3                     3  p₂(3|5; x)
+4                     4  p₂(4|5; x)  [red highlighted]
+5 ----[arrows]----->  5  p₂(5|5; x)
+⋮                     ⋮  ⋮
+K                     K  p₂(K|5; x)
+
+[Diagram shows arrows connecting red node 5 from L1 to all nodes in L2]

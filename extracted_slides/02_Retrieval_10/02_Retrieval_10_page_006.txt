@@ -1,0 +1,17 @@
+物品表征为路径
+
+L1                L2                L3                • 深度：depth = 3。
+
+[Diagram showing three levels L1, L2, L3 with numbered nodes:
+- L1: nodes 1, red node, 3, blue node, 5, ..., K
+- L2: blue node 1, node 2, node 3, red node, node 5, ..., K  
+- L3: red node, node 2, node 3, node 4, node 5, ..., K
+- Blue and red arrows connecting nodes between levels]
+
+• 宽度：width = K。
+
+• 把一个物品表示为一条路径
+  (path)，比如 [2, 4, 1]。
+
+• 一个物品可以表示为多条路径，
+  比如 {[2, 4, 1], [4, 1, 1]}。

@@ -1,0 +1,33 @@
+实验流程 (Experimentation Process)
+
+This slide illustrates the three-phase process for implementing and testing recommendation system improvements:
+
+Three-Phase Process:
+
+1. 离线实验 (Offline Experiments)
+   收集历史数据，在历史数据上做训练、测试。算法没有部署到产品中，没有跟用户交互。
+   (Collect historical data, conduct training and testing on historical data. The algorithm is not deployed to the product and has no user interaction.)
+
+2. 小流量AB测试 (Small-Scale A/B Testing)  
+   把算法部署到实际产品中，用户实际跟算法做交互。
+   (Deploy the algorithm to the actual product, with users actually interacting with the algorithm.)
+
+3. 全流量上线 (Full-Scale Launch)
+   (Complete rollout to all traffic)
+
+Process Flow Logic:
+- Stage 1 (Offline): Safe testing environment using historical data, no real user impact
+- Stage 2 (Small A/B): Limited real-world testing with actual users to validate performance
+- Stage 3 (Full Launch): Complete deployment after successful validation
+
+Key Characteristics:
+- **Offline Experiments**: Risk-free testing, uses past data, no user interaction
+- **Small A/B Testing**: Real user feedback, controlled exposure, actual algorithmic interaction  
+- **Full Launch**: Complete implementation across entire user base
+
+This staged approach allows recommendation systems to:
+- Validate improvements without user risk (offline)
+- Test real-world performance on limited scale (A/B)
+- Deploy confidently to full user base (launch)
+
+The progression ensures both safety and effectiveness in recommendation system deployment.

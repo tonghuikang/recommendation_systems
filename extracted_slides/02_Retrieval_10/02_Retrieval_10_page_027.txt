@@ -1,0 +1,19 @@
+Beam Search (size = 4)
+
+L1                    L2
+
+1                     1  [red highlighted]
+2  ----[red arrows]-> 2  [red highlighted]
+3  ----[red arrows]-> 3  [red highlighted]
+4                     4
+5  ----[red arrows]-> 5
+6                     6
+7  ----[red arrows]-> 7
+8                     8  [red highlighted]
+⋮                     ⋮
+K                     K
+
+• 对于每个被选中的节点 a，计算用户对路径 [a, b] 的兴趣：
+    p₁(a|x) × p₂(b|a; x).
+
+• 算出 4×K 个分数，每个分数对应一条路径，选出分数 top 4 路径。

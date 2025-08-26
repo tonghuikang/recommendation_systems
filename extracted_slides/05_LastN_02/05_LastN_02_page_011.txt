@@ -1,0 +1,13 @@
+DIN的本质是注意力机制
+
+[Diagram showing attention mechanism:]
+
+Left side (红色虚线框):
+- Four red vectors labeled x₁, x₂, x₃, xₙ
+- Text: "作为 key 和 value" (As key and value)
+
+Right side (红色虚线框):
+- One blue vector labeled q  
+- Text: "作为 query" (As query)
+
+This illustrates that DIN essentially implements an attention mechanism where LastN item vectors serve as both keys and values, while the candidate item vector serves as the query.

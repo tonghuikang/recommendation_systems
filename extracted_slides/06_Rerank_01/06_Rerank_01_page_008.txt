@@ -1,0 +1,13 @@
+基于图文内容的物品表征
+
+图片：                    文字：
+
+[IMAGE 1: Shiba Inu dog photo] ←→ [Document icon with lines]
+
+[IMAGE 2: Car photo] ←→ [Document icon with lines]
+
+⋮                        ⋮
+
+[IMAGE 3: Food/avocado photo] ←→ [Document icon with lines]
+
+[This slide shows the pairing relationship between images and text content for content-based item representation]

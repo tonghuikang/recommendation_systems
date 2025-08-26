@@ -1,0 +1,15 @@
+“用户→用户”的索引
+
+用户：
+
+Diagram Description:
+This slide introduces the "User → User" index structure. The title shows this will map each user to other similar users.
+
+The slide shows:
+- A header indicating this is about user-to-user indexing
+- Two user avatars are displayed:
+  1. A man with glasses and brown clothing
+  2. A woman with red/pink hair
+- Dots at the bottom indicate there are more users in the system
+
+This sets up the concept that each user will be mapped to their most similar users, which is essential for collaborative filtering recommendations.

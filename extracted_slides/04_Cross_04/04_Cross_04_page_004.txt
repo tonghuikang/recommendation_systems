@@ -1,0 +1,11 @@
+SENet
+
+Embedding output representation:
+
+Shows the result of the embedding process:
+- Multiple blue embedding vectors arranged vertically
+- Each vector represents a dense embedding of a categorical feature
+- Dots (⋮) indicate there are more embedding vectors
+- All embeddings have the same dimensionality (shown as equal-width vectors)
+
+This represents the concatenated or stacked embedding vectors that serve as input to subsequent neural network layers.

@@ -1,0 +1,32 @@
+小红书的推荐系统
+
+点击 (Click action - arrow pointing from left panel to right detail view)
+
+Left panel (same as previous):
+推荐内容 with "发现" tab highlighted
+- 松江区-神仙酒店get不折盲盒 post highlighted with red box
+- 妮姬姬Elsie (20 likes)
+
+Right panel (Detail view):
+妮姬姬Elsie 
+@学尔森馆
+关注 (Follow button)
+
+Image showing Doritos chips and snacks on shelves
+
+松江区-神仙酒店get不折盲盒
+
+从打算回去的时候就疯狂看攻略
+感谢前人的笔记
+这次逛了好多坑
+顺利入住神仙酒店-学苑宾馆
+
+Additional user interactions:
+- 外卖 快递 还有小超市
+- 冰箱 沙发 大窗户可开 对着邻野公园
+- 视野很好
+- 我知足了
+- 小小朋友带小朋友
+
+Engagement metrics:
+说点什么... 20 (likes) 16 (shares) 38 (comments)

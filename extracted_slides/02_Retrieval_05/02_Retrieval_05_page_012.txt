@@ -1,0 +1,24 @@
+# 矩阵补充 (Matrix Completion)
+
+## Matrix Legend:
+**绿色位置表示曝光给用户的物品；灰色位置表示没有曝光。**
+(Green positions indicate items exposed to users; gray positions indicate no exposure.)
+
+## Matrix Structure:
+- **每行对应一个用户** (Each row corresponds to one user)
+- **每列对应一个物品** (Each column corresponds to one item)
+
+## Example Highlighted:
+**第3号用户对第2号物品的兴趣分数等于4**
+(User #3's interest score for Item #2 equals 4)
+
+### Visual Elements:
+- Green arrow pointing to a specific cell with value 4
+- Matrix shows sparse rating data
+- Green cells: observed user-item interactions (with exposure)
+- Gray cells: unobserved interactions (no exposure)
+
+### Rating Distribution:
+Matrix contains various ratings: 0, 1, 2, 3, 4
+- Sparse structure with many missing entries
+- Each green cell represents an actual user-item rating

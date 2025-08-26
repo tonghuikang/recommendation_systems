@@ -1,0 +1,6 @@
+交叉层 (Cross Layer)
+
+[MATHEMATICAL FORMULA with components highlighted:
+xᵢ₊₁ = x₀ ∘ [W • xᵢ + b] + xᵢ
+
+Various components are highlighted with gray boxes around different terms]

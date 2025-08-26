@@ -1,0 +1,17 @@
+FiBiNet Architecture with SENet
+
+Input processing flow:
+
+1. 离散特征 (Discrete Features) - red dots
+   ↓
+2. Embedding layer  
+   ↓
+3. Blue embedding vectors
+   ↓
+4. Two parallel paths:
+   - Top path: Concatenate → Blue concatenated vector
+   - Bottom path with SENet: 
+     * SENet processing on embeddings → Pink re-weighted vectors
+     * Bilinear processing → Purple interaction vectors (highlighted in red box)
+
+This enhanced architecture incorporates SENet to learn field importance weights before applying bilinear interactions, combining both feature importance and feature interaction learning.

@@ -1,0 +1,7 @@
+# Multi-gate Mixture-of-Experts (MMoE)
+
+**主讲人：王树森**
+
+**网站链接：** http://wangshusen.github.io/
+
+**小红书品牌标识** (右下角)

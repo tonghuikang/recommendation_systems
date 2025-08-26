@@ -1,0 +1,26 @@
+Solutions to Polarization Problem
+
+**Title:** 解决极化问题 (Solving Polarization Problems)
+
+**Key Solutions:**
+
+1. **Multi-Expert Architecture:**
+   - 如果有 n 个“专家”，那么每个 softmax 的输入和输出都是 n 维向量。
+   (If there are n "experts", then each softmax input and output are n-dimensional vectors.)
+
+2. **Dropout Regularization:**
+   - 在训练时，对 softmax 的输出使用 dropout。
+   (During training, apply dropout to softmax outputs.)
+
+3. **Specific Dropout Configuration:**
+   - Softmax 输出的 n 个数值被 mask 的概率都是 10%。
+   (The probability of masking each of the n values in softmax output is 10%.)
+   
+   - 每个“专家”被随机丢弃的概率都是 10%。
+   (Each "expert" has a 10% probability of being randomly dropped.)
+
+**Why These Solutions Work:**
+- **Prevents Over-specialization:** Dropout forces the model to use multiple experts
+- **Maintains Diversity:** Random dropping ensures all pathways remain active
+- **Improves Robustness:** Model cannot rely on single experts during training
+- **Regularization Effect:** Reduces overfitting and improves generalization

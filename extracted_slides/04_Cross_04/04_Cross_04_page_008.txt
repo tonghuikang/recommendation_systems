@@ -1,0 +1,11 @@
+SENet
+
+SENet with Highlighted Important Field:
+
+1. Input: m×k embedding matrix (blue vectors with one darker blue vector highlighted)
+2. Squeeze-and-Excitation process: AvgPool → FC+ReLU → FC+Sigmoid
+3. Output: m×k re-weighted embeddings (pink vectors with one darker pink vector)
+
+The darker colored vectors (both input and output) represent a field that receives higher attention weight, demonstrating how SENet can learn to emphasize more important features while de-emphasizing less relevant ones.
+
+This illustrates the adaptive field weighting capability of SENet.

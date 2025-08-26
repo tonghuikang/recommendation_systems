@@ -1,0 +1,14 @@
+基于图文内容的物品表征
+
+图片：                    文字：                    
+                                                • 一个 batch 内有 m 对正样本。
+
+[IMAGE 1: Shiba Inu dog photo (highlighted with green)] ←→ [Document icon with lines]      • 一张图片和 m-1 条文本组成
+                                                负样本。
+[IMAGE 2: Car photo] ←→ [Document icon with lines (highlighted with green)]
+
+⋮                        ⋮         负样本      • 这个 batch 内一共有 m(m-1) 
+                                                对负样本。
+[IMAGE 3: Food/avocado photo] ←→ [Document icon with lines]
+
+[Green highlighting and area shows the negative sample pairing concept]

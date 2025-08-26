@@ -1,0 +1,13 @@
+Extract Image and Text Features
+
+[The image shows the same two-part feature extraction process as before, but with additional details:]
+
+Top: Image feature extraction
+- Input: Shiba Inu image with Chinese text
+- Process: CNN → concatenation → Fully Connected Layer → Item's feature vector
+
+Bottom: Text feature extraction  
+- Input: Chinese text content
+- Process: BERT → concatenation → Fully Connected Layer → Item's feature vector
+
+Both image and text features are concatenated and passed through a fully connected layer to produce the final item feature vector.

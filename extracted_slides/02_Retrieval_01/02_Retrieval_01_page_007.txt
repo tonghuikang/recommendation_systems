@@ -1,0 +1,14 @@
+用户对物品的兴趣：
+like(user, item_i)
+
+物品之间的相似度：
+sim(item_j, item)
+
+[Diagram showing user-item interactions with similarity scores]
+- User (represented by user icon with laptop)  
+- Arrows pointing to different items (video icons) labeled with numbers: 2, 1, 4, 3
+- Items are labeled as "用户交互过的物品" (Items the user has interacted with)
+- Dashed arrows pointing from the interacted items to a yellow candidate item showing similarity scores: 0.1, 0.4, 0.2, 0.6
+- Yellow item labeled "Item" (candidate item for recommendation)
+
+[Visual elements: Addition of dashed arrows with similarity scores connecting user's interacted items to the candidate item]

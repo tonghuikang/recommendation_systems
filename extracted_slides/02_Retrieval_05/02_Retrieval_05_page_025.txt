@@ -1,0 +1,24 @@
+# User Query Vector in Embedding Space
+
+## Vector Space with User Query
+
+This visualization shows the same 2D embedding space with the addition of:
+
+### New Element:
+- **Black star (★a)**: User embedding vector representing the query user's preferences
+- Located in the lower-right quadrant of the coordinate system
+
+### Spatial Analysis:
+- User vector **a** is positioned among various item embeddings
+- Proximity to different colored clusters indicates potential user interests
+- Items closer to the user vector **a** are more likely to be relevant recommendations
+
+### Recommendation Strategy:
+- Calculate similarity between user vector **a** and all item vectors (colored dots)
+- Items with shortest distance or highest similarity to **a** become top recommendations
+- The visual proximity in this 2D space represents the mathematical similarity in the full embedding space
+
+### Use Case:
+- This represents the first step in the online serving process
+- After retrieving user embedding **a**, the system searches for nearest item neighbors
+- The spatial arrangement guides the approximate nearest neighbor search

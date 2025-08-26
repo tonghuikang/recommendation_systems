@@ -1,0 +1,22 @@
+精排模型
+
+Multi-task learning architecture with shared bottom:
+
+Four output heads:
+- 点击率 (Click-through Rate)
+- 点赞率 (Like Rate) 
+- 收藏率 (Save Rate)
+- 转发率 (Share Rate)
+
+Each head has: 全连接层+Sigmoid
+
+Shared neural network backbone labeled as:
+神经网络 (shared bottom)
+
+Input features (concatenated):
+- 用户特征 (User Features) - shown in blue
+- 物品特征 (Item Features) - shown in red  
+- 统计特征 (Statistical Features) - shown in green
+- 场景特征 (Context Features) - shown in orange
+
+The features are concatenated and fed into the shared neural network, which then branches out to the four task-specific heads.

@@ -1,0 +1,9 @@
+# Difficulties of Cold Start Recall (冷启召回的困难)
+
+## ItemCF is Not Suitable for Item Cold Start (ItemCF不适用于物品冷启动)
+
+**Diagram Description**: The diagram shows why ItemCF doesn't work for cold start items. It displays two items (represented by red and green video icons) at the top, with multiple users (represented by profile icons) at the bottom. The arrows between them represent user interactions. 
+
+The users highlighted in the red box represent those who have interacted with both items, which is necessary for ItemCF to establish item-item relationships. However, for new/cold start items (like the green video), there are very few or no users who have interacted with both the new item and existing items, making it impossible to compute meaningful item-item similarities.
+
+[Note: This diagram effectively illustrates the fundamental problem with using ItemCF (Item-based Collaborative Filtering) for cold start items - there's insufficient interaction data to establish relationships between new items and existing items.]

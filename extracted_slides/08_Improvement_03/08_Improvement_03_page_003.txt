@@ -1,0 +1,39 @@
+# Ranking Models
+
+## 排序模型 (Ranking Models)
+
+### Table of Contents:
+
+**1. 精排模型的改进**
+   - **Improvements to Fine Ranking Models**
+   - Enhancements to detailed ranking algorithms and architectures
+
+**2. 粗排模型的改进**
+   - **Improvements to Coarse Ranking Models**
+   - Optimizations for preliminary ranking and filtering stages
+
+**3. 用户行为序列建模**
+   - **User Behavior Sequence Modeling**
+   - Techniques for modeling temporal patterns in user interactions
+
+**4. 在线学习**
+   - **Online Learning**
+   - Real-time adaptation and continuous model updates
+
+**5. 老汤模型**
+   - **Old Soup Models**
+   - Likely referring to ensemble or traditional model approaches
+
+### Presentation Structure:
+This outline covers a comprehensive approach to ranking model improvements in recommendation systems:
+
+#### Core Components:
+- **Two-Stage Ranking**: Both coarse and fine ranking optimizations
+- **Sequential Modeling**: Understanding user behavior patterns over time
+- **Adaptive Learning**: Real-time model improvements
+- **Ensemble Strategies**: Combining multiple model approaches
+
+#### Focus Areas:
+The presentation will systematically cover improvements across the entire ranking pipeline, from initial filtering through final item ordering, incorporating both static improvements and dynamic learning capabilities.
+
+This structure suggests a thorough exploration of ranking model enhancements with practical implementation considerations for large-scale recommendation systems.

@@ -1,0 +1,7 @@
+# Cold Start Optimization Points (冷启动的优化点)
+
+• **Optimize the entire pipeline** (including recall and ranking).
+  (优化全链路（包括召回和排序）。)
+
+• **Traffic adjustment** (how traffic is distributed between new items and old items).
+  (流量调控（流量怎么在新物品、老物品中分配）。)

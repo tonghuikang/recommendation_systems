@@ -1,0 +1,35 @@
+# Item-to-Item (I2I) - Implementation Details
+
+## I2I 是一大类模型，基于相似物品做召回
+
+### Core Architecture:
+**I2I is a major class of models based on similar item recall**
+
+### Most Common Usage Pattern:
+**• 最常见的用法是 U2I2I (user → item → item)**
+- **U2I2I Flow**: user → item → item
+- This represents the typical recommendation pipeline
+
+### Implementation Steps:
+**• 用户 u 喜欢物品 i₁ (用户历史上交互过的物品)**
+- User u likes item i₁ (items the user has historically interacted with)
+- This establishes the user's preference history
+
+**• 寻找 i₁ 的相似物品 i₂ (即 I2I)**  
+- Find similar items i₂ to i₁ (this is the I2I component)
+- Core similarity computation between items
+
+**• 将 i₂ 推荐给 u**
+- Recommend i₂ to user u
+- Complete the recommendation chain
+
+### Key Process Flow:
+1. **User History Analysis**: Identify items user has interacted with
+2. **Similarity Computation**: Find items similar to user's historical items  
+3. **Recommendation Generation**: Recommend similar items to the user
+
+### Technical Foundation:
+- Based on item-item collaborative filtering
+- Leverages user behavior patterns to establish item similarities
+- Efficient for real-time recommendation generation
+- Scalable approach for large item catalogs

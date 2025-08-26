@@ -1,0 +1,18 @@
+离散特征
+
+• 性别：男、女两种类别。
+• 国籍：中国、美国、印度等200个国家。
+• 英文单词：常见的英文单词有几万个。
+• 物品ID：小红书有几亿篇笔记，每篇笔记有一个ID。
+• 用户ID：小红书有几亿个用户，每个用户有一个ID。
+
+Content Description:
+This slide introduces discrete/categorical features with examples:
+
+• Gender: Male, Female (2 categories)
+• Nationality: China, USA, India, etc. (~200 countries)
+• English words: Common English words (tens of thousands)
+• Item ID: XiaoHongShu has hundreds of millions of posts, each with an ID
+• User ID: XiaoHongShu has hundreds of millions of users, each with an ID
+
+This demonstrates the variety and scale of discrete features in recommendation systems, from small categorical variables to massive ID spaces.

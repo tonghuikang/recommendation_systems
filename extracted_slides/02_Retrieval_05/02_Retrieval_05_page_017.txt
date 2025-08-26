@@ -1,0 +1,13 @@
+# 模型存储 (Model Storage)
+
+## Step 1: Train Matrices A and B
+1. 训练得到矩阵 **A** 和 **B**。
+
+### Matrix Structure:
+• **A** 的每一列对应一个用户。
+• **B** 的每一列对应一个物品。
+
+## Key Components:
+- Matrix A contains user embeddings (each column represents a user)
+- Matrix B contains item embeddings (each column represents an item)
+- These matrices are the result of the training process

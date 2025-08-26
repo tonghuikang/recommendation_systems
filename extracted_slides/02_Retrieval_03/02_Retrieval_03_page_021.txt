@@ -1,0 +1,15 @@
+事先做离线计算
+
+建立“用户→物品”的索引
+
+• 记录每个用户最近点击、交互过的物品ID。
+• 给定任意用户ID，可以找到他近期感兴趣的物品列表。
+
+Content Description:
+This slide introduces the first step of offline computation for UserCF: building a "User → Item" index.
+
+Key points:
+- Record each user's recently clicked and interacted item IDs
+- For any given user ID, can find their recently interested item list
+
+This creates the foundation for understanding user preferences and item interactions.

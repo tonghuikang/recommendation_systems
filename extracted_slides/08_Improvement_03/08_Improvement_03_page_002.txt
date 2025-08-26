@@ -1,0 +1,35 @@
+# What Methods Are There for Improving Metrics?
+
+## 涨指标的方法有哪些？(What Methods Are There for Improving Metrics?)
+
+### Primary Improvement Strategies (Highlighted):
+
+**• 改进召回模型，添加新的召回模型。**
+- **Improve recall models, add new recall models**
+- Enhance existing recall mechanisms and introduce novel approaches
+- Focus on expanding the candidate item pool effectively
+
+**• 改进粗排和精排模型。**
+- **Improve coarse ranking and fine ranking models**
+- Optimize both preliminary filtering and detailed ranking stages
+- Enhance the entire ranking pipeline for better performance
+
+### Additional Improvement Areas:
+
+**• 提升召回、粗排、精排中的多样性。**
+- **Improve diversity in recall, coarse ranking, and fine ranking**
+- Address filter bubble effects and recommendation homogeneity
+- Enhance user experience through varied content exposure
+
+**• 特殊对待新用户、低活用户等特殊人群。**
+- **Special treatment for new users, low-activity users, and other special groups**
+- Implement targeted strategies for different user segments
+- Address cold start problems and user engagement challenges
+
+**• 利用关注、转发、评论这三种交互行为。**
+- **Leverage three interaction behaviors: follow, share, and comment**
+- Incorporate diverse user engagement signals beyond basic interactions
+- Utilize social behaviors for better recommendation understanding
+
+### Strategic Focus:
+The slide emphasizes a comprehensive approach to metric improvement, covering the entire recommendation pipeline from recall through final ranking, while also addressing user diversity and engagement patterns. The highlighted items suggest these are the primary focus areas for the presentation.

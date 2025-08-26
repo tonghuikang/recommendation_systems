@@ -1,0 +1,9 @@
+Hot Callback
+
+Online Callback
+
+• Given user ID, find his last-n interacted item list and use these items as seed items.
+
+• Map each seed item to a vector and find the most similar cluster. (Know which clusters the user is interested in.)
+
+• From each cluster's item list, retrieve the newest m items.

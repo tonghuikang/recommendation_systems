@@ -1,0 +1,10 @@
+DIN模型
+
+• DIN 用加权平均代替平均，即注意力机制（attention）。
+
+• 权重：候选物品与用户 LastN 物品的相似度。
+
+
+参考文献：
+
+• Zhou et al. Deep interest network for click-through rate prediction. In KDD, 2018.

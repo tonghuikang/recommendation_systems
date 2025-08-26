@@ -1,0 +1,7 @@
+两个物品不相似
+
+[Visual diagram showing two items with different user groups]
+- Left side: Red video icon connected by arrows to 3 users (female user with pink shirt, female user with dark hair, blonde female user)
+- Right side: Green video icon connected by arrows to 3 different users (male user with red tie, male user with glasses, male user with blue shirt)
+
+[Visual elements: Diagram illustrates that two items are dissimilar because they have completely different user bases - no overlap between the user groups who interact with each item]

@@ -1,0 +1,5 @@
+线上做召回
+
+用户感兴趣的物品（ID，兴趣分数）
+
+[Image shows both the user-interested items (highlighted in red rectangle at top) and the retrieved similar items (highlighted in red rectangle at bottom) with the Top-k similarity process connecting them.]

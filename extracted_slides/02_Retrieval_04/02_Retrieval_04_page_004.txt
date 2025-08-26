@@ -1,0 +1,4 @@
+One-Hot 编码
+
+Section Title:
+This slide introduces the "One-Hot 编码" (One-Hot Encoding) section with large, centered text. This is a section divider introducing the concept of one-hot encoding for discrete feature processing in machine learning and recommendation systems.

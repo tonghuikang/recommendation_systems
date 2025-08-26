@@ -1,0 +1,9 @@
+Category-Based Callback
+
+• System maintains category index:
+  Category → Item List (sorted by time)
+
+• Category-based callback using:
+  User Portrait → Category → Item List
+
+• Retrieve the first k items from the item list (i.e., the newest k items).

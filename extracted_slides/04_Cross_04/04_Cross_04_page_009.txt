@@ -1,0 +1,21 @@
+SENet
+
+Variable Embedding Dimensions (Embedding 向量维度可以不同):
+
+Input features with different embedding dimensions:
+- 用户 ID (User ID) → longer blue embedding vector
+- 物品 ID (Item ID) → medium blue embedding vector  
+- 物品类目 (Item Category) → shorter blue embedding vector
+- ⋮ (more features)
+- 物品关键词 (Item Keywords) → medium blue embedding vector
+
+After SENet processing:
+- Corresponding pink vectors of the same dimensions
+- Each field maintains its original embedding dimension
+- SENet learns field-wise importance regardless of embedding size
+
+Labels:
+- m个离散特征 (m discrete features)
+- m个向量 (m vectors) for both input and output
+
+This demonstrates SENet's flexibility in handling features with different embedding dimensions.

@@ -1,0 +1,15 @@
+粗排的三塔模型
+
+• 只有一个用户，用户塔只做一次推理。
+
+• 即使用户塔很大，总计算量也不大。
+
+• 有 n 个物品，理论上物品塔需要做 n 次推理。
+
+• PS 缓存物品塔的输出向量，避免绝大部分推理。
+
+• 统计特征动态变化，缓存不可行。
+
+• 有 n 个物品，交叉塔必须做 n 次推理。
+
+Three towers architecture showing the computational requirements for each tower with n items.

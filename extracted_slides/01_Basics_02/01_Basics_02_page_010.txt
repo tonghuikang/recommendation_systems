@@ -1,0 +1,37 @@
+完整推荐系统流程 (Complete Recommendation System Flow)
+
+This slide shows the end-to-end recommendation system pipeline with final user-facing results:
+
+Header:
+排序: [几千] → 粗排 → [几百] → 精排 → [几百] → 重排 → [几十]
+(Ranking: [Thousands] → Coarse Ranking → [Hundreds] → Fine Ranking → [Hundreds] → Re-ranking → [Tens])
+
+Complete Architecture:
+**Input Stage:**
+- **几亿** (Hundreds of millions) - Initial item database
+
+**Recall Stage:**
+- **召回通道#1** → **几百** (Hundreds)
+- **召回通道#2** → **几百** (Hundreds)
+- **召回通道#10** → **几百** (Hundreds)
+
+**Ranking Stages:**
+- **粗排、精排** → **几百** (Hundreds) - Combined coarse and fine ranking
+
+**Re-ranking Stage:**
+- **重排** → Final ranked list
+
+**Final Output:**
+- **物品1** (Item 1)
+- **物品2** (Item 2)
+- **•••** (More items)
+- **物品80** (Item 80)
+
+Key Features:
+1. **End-to-End Pipeline**: Shows complete flow from billions to final ranked items
+2. **Multi-Stage Filtering**: Progressive reduction through recall, ranking, and re-ranking
+3. **Final User Experience**: Delivers personalized, ranked recommendations (Item 1, Item 2, etc.)
+4. **Scale Achievement**: Successfully reduces massive corpus to manageable, high-quality results
+5. **Business Ready**: Final output ready for user interface presentation
+
+This represents the complete recommendation system architecture from data ingestion to user-facing recommendations.

@@ -1,0 +1,13 @@
+推荐系统的链路
+
+[FLOW DIAGRAM: Shows the recommendation system pipeline with following elements connected by arrows:]
+
+几亿物品 → 召回 → 几千物品 → 粗排 → 后处理 → 几百物品 → 精排 → 后处理 → 物品1, 物品2, ⋮, 物品k
+
+[The "粗排" and "精排" boxes are highlighted with red borders]
+
+• 粗排和精排用多目标模型对物品做 pointwise 打分。
+
+• 对于物品 i，模型输出点击率、交互率的预估，融合成分数 reward_i。
+
+• reward_i 表示用户对物品 i 的兴趣，即物品本身价值。

@@ -1,0 +1,22 @@
+Ώ
+Zμή
+
+Top-k ψ<„(7IDψ<¦	
+
+(7t£„n*iΑ
+
+Diagram Description:
+This slide shows the expanded view of step 2 in the online recall process.
+
+The diagram illustrates:
+- The target user and their top-5 similar users (same as previous slides)
+- Arrows pointing down from each similar user to their interested items
+- Each of the 5 similar users has 2 items with interest scores:
+  
+User 1 (0.7 similarity): Red video (1), Brown video (3)
+User 2 (0.6 similarity): Grey video (4), Orange video (1)  
+User 3 (0.6 similarity): Yellow/green video (3), Dark video (3)
+User 4 (0.3 similarity): Orange video (1), Green video (2)
+User 5 (0.3 similarity): Red video (4), Blue video (4)
+
+This demonstrates how the system collects interested items from all similar users to create a candidate pool for recommendation.

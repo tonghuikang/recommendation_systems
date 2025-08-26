@@ -1,0 +1,11 @@
+Callback Channels
+
+❌ ItemCF Callback (Not suitable)
+
+? Two-Tower Model (Improved applicability)
+
+✓ Category, Keyword Callback (Suitable)
+
+✓ Hot Item Callback (Suitable)
+
+✓ Look-Alike Callback (Suitable)

@@ -1,0 +1,10 @@
+用户对物品的兴趣：
+like(user, item_i)
+
+[Diagram showing user-item interactions with a candidate item]
+- User (represented by user icon with laptop)
+- Arrows pointing to different items (video icons) labeled with numbers: 2, 1, 4, 3
+- Items are labeled as "用户交互过的物品" (Items the user has interacted with)
+- Additional yellow item icon on the right labeled "Item" (candidate item for recommendation)
+
+[Visual elements: Same as previous slide but with an additional yellow video icon on the right representing a potential item to recommend]

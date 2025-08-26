@@ -1,0 +1,31 @@
+消费指标 (Consumption Metrics)
+
+This slide defines key performance metrics used in recommendation systems to measure user engagement and content consumption:
+
+Key Metrics Formulas:
+
+• 点击率 = 点击次数 / 曝光次数
+  (Click-Through Rate = Number of Clicks / Number of Impressions)
+
+• 点赞率 = 点赞次数 / 点击次数  
+  (Like Rate = Number of Likes / Number of Clicks)
+
+• 收藏率 = 收藏次数 / 点击次数
+  (Collection Rate = Number of Collections / Number of Clicks)
+
+• 转发率 = 转发次数 / 点击次数
+  (Share Rate = Number of Shares / Number of Clicks)
+
+• 阅读完成率 = 滑动到底次数 / 点击次数 × f(笔记长度)
+  (Reading Completion Rate = Number of ScrollToEnd / Number of Clicks × f(Note Length))
+
+Important Notes:
+- All engagement metrics (like, collection, share rates) are calculated relative to clicks, not impressions
+- The reading completion rate includes a function f(笔记长度) that accounts for content length, suggesting longer content may have different completion rate calculations
+- The f(笔记长度) factor (highlighted in red) indicates that content length is an important variable in measuring true reading completion
+
+These metrics help recommendation systems:
+1. Measure content quality and user engagement depth
+2. Compare performance across different content types and lengths  
+3. Optimize ranking algorithms based on these conversion rates
+4. Identify high-performing content patterns for better recommendations

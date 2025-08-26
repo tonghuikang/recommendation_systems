@@ -1,0 +1,17 @@
+LHUC in Speech Recognition (语音识别中的LHUC)
+
+Extended architecture with multiple layers:
+
+Upper path (Speech Signal):
+- 语音信号 (Speech Signal) - red vector
+- → 全连接层 (Fully Connected Layer) → red vector
+- → Hadamard Product ∘ (modulated by speaker features)
+- → 全连接层 (Fully Connected Layer) → final red output
+
+Lower path (Speaker Features):
+- 说话者的特征 (Speaker Features) - blue vector  
+- → 神经网络 (Neural Network) → blue vector
+- → Additional pathway to second layer
+- → 神经网络 (Neural Network) → final blue output
+
+This shows how speaker features can influence multiple layers of speech processing, allowing for more sophisticated adaptation to different speakers throughout the network.

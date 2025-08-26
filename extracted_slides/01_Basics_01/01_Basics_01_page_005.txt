@@ -1,0 +1,30 @@
+转化流程 (Conversion Flow)
+
+This slide shows the user conversion funnel in recommendation systems, illustrating how users progress through different engagement levels:
+
+User Engagement Flow:
+曝光 (Impression) → 点击 (Click) → Multiple Actions
+
+From Click, users can take various actions:
+1. 滑动到底 (ScrollToEnd) → 评论 (Comment)
+2. 点赞 (Like)  
+3. 收藏 (Collect)
+4. 转发 (Share)
+
+Key Components:
+- 曝光 (Impression): Initial content exposure to users
+- 点击 (Click): User clicks on the content, showing initial interest
+- 滑动到底 (ScrollToEnd): User scrolls through entire content, indicating engagement
+- 评论 (Comment): User leaves comments, showing high engagement
+- 点赞 (Like): User likes the content
+- 收藏 (Collect): User saves/bookmarks the content
+- 转发 (Share): User shares the content with others
+
+Flow Logic:
+The diagram shows that after clicking on content, users may engage in multiple ways. ScrollToEnd leads to Comment, suggesting that users who read through entire content are more likely to comment. All other actions (Like, Collect, Share) branch directly from Click.
+
+This conversion funnel helps recommendation systems understand:
+- User engagement depth at each stage
+- Which actions indicate higher interest/satisfaction
+- How to optimize for different conversion goals
+- User behavior patterns for improving recommendations

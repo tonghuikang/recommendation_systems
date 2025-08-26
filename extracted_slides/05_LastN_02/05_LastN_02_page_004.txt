@@ -1,0 +1,11 @@
+DIN Attention Mechanism
+
+[Diagram showing:]
+
+LastN向量: (LastN Vectors)
+- Four red vectors labeled x₁, x₂, x₃, ..., xₙ
+
+候选物品向量: (Candidate Item Vector)
+- One blue vector labeled q
+
+The diagram shows the relationship between user's LastN item vectors and the candidate item vector for computing attention weights.

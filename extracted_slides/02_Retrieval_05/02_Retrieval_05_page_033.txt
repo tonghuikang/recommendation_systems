@@ -1,0 +1,22 @@
+# 线上召回 (Online Retrieval)
+
+## Query Process:
+• 把用户向量 **a** 作为 query，查找使得⟨**a**, **b_i**⟩最大化的物品 i。
+
+## Performance Challenge:
+• 暴力析举速度太慢。实践中用近似最近邻查找。
+
+## Technical Solutions:
+• Milvus、Faiss、HnswLib 等向量数据库支持近似最近邻查找。
+
+## Key Components:
+1. **User vector retrieval**: Get embedding vector **a** for the user
+2. **Similarity search**: Find items with maximum inner product ⟨**a**, **b_i**⟩
+3. **Efficient indexing**: Use ANN systems to avoid brute force search
+4. **Scalable serving**: Handle large item catalogs with sub-linear search complexity
+
+## Production Considerations:
+- **Speed vs. Accuracy tradeoff**: ANN provides approximate but fast results
+- **Index maintenance**: Regular updates required as item catalog changes
+- **Memory management**: Balance between index size and query performance
+- **Quality metrics**: Monitor recommendation relevance despite approximations

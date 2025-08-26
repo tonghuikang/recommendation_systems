@@ -1,0 +1,30 @@
+转化流程 (Conversion Flow) - Highlighted Version
+
+This slide shows the same conversion funnel as the previous slide, but with all elements highlighted in red boxes to emphasize the complete user journey:
+
+Highlighted User Engagement Flow:
+
+Starting Point (Red Box):
+- 曝光 (Impression) → 点击 (Click)
+
+Post-Click Actions (All in Red Boxes):
+1. 滑动到底 (ScrollToEnd) → 评论 (Comment)
+2. 点赞 (Like)
+3. 收藏 (Collect)  
+4. 转发 (Share)
+
+Key Emphasis Points:
+The red highlighting indicates that all these conversion steps are critical metrics for recommendation systems:
+
+- Initial funnel: Impression → Click represents the basic conversion from content visibility to user interest
+- Deep engagement: ScrollToEnd → Comment shows users who fully consume content and provide feedback
+- Quick actions: Like, Collect, Share represent immediate positive signals that can be captured without extensive content consumption
+
+System Implications:
+This highlighted view suggests that recommendation systems should:
+- Track and optimize for each highlighted conversion step
+- Weight different actions appropriately (comments may indicate deeper engagement than likes)
+- Use all these signals as training data for improving future recommendations
+- Monitor conversion rates at each step to identify optimization opportunities
+
+The comprehensive highlighting emphasizes that every step in this flow provides valuable user preference data for the recommendation algorithm.

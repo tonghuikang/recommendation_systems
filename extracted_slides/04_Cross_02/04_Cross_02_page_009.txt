@@ -1,0 +1,10 @@
+交叉层 (Cross Layer)
+
+[DIAGRAM: Cross layer with residual connection showing:
+- Input: x₀ (red vector) flows through ⋯ to xᵢ (purple vector)
+- xᵢ goes to "全连接层" (Fully Connected Layer)
+- Output y (green vector)
+- Hadamard Product operation
+- z (blue vector)
+- Residual connection with + operation
+- Final output: xᵢ₊₁ (purple vector)]

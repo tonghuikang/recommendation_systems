@@ -1,0 +1,14 @@
+ItemCF的原理
+
+我喜欢看《笑傲江湖》
+
+《笑傲江湖》与《鹿鼎记》相似 → 给我推荐《鹿鼎记》
+
+我没看过《鹿鼎记》
+
+推荐系统如何知道《笑傲江湖》与《鹿鼎记》相似？
+
+• 看过《笑傲江湖》的用户也看过《鹿鼎记》。
+• 给《笑傲江湖》好评的用户也给《鹿鼎记》好评。
+
+[Visual elements: The middle section is highlighted in yellow, with text boxes and an arrow showing the recommendation flow. The highlighted question is prominently displayed in a yellow box.]

@@ -1,0 +1,27 @@
+# Vector Space Visualization
+
+## 2D Embedding Space Scatter Plot
+
+This visualization shows item embeddings distributed in a 2D coordinate space with:
+
+### Visual Elements:
+- **X-axis**: First dimension of embedding space
+- **Y-axis**: Second dimension of embedding space
+- **Colored dots**: Individual item embeddings
+- **Color coding**: Different colors represent different item categories or clusters
+
+### Item Distribution:
+- Points scattered across four quadrants
+- Various colors including:
+  - Green spectrum (light to dark green)
+  - Blue spectrum (light to dark blue) 
+  - Red spectrum (pink to dark red)
+  - Orange/yellow spectrum
+  - Purple points
+
+### Clustering Patterns:
+- Items appear to form natural clusters by color
+- Similar items (same color) tend to be grouped together
+- Clear separation between different item types
+
+This visualization demonstrates how embedding vectors capture item similarities in the learned vector space, where proximity indicates similarity for recommendation purposes.

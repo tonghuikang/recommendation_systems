@@ -1,0 +1,9 @@
+用户对物品的兴趣：
+like(user, item_i)
+
+[Diagram showing user-item interactions]
+- User (represented by user icon with laptop)
+- Arrows pointing to different items (video icons) labeled with numbers: 2, 1, 4, 3
+- Items are labeled as "用户交互过的物品" (Items the user has interacted with)
+
+[Visual elements: User icon connected to 4 red video/movie icons through numbered arrows, representing user interaction with items]

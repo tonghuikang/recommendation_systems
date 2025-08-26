@@ -1,0 +1,14 @@
+Swing模型
+
+• 喜欢物品 i₁ 的用户记作集合 W₁。
+
+• 喜欢物品 i₂ 的用户记作集合 W₂。
+
+• 定义交集 V = W₁ ∩ W₂。
+
+• 两个物品的相似度：
+
+sim(i₁, i₂) = Σ Σ [1 / (α + overlap(u₁, u₂))]
+              u₁∈V u₂∈V
+
+[The formula is highlighted with a red rectangle]

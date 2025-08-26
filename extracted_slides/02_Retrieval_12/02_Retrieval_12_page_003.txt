@@ -1,0 +1,11 @@
+Bloom Filter
+
+• Bloom filter判断一个物品ID是否在已曝光的物品集合中。
+
+• 如果判断为no，那么该物品一定不在集合中。
+
+• 如果判断为yes，那么该物品很可能在集合中。（可能误伤，错误判断未曝光物品为已曝光，将其过滤掉。）
+
+参考文献：
+
+• Burton H. Bloom. Space/time trade-offs in hash coding with allowable errors. Communications of the ACM, 1970.

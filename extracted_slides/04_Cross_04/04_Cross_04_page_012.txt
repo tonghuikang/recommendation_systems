@@ -1,0 +1,15 @@
+Feature Interaction (特征交叉)
+
+Comparison of two approaches:
+
+内积 (Inner Product):
+• f_{ij} = x_i^T · x_j
+• Left side: purple scalar f_{ij} = blue vector x_i^T (transposed) · red vector x_j
+• m fields → m² 个实数 (m² real numbers)
+
+哈达玛乘积 (Hadamard Product):
+• f_{ij} = x_i ∘ x_j  
+• Right side: purple vector f_{ij} = blue vector x_i ∘ red vector x_j (element-wise multiplication)
+• m fields → m² 个向量 (m² vectors)
+
+This shows two different ways to compute feature interactions between embedding vectors.

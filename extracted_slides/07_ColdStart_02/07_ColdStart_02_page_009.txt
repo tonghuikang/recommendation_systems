@@ -1,0 +1,17 @@
+Two-Tower Model
+
+[The image shows a two-tower architecture diagram]
+
+Left Tower (a - User Tower):
+- User ID, discrete features, continuous features
+- Feature transformation
+- Neural network
+- Generates user embedding vector 'a' (shown in blue)
+
+Right Tower (b - Item Tower):
+- Item ID, discrete features, continuous features (highlighted in blue box)
+- Feature transformation  
+- Neural network
+- Generates item embedding vector 'b' (shown in red)
+
+Both towers feed into a cosine similarity calculation at the top, which outputs the final similarity score.

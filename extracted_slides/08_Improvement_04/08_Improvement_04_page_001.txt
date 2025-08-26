@@ -1,0 +1,37 @@
+# Methods for Improving Metrics: Enhancing Diversity
+
+## 涨指标的方法：提升多样性 (Methods for Improving Metrics: Enhancing Diversity)
+
+### Course Title and Instructor
+**王树森 (Wang Shusen)**
+
+### Course Website
+**http://wangshusen.github.io/**
+
+### Focus Area: Diversity Enhancement
+
+This presentation focuses on methods to improve recommendation system performance through diversity enhancements across the entire recommendation pipeline.
+
+### Key Topics Expected:
+
+#### Diversity Strategies:
+1. **Recall Diversity**: Ensuring varied candidate items from different sources
+2. **Ranking Diversity**: Balancing relevance with variety in final rankings
+3. **Content Diversity**: Different types, genres, and categories of items
+4. **Temporal Diversity**: Mixing fresh content with established favorites
+5. **Exploration vs Exploitation**: Balancing familiar preferences with discovery
+
+#### Technical Approaches:
+- **Multi-Objective Optimization**: Trading off accuracy for diversity
+- **Diversity-Aware Ranking**: Algorithms that explicitly consider variety
+- **Portfolio Optimization**: Mathematical approaches to diverse item selection
+- **Filter Bubble Mitigation**: Preventing echo chambers and expanding user horizons
+- **Serendipity Enhancement**: Introducing pleasant surprises in recommendations
+
+#### Business Impact:
+- **User Engagement**: Diverse content keeps users interested longer
+- **Platform Health**: Prevents over-concentration on popular items
+- **Creator Economy**: Helps surface content from diverse creators
+- **Long-term Value**: Builds sustainable user satisfaction
+
+Diversity is crucial for recommendation system health, user satisfaction, and preventing the filter bubble effect that can reduce long-term engagement.

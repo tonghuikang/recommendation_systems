@@ -1,0 +1,8 @@
+学习物品表征
+
+• 用户 user 对路径 path = [a, b, c] 的兴趣记作：
+    p(path | user) = p(a, b, c | x).
+
+• 物品 item 与路径 path 的相关性：
+    score(item, path) = Σᵤₛₑᵣ p(path | user) × click(user, item).
+                        |      用户对路径的兴趣        | |是否点击 (0或1)|

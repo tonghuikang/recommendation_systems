@@ -1,0 +1,6 @@
+SENet & Bilinear Cross
+
+Title: SENet & Bilinear Cross
+Author: 王树森
+
+URL: http://wangshusen.github.io/

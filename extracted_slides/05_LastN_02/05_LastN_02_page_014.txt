@@ -1,0 +1,17 @@
+DIN有效的原因
+
+[2D scatter plot diagram - same layout as previous slide]
+
+Vertical axis: Arrow pointing up
+Horizontal axis: Arrow pointing right
+
+Categories plotted:
+- 美妆 (Beauty): Light pink triangles (faded) in upper left quadrant
+- 美食 (Food): Red circles in upper right quadrant  
+- 汽车 (Cars): Light orange squares (faded) in lower left quadrant
+
+Special markers:
+- 加权平均 (Weighted Average): Purple star positioned closer to food category
+- Text label: "作为用户特征" (As User Feature) in gray box
+
+This slide shows how the weighted average (attention mechanism) produces a user feature vector that is positioned closer to the relevant category (food) compared to simple averaging, demonstrating the effectiveness of the DIN approach.

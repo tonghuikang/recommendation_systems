@@ -1,0 +1,22 @@
+# 模型存储 (Model Storage)
+
+## Step 1: Train Matrices A and B
+1. 训练得到矩阵 **A** 和 **B**。
+
+### Matrix Structure:
+• **A** 的每一列对应一个用户。
+• **B** 的每一列对应一个物品。
+
+## Step 2: Store Matrix A in Key-Value Table
+2. 把矩阵 **A** 的列存储到 key-value 表。
+
+### Key-Value Structure:
+• key 是用户ID，value 是 **A** 的一列。
+• 给定用户ID，返回一个向量（用户的 embedding）。
+
+## Step 3: Matrix B Storage and Indexing
+3. 矩阵 **B** 的存储和索引比较复杂。
+
+## Implementation Details:
+- Matrix A stored as lookup table for fast user embedding retrieval
+- Matrix B requires more complex indexing for efficient item recommendations

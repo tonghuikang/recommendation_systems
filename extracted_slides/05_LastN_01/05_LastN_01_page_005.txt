@@ -1,0 +1,11 @@
+小红书的实践
+
+[Diagram showing:]
+
+Average pooling architecture for LastN features:
+- Top: Single red vector labeled "平均" (Average)
+- Middle: Two red vectors with "..." indicating more vectors
+- Bottom: Two video icons labeled "Embedding"
+- Label at bottom: "点击的LastN" (Clicked LastN)
+
+The diagram illustrates how multiple item embeddings are averaged to create a user feature.

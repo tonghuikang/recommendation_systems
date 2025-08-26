@@ -1,0 +1,13 @@
+训练
+
+同时学习神经网络参数和物品表征
+
+• 神经网络 p(a, b, c | x) 预估用户对路径 [a, b, c] 的兴趣。
+
+• 把一个物品表征为多条路径 {[a, b, c]}，建立索引：
+
+  • item → List(path)，
+  
+  • path → List(item)。
+
+• 正样本 (user, item)：click(user, item) = 1。

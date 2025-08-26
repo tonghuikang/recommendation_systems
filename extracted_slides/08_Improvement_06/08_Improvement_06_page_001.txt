@@ -1,0 +1,53 @@
+# Methods for Improving Metrics: Leveraging Interactive Behaviors
+
+## 涨指标的方法：利用交互行为 (Methods for Improving Metrics: Leveraging Interactive Behaviors)
+
+### Course Title and Instructor
+**王树森 (Wang Shusen)**
+
+### Course Website
+**http://wangshusen.github.io/**
+
+### Focus Area: Multi-Modal Interaction Behavior Analysis
+
+This presentation focuses on methods to improve recommendation system performance by effectively leveraging various types of user interaction behaviors beyond basic clicks and views.
+
+### Key Interaction Behaviors:
+
+#### Primary Interaction Types:
+1. **关注 (Follow/Subscribe)**:
+   - Strong positive signal indicating user interest
+   - Long-term engagement indicator
+   - Creator-user relationship establishment
+
+2. **转发 (Share/Retweet)**:
+   - High-value engagement indicating content resonance
+   - Social amplification behavior
+   - Quality and relevance signal
+
+3. **评论 (Comment)**:
+   - Deep engagement with content
+   - Opinion and sentiment expression
+   - Community participation indicator
+
+### Technical Implementation Strategies:
+
+#### Multi-Signal Integration:
+- **Weighted Feedback**: Different interaction types with varying importance weights
+- **Implicit vs Explicit Signals**: Balancing direct actions with inferred preferences
+- **Temporal Patterns**: Understanding interaction timing and frequency
+- **Cross-Platform Behavior**: Integrating behaviors across different interfaces
+
+#### Advanced Modeling Approaches:
+- **Multi-Task Learning**: Simultaneous prediction of different interaction types
+- **Behavioral Sequence Modeling**: Understanding interaction progression patterns
+- **Social Signal Processing**: Leveraging network effects and viral behaviors
+- **Sentiment Analysis**: Extracting emotional context from comments and shares
+
+#### Business Applications:
+- **Content Quality Assessment**: Using engagement depth as quality indicators
+- **Creator Recommendation**: Suggesting users to follow based on interaction patterns  
+- **Viral Content Prediction**: Identifying content likely to be shared
+- **Community Building**: Fostering discussion and interaction through recommendations
+
+This comprehensive approach to interaction behavior analysis enables more nuanced and effective recommendation systems that understand the full spectrum of user engagement.

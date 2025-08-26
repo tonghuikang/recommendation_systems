@@ -1,0 +1,16 @@
+SENet
+
+Embedding layer showing feature transformation:
+
+Input features (red dots):
+- 用户 ID (User ID)
+- 物品 ID (Item ID) 
+- 物品类目 (Item Category)
+- ⋮ (more features)
+- 物品关键词 (Item Keywords)
+
+Each input feature is transformed through embedding into blue vector representations:
+- Multiple blue embedding vectors shown on the right
+- Each embedding vector represents the learned dense representation of the corresponding categorical feature
+
+This demonstrates the standard embedding process where categorical features are mapped to dense vector representations.

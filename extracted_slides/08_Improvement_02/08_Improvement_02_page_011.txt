@@ -1,0 +1,36 @@
+# Improving Dual Tower Models - Training Methods
+
+## 改进双塔模型 (Improving Dual Tower Models)
+
+### 方向3：改进模型的训练方法 (Direction 3: Improving Model Training Methods)
+
+#### Training Method Improvements:
+
+**• Baseline：做二分类，让模型学会区分正样本和负样本。**
+- **Baseline**: Binary classification approach
+- Model learns to distinguish between positive and negative samples
+- Traditional approach using simple positive/negative sample pairs
+
+**• 改进：结合二分类、batch 内负采样。（对于 batch 内负采样，需要做纠偏。）**
+- **Improvement**: Combine binary classification with in-batch negative sampling
+- Requires bias correction for in-batch negative sampling
+- More sophisticated sampling strategy within training batches
+
+**• 改进：使用自监督学习方法，让冷门物品的 embedding 学得更好。**
+- **Improvement**: Use self-supervised learning methods
+- Enables better embedding learning for cold/unpopular items
+- Addresses the long-tail problem in recommendation systems
+
+#### Key Training Enhancements:
+1. **Advanced Negative Sampling**: In-batch negative sampling with bias correction
+2. **Self-Supervised Learning**: Better representations for rare items
+3. **Multi-Modal Training**: Combines different learning paradigms
+4. **Cold Item Optimization**: Specific focus on improving embeddings for less popular content
+
+#### Technical Benefits:
+- Better sample efficiency during training
+- Improved handling of data imbalance
+- Enhanced representation quality for tail items
+- More robust model performance across different item popularity ranges
+
+These training improvements address key challenges in recommendation systems, particularly around sample selection and representation learning for diverse item catalogs.

@@ -1,0 +1,19 @@
+DIN模型
+
+[Architecture diagram showing:]
+
+Top: Purple vector (output from attention layer)
+↑
+Middle: "注意力层" (Attention Layer) - gray box
+
+Input arrows pointing up from:
+
+Left side (红色虚线框):
+- Four red vectors labeled x₁, x₂, x₃, xₙ
+- Text: "用户LastN交互记录" (User LastN Interaction Records)
+
+Right side (红色虚线框):
+- One blue vector labeled q
+- Text: "候选物品" (Candidate Item)
+
+This shows the complete DIN architecture with the attention layer processing user LastN records and candidate item to produce the final output vector.

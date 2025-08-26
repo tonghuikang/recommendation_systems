@@ -1,0 +1,19 @@
+降低热门物品权重
+
+Diagram Description:
+This slide addresses the issue of reducing the weight of popular items in similarity calculations. The title "降低热门物品权重" (Reduce the Weight of Popular Items) indicates this is about handling popularity bias.
+
+The diagram shows:
+- Left user: Man with glasses and teal sweater
+- Right user: Woman with black hair and pink top  
+- Both users have arrows pointing to various book/movie items displayed as covers
+
+The items shown include:
+- "Deep Learning for NLP and Speech Recognition" (Springer)
+- "Deep Learning" book
+- "System Design Interview" book  
+- "Harry Potter" book
+- Chinese books including "金瓶梅" and "红楼梦"
+- "Warren Buffett" biography
+
+This illustrates how popular items (like Harry Potter or classic Chinese literature) might need reduced weighting in similarity calculations to avoid overemphasizing common but less discriminative preferences.

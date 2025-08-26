@@ -1,0 +1,16 @@
+Neural Network Architecture with Mathematical Relationship:
+
+Same neural network diagram as previous pages, with highlighted mathematical relationship:
+
+y = t/(1+t) (shown with blue dot)
+
+如果 p = y，那么 exp(z) = t。(If p = y, then exp(z) = t.)
+
+p = exp(z)/(1+exp(z)) (Sigmoid function, shown with green dot)
+
+The diagram shows:
+- Multiple fully connected layers (全连接层) feeding into neural network (神经网络)  
+- Output z (red dot)
+- Feature types at bottom: 用户特征 (User Features), 视频特征 (Video Features), 统计特征 (Statistical Features), 场景特征 (Context Features)
+
+Key mathematical insight: When prediction p equals the normalized watch time y, then exp(z) = t (actual watch time).

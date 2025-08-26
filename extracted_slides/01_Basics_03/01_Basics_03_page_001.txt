@@ -1,0 +1,11 @@
+# A/B测试
+
+## 讲师信息
+**王树森**
+
+**邮箱:** ShusenWang@xiaohongshu.com
+
+**网站:** http://wangshusen.github.io/
+
+## 课程标识
+小红书 (右下角logo)

@@ -1,0 +1,29 @@
+召回通道合并与排序 (Recall Channel Merging and Ranking)
+
+This slide shows the progression from multiple recall channels to the ranking stages:
+
+Header:
+排序: [几千] → 粗排 → [几百] → 精排 → [几百]
+(Ranking: [Thousands] → Coarse Ranking → [Hundreds] → Fine Ranking → [Hundreds])
+
+Architecture Flow:
+- **几亿** (Hundreds of millions) - Initial item database
+- **召回通道#1** → **几百** (Hundreds) - First recall channel
+- **召回通道#2** → **几百** (Hundreds) - Second recall channel  
+- **召回通道#10** → **几百** (Hundreds) - Tenth recall channel
+- **粗排、精排** → **几百** (Hundreds) - Combined ranking stages
+
+Key Process:
+1. **Channel Merging**: Results from all recall channels (typically 10+ channels) are combined
+2. **Deduplication**: Remove duplicate items retrieved by multiple channels
+3. **Initial Aggregation**: Combine hundreds of items from each channel into thousands total
+4. **Ranking Pipeline Entry**: The merged thousands of items enter the ranking system
+5. **Two-Stage Ranking**: 
+   - Coarse ranking reduces thousands to hundreds
+   - Fine ranking optimizes the hundreds for final quality
+
+Technical Considerations:
+- **Union Operation**: Combine results from all parallel recall channels
+- **Diversity Preservation**: Ensure each channel contributes to final candidates
+- **Ranking Preparation**: Aggregate features and metadata for ranking algorithms
+- **Scale Management**: Manage the transition from parallel processing to sequential ranking

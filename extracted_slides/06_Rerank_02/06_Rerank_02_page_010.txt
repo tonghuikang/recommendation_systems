@@ -1,0 +1,7 @@
+滑动窗口
+
+选中的物品（记作 S）                    未选中的物品（记作 R）
+
+[VISUAL: Shows two groups of video/content icons:
+- Left side: Red video icons, followed by green video icons marked as "滑动窗口（记作 W）", representing selected items (S)
+- Right side: Blue video icons representing unselected items (R)]

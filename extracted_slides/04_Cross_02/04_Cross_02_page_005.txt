@@ -1,0 +1,20 @@
+[DIAGRAM: Multi-expert neural network architecture showing:
+
+Top level: Two prediction heads
+- Left: [p₁|p₂|p₃] → Softmax activation → Neural Network
+- Right: [q₁|q₂|q₃] → Softmax activation → Neural Network
+
+Both computing weighted averages: 
+- Left: p₁x₁ + p₂x₂ + p₃x₃
+- Right: q₁x₁ + q₂x₂ + q₃x₃
+
+Middle: Three expert networks (第1号神经网络, 第2号神经网络, 第3号神经网络)
+Each producing outputs x₁, x₂, x₃ (purple vectors)
+
+Note: "可以用任意网络结构" (Can use arbitrary network structure)
+
+Bottom: Input features concatenated
+- 用户特征 (User Features) - blue
+- 物品特征 (Item Features) - red
+- 统计特征 (Statistical Features) - green
+- 场景特征 (Context Features) - orange]

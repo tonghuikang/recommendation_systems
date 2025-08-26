@@ -1,0 +1,21 @@
+Multi-Task Learning - Weighted Combination
+
+This slide illustrates the weighted combination process in multi-task learning:
+
+**Mathematical Formula:**
+p₁x₁ + p₂x₂ + p₃x₃
+
+**Process Description:**
+- 对向量做加权平均 (Weighted average of vectors)
+- The three intermediate representations (x₁, x₂, x₃) are combined using their respective weights (p₁, p₂, p₃)
+
+**Architecture Flow:**
+1. Input weights: [p₁, p₂, p₃] labeled as 权重 (Weights)
+2. Intermediate representations: x₁, x₂, x₃ (purple vectors)
+3. Weighted combination: Creates final representation (orange vector)
+4. Output weights: [q₁, q₂, q₃] labeled as 权重 (Weights)
+
+**Key Concept:**
+- This demonstrates how multi-task learning creates task-specific representations through weighted averaging
+- The weights determine the contribution of each intermediate representation to the final output
+- Different tasks can have different weight distributions, allowing specialization while sharing underlying representations

@@ -1,0 +1,11 @@
+Deep Retrieval
+
+召回：用户 → 路径 → 物品
+
+• 给定用户特征 x，用神经网络预估用户对路径 path = [a, b, c] 的兴趣，分数记作 p(path | x).
+
+• 用 beam search 寻找分数 p(path | x) 最高的 s 条 path。
+
+• 利用索引"path → List(item)"召回每条路径上的 n 个物品。
+
+• 一共召回 s×n 个物品，对物品做初步排序，返回分数最高的若干物品。

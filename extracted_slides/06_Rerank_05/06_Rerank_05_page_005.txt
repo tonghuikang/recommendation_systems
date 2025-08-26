@@ -1,0 +1,12 @@
+行列式点过程 (DPP)
+
+• DPP 应用在推荐系统：
+
+    argmax θ · (Σ_{j∈S} reward_j) + (1 - θ) · log det(V_S^T V_S).
+    S:|S|=k                                            = A_S (k×k)
+
+• 设 A 为 n×n 的矩阵，它的 (i,j) 元素为 a_{ij} = v_i^T v_j。
+
+• 给定向量 v_1, ···, v_n ∈ ℝ^d，需要 O(n^2 d) 时间计算 A。
+
+• A_S = V_S^T V_S 为 A 的一个 k×k 子矩阵。如果 i,j ∈ S，则 a_{ij} 是 A_S 的一个元素。

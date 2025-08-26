@@ -1,0 +1,9 @@
+# 线上服务 (Online Service)
+
+## Step 1: User Embedding Lookup
+1. 把用户 ID 作为 key，查询 key-value 表，得到该用户的向量，记作 **a**。
+
+## Process Overview:
+- Use user ID as key to query the key-value table
+- Retrieve the user's embedding vector a
+- This is the first step in the online recommendation process

@@ -1,0 +1,5 @@
+粗排的三塔模型
+
+参考文献：
+
+• Zhe Wang et al. COLD: Towards the Next Generation of Pre-Ranking System. In DLP-KDD, 2020.

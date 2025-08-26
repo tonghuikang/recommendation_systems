@@ -1,0 +1,17 @@
+# 双塔模型：模型和训练
+(Two-Tower Model: Model and Training)
+
+## 主讲人
+王树森
+
+## 联系信息
+ShusenWang@xiaohongshu.com
+
+## 网站链接
+http://wangshusen.github.io/
+
+## 品牌标识
+小红书 (Xiaohongshu/Little Red Book logo in bottom right)
+
+## 课程概述
+This presentation covers the Two-Tower model architecture for recommendation systems, focusing on both the model structure and training methodologies.

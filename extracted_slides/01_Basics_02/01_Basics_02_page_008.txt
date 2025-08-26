@@ -1,0 +1,26 @@
+召回通道组合 (Recall Channel Combination)
+
+This slide shows how multiple recall channels work in parallel to retrieve candidates from the massive item pool:
+
+Header:
+召回通道: 协同过滤、双塔模型、关注的作者、等等。
+(Recall Channels: Collaborative Filtering, Two-Tower Model, Followed Authors, etc.)
+
+Architecture Diagram:
+- **几亿** (Hundreds of millions) - Initial massive item database
+- **召回通道#1** → **几百** (Hundreds) - First recall channel output
+- **召回通道#2** → **几百** (Hundreds) - Second recall channel output
+- **•••** (Dots indicating more channels)
+- **召回通道#10** → **几百** (Hundreds) - Tenth recall channel output
+
+Key Concepts:
+1. **Parallel Processing**: Multiple recall channels operate simultaneously
+2. **Channel Diversity**: Each channel (1, 2, ... 10) uses different algorithms
+3. **Scale Reduction**: Each channel reduces millions/billions to hundreds of candidates
+4. **Channel Specialization**: Different channels capture different user preferences
+   - Channel #1-10 might represent different algorithms or user interest areas
+
+System Benefits:
+- **Coverage**: Multiple channels ensure comprehensive candidate retrieval
+- **Efficiency**: Each channel handles a portion of the recommendation space
+- **Robustness**: Redundancy across channels improves system reliability

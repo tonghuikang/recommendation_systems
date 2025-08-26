@@ -1,0 +1,21 @@
+# Matrix Completion Architecture Diagram
+
+## Components:
+1. **内积 (Inner Product)**: (a, b)
+   - Position: Top center with purple node
+
+2. **User Side (Left)**:
+   - Blue embedding vector **a**
+   - Embedding Layer (灰色方框)
+   - Blue circle: 用户ID (User ID)
+
+3. **Item Side (Right)**:
+   - Red embedding vector **b**
+   - Embedding Layer (灰色方框)
+   - Red circle: 物品ID (Item ID)
+
+## Process Flow:
+- User ID and Item ID are processed through separate embedding layers
+- Each produces an embedding vector (a for user, b for item)
+- The vectors are combined using inner product to produce the final result (a, b)
+- Arrows indicate the flow from IDs through embedding layers to final computation

@@ -1,0 +1,15 @@
+Three-tower Architecture:
+
+Left tower - 用户塔 (User Tower, very large):
+- Input: 用户特征 场景特征 (User Features + Context Features) - blue and orange features
+- Output: blue vector
+
+Middle tower - 物品塔 (Item Tower, relatively large):
+- Input: 物品特征 (静态) (Item Features - static) - red features
+- Output: red vector
+
+Right tower - 交叉塔 (Cross Tower, relatively small):
+- Input: 统计特征、交叉特征 (Statistical Features, Cross Features) - green features  
+- Output: green vector
+
+The three towers operate independently and process different types of features with different computational complexities.

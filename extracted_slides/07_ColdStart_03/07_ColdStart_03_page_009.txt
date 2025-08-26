@@ -1,0 +1,13 @@
+Content Similarity Between Two Items
+
+[The image shows a symmetric architecture for comparing two items:]
+
+Left side (Item a):
+- Image → CNN → Fully Connected Layer → Feature vector a (blue)
+- Text → BERT → Fully Connected Layer → Feature vector a (blue)
+
+Right side (Item b):
+- Image → CNN → Fully Connected Layer → Feature vector b (red)
+- Text → BERT → Fully Connected Layer → Feature vector b (red)
+
+Both feature vectors are generated using the same neural network architecture but with different input content.

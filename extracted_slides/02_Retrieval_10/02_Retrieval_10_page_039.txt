@@ -1,0 +1,9 @@
+学习物品表征
+
+• 选出 J 条路径 Π = {path₁, ⋯, pathⱼ}，作为物品的表征。
+
+• 损失函数（选择与 item 高度相关的 path）：
+    loss(item, Π) = -log(Σⱼⱼ₌₁ score(item, pathⱼ)).
+
+• 正则项（避免过多的 item 集中在一条 path 上）：
+    reg(pathⱼ) = (number of items on pathⱼ)⁴.

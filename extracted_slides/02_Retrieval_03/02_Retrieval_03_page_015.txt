@@ -1,0 +1,19 @@
+降低热门物品权重
+
+• 用户 u1 喜欢的物品记作集合 J1。
+• 用户 u2 喜欢的物品记作集合 J2。
+• 定义交集 I = J1 ∩ J2。
+• 两个用户的相似度：
+
+不论冷门、热门，
+物品权重都是 1。
+
+sim(u1, u2) = ∑l∈I 1 / √(|J1| · |J2|) = |I|
+
+Formula Description:
+This slide addresses the issue of popular items having the same weight as niche items. The red annotation states "不论冷门、热门，物品权重都是1" (Whether cold or hot items, the weight is all 1).
+
+The current formula treats all items equally:
+- ∑l∈I 1 represents summing 1 for each common item
+- This simplifies to |I| (the number of common items)
+- This approach doesn't distinguish between popular and niche items in similarity calculation

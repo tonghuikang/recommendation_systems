@@ -1,0 +1,4 @@
+交叉层 (Cross Layer)
+
+[DIAGRAM: Simple flow showing:
+x₀ (red vector) → ⋯ → xᵢ (purple vector)]

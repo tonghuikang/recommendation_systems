@@ -1,0 +1,12 @@
+全量更新 vs 增量更新
+
+增量更新：做online learning更新模型参数。
+
+• 用户兴趣会随时发生变化。
+
+• 实时收集线上数据，做流式处理，生成TFRecord文件。
+
+• 对模型做online learning，增量更新ID Embedding参数。
+（不更新神经网络其他部分的参数。）
+
+• 发布用户ID Embedding，供用户塔在线上计算用户向量。

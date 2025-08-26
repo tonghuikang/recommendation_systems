@@ -1,0 +1,6 @@
+交叉层 (Cross Layer)
+
+[MATHEMATICAL FORMULA with output labeled:
+xᵢ₊₁ = x₀ ∘ [W • xᵢ + b] + xᵢ
+
+With "输出" (Output) labeled below the formula]

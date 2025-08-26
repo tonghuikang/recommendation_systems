@@ -1,0 +1,12 @@
+DIN模型的缺点
+
+• 注意力层的计算量 ∝ n（用户行为序列的长度）。
+
+• 只能记录最近几百个物品，否则计算量太大。
+
+• 缺点：关注短期兴趣，遗忘长期兴趣。
+
+
+参考文献：
+
+• Zhou et al. Deep interest network for click-through rate prediction. In KDD, 2018.

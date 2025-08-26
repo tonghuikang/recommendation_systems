@@ -1,0 +1,14 @@
+References (参考文献)
+
+Main content:
+• 这节课介绍的是 Cross Network V2 [1]。
+(This lesson introduces Cross Network V2 [1].)
+
+• 老版本的 Cross Network 在论文 [2] 中提出。
+(The older version of Cross Network was proposed in paper [2].)
+
+参考文献: (References:)
+
+1. Ruoxi Wang et al. DCN V2: Improved Deep & Cross Network and Practical Lessons for Web-scale Learning to Rank Systems. In WWW, 2021.
+
+2. Ruoxi Wang et al. Deep & Cross Network for Ad Click Predictions. In ADKDD, 2017.

@@ -1,0 +1,27 @@
+Fusion of Predictive Scores - Simple Weighted Sum
+
+**Title:** 融合预估分数 (Fusion of Predictive Scores)
+
+**Method 1: Simple Weighted Sum**
+简单的加权和 (Simple Weighted Sum)
+
+**Formula:**
+p_click + w₁ · p_like + w₂ · p_collect + ...
+
+**Components:**
+- **p_click:** Click-through rate probability (highlighted in blue)
+- **p_like:** Like probability (highlighted in blue)
+- **p_collect:** Collection/Save probability
+- **w₁, w₂, ...:** Weight parameters for different actions
+- **"...":** Additional user actions and their probabilities
+
+**Characteristics:**
+- **Simplicity:** Direct linear combination of different probability scores
+- **Interpretability:** Easy to understand and explain
+- **Baseline Method:** Often used as a starting point for more complex fusion approaches
+- **Weight Optimization:** Weights can be learned through training or set based on business priorities
+
+**Use Cases:**
+- Multi-objective recommendation systems
+- Combining engagement signals (clicks, likes, shares, etc.)
+- Business-driven score combination where different actions have different values

@@ -1,0 +1,15 @@
+# Available Data for Recall (召回的依据)
+
+## What's Available (✓):
+✓ **Content features**: Images, text, location information.
+  (自带图片、文字、地点。)
+
+✓ **Algorithm or manually annotated tags**.
+  (算法或人工标注的标签。)
+
+## What's Missing (✗):
+✗ **No user interaction data**: No clicks, likes, or other engagement information.
+  (没有用户点击、点赞等信息。)
+
+✗ **No note ID embedding**.
+  (没有笔记ID embedding。)

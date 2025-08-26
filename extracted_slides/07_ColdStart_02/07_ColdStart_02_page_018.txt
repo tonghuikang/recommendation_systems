@@ -1,0 +1,7 @@
+Defects
+
+• Defect 1: Only effective for newly published new items.
+  • Retrieve the newest k items under a category/keyword.
+  • After a few hours of publication, there's no chance to be recalled again.
+
+• Defect 2: Weak personalization, not precise enough.

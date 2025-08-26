@@ -1,0 +1,9 @@
+Thank You!
+
+This is the concluding slide of the 01_Basics_01 presentation.
+
+Content:
+- Main message: "Thank You!" displayed prominently in the center
+- Contact/Reference information: http://wangshusen.github.io/
+
+This appears to be the end of the first part of the recommendation systems basics presentation, with a link to the presenter's website for additional resources.

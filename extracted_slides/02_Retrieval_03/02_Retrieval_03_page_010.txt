@@ -1,0 +1,11 @@
+两个用户不相似
+
+Diagram Description:
+This slide illustrates two users who are not similar to each other. The title "两个用户不相似" (Two users are not similar) is shown at the top, with "不相似" (not similar) highlighted in red.
+
+The diagram shows:
+- Left user: A man with glasses and teal sweater
+- Right user: A woman with black hair and pink top
+- Each user has arrows pointing to different sets of items (movie/book icons in various colors)
+- The users have completely different preferences, with no overlap in the items they're interested in
+- This demonstrates the concept of dissimilar users who don't share common interests

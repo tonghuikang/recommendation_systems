@@ -1,0 +1,13 @@
+视频播放时长建模
+
+• 把最后一个全连接层的输出记作 z。设 p = sigmoid(z)。
+
+• 实际观测的播放时长记作 t。（如果没有点击，则 t = 0。）
+
+• 做训练：最小化交叉熵损失
+    -(t/(1+t) · log p + 1/(1+t) · log(1-p)).
+    [Note: The fractions 1+t are highlighted with red underlines]
+
+• 做推理：把 exp(z) 作为播放时长的预估。
+
+• 把 exp(z) 作为融分公式中的一项。

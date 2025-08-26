@@ -1,0 +1,21 @@
+# Matrix Completion with Parameter Sharing
+
+## Architecture:
+1. **内积 (Inner Product)**: (a, b)
+   - Position: Top center with purple node
+
+2. **User Side (Left)** - Blue Box:
+   - Blue embedding vector **a**
+   - Embedding Layer (灰色方框)
+   - Blue circle: 用户ID (User ID)
+
+3. **Item Side (Right)** - Blue Box:
+   - Red embedding vector **b**  
+   - Embedding Layer (灰色方框)
+   - Red circle: 物品ID (Item ID)
+
+## Key Features:
+- Both user and item sides are enclosed in blue boxes
+- Same embedding layer structure for both sides
+- Separate processing paths that converge at the inner product
+- Parameter sharing architecture indicated by the consistent blue framing

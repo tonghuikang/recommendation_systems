@@ -1,0 +1,9 @@
+Hot Callback
+
+Basic Idea
+
+• If a user likes one item, then he will also like items with similar content.
+
+• First train a neural network based on item categories and image/text content, mapping items to vectors.
+
+• Cluster item vectors into 1000 clusters and record the center direction of each cluster. (k-means clustering, using cosine similarity.)

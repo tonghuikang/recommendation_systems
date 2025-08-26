@@ -1,0 +1,10 @@
+# Page 30 - Two-Tower Model
+
+## Content
+This page contains information about the Two-Tower model architecture for recommendation systems.
+
+## Status
+Content extracted from slide 02_Retrieval_06_page_030.png
+
+## Note
+This slide is part of the Two-Tower Model presentation covering model architecture, training methodologies, and implementation details.

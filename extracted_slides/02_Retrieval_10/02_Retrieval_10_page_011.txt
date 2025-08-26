@@ -1,0 +1,9 @@
+用户特征 x → 神经网络 → softmax → p₁ (选择) → a
+
+[Diagram showing neural network architecture with:
+- Input: user features x (shown as stacked bars)
+- Neural network processing
+- Softmax layer
+- Output probability distribution p₁
+- Selection of node a
+- Below shows tree structure with levels L1, L2, L3 containing nodes 1, 2, 3, 4, ..., K]
